@@ -1,0 +1,395 @@
+/* base */
+/* sizing */
+/* foreground */
+/* background */
+/* 'SourceSansProRegular', Arial, san-serifs */
+/* scrollbars */
+/* cursors */
+.drag-select-cursor {
+  cursor: url('/resources/base-styles/cursors/select_move.cur'), move;
+}
+/* headers */
+.base-header {
+  color: #2c3342;
+  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProRegular', Arial, san-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.3px;
+}
+.lomithalef-btn {
+  cursor: default;
+  outline: none;
+}
+.lomithalef-btn,
+.lomithalef-btn:focus,
+.lomithalef-btn:hover {
+  background: none;
+  border: none;
+}
+.header-xl {
+  color: #2c3342;
+  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProRegular', Arial, san-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.3px;
+  'SourceSansProRegular', Arial, san-serif-size: 24px;
+}
+.header-l {
+  color: #2c3342;
+  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProRegular', Arial, san-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.3px;
+  'SourceSansProRegular', Arial, san-serif-size: 16px;
+}
+.header-m {
+  color: #2c3342;
+  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProRegular', Arial, san-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.3px;
+  'SourceSansProRegular', Arial, san-serif-size: 15px;
+}
+.header-s {
+  color: #2c3342;
+  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProRegular', Arial, san-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.3px;
+  'SourceSansProRegular', Arial, san-serif-size: 13px;
+}
+.header-mn {
+  color: #2c3342;
+  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProRegular', Arial, san-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.3px;
+  'SourceSansProRegular', Arial, san-serif-size: 14px;
+}
+/* text */
+.base-txt {
+  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProLight';
+  color: #272a34;
+}
+.text-xl {
+  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProLight';
+  color: #272a34;
+  'SourceSansProRegular', Arial, san-serif-size: 16px;
+}
+.text-l {
+  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProLight';
+  color: #272a34;
+  'SourceSansProRegular', Arial, san-serif-size: 13px;
+}
+.text-m {
+  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProLight';
+  color: #272a34;
+  'SourceSansProRegular', Arial, san-serif-size: 12.5px;
+}
+.text-s {
+  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProLight';
+  color: #272a34;
+  'SourceSansProRegular', Arial, san-serif-size: 12px;
+}
+.text-xs {
+  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProLight';
+  color: #272a34;
+  'SourceSansProRegular', Arial, san-serif-size: 11px;
+}
+/* dom common */
+body {
+  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProLight';
+  color: #272a34;
+  'SourceSansProRegular', Arial, san-serif-size: 12.5px;
+  cursor: default;
+}
+/* behavior */
+.no-user-select {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.user-select {
+  -webkit-touch-callout: text;
+  -webkit-user-select: text;
+  -khtml-user-select: text;
+  -moz-user-select: text;
+  -ms-user-select: text;
+  user-select: text;
+}
+/* animation for ng-repeat */
+.leaf-animate.ng-enter,
+.leaf-animate.ng-leave,
+.leaf-animate.ng-move {
+  -webkit-transition: 0.5s all cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  -moz-transition: 0.5s all cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  -o-transition: 0.5s all cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  transition: 0.5s all cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  position: relative;
+}
+.leaf-animate.ng-enter {
+  top: -100px;
+  opacity: 0;
+}
+.leaf-animate.ng-enter.ng-enter-active,
+.leaf-animate.ng-leave {
+  top: 0;
+  opacity: 1;
+}
+.leaf-animate.ng-leave.ng-leave-active {
+  top: -100px;
+  opacity: 0;
+}
+.leaf-animate.ng-move {
+  opacity: 0.5;
+}
+.leaf-animate.ng-move.ng-move-active {
+  opacity: 1;
+}
+.flex_container {
+  display: -moz-box;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -webkit-flexbox;
+  display: flex;
+  display: box;
+  display: -ms-flexbox;
+}
+.wrap-ellipsis {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  word-wrap: normal;
+  word-break: keep-all;
+}
+.ellipsis {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  word-wrap: normal;
+  word-break: keep-all;
+  white-space: nowrap;
+}
+/* 'SourceSansProRegular', Arial, san-serifs */
+@'SourceSansProRegular', Arial, san-serif-face {
+  'SourceSansProRegular', Arial, san-serif-family: ''SourceSansProRegular', Arial, san-serif';
+  src: url('/resources/base/'SourceSansProRegular', Arial, san-serifs/abel-regular-web'SourceSansProRegular', Arial, san-serif.eot');
+  src: url('/resources/base/'SourceSansProRegular', Arial, san-serifs/abel-regular-web'SourceSansProRegular', Arial, san-serif.eot?#iefix') format('embedded-opentype'), url('/resources/base/'SourceSansProRegular', Arial, san-serifs/abel-regular-web'SourceSansProRegular', Arial, san-serif.woff') format('woff'), url('/resources/base/'SourceSansProRegular', Arial, san-serifs/abel-regular-web'SourceSansProRegular', Arial, san-serif.ttf') format('truetype'), url('/resources/base/'SourceSansProRegular', Arial, san-serifs/abel-regular-web'SourceSansProRegular', Arial, san-serif.svg#'SourceSansProRegular', Arial, san-serif') format('svg');
+  'SourceSansProRegular', Arial, san-serif-weight: normal;
+  'SourceSansProRegular', Arial, san-serif-style: normal;
+}
+/*@'SourceSansProRegular', Arial, san-serif-face {
+  'SourceSansProRegular', Arial, san-serif-family: 'opensansregular';
+  src: url('/resources/base/'SourceSansProRegular', Arial, san-serifs/opensans-regular-web'SourceSansProRegular', Arial, san-serif.eot');
+  src: url('/resources/base/'SourceSansProRegular', Arial, san-serifs/opensans-regular-web'SourceSansProRegular', Arial, san-serif.eot?#iefix') format('embedded-opentype'), url('/resources/base/'SourceSansProRegular', Arial, san-serifs/opensans-regular-web'SourceSansProRegular', Arial, san-serif.woff') format('woff'), url('/resources/base/'SourceSansProRegular', Arial, san-serifs/opensans-regular-web'SourceSansProRegular', Arial, san-serif.ttf') format('truetype'), url('/resources/base/'SourceSansProRegular', Arial, san-serifs/opensans-regular-web'SourceSansProRegular', Arial, san-serif.svg#opensansregular') format('svg');
+  'SourceSansProRegular', Arial, san-serif-weight: normal;
+  'SourceSansProRegular', Arial, san-serif-style: normal;
+}*/
+@'SourceSansProRegular', Arial, san-serif-face {
+  'SourceSansProRegular', Arial, san-serif-family: ''SourceSansProLight'';
+  src: url('/resources/base/'SourceSansProRegular', Arial, san-serifs/ubuntu-light-web'SourceSansProRegular', Arial, san-serif.eot');
+  src: url('/resources/base/'SourceSansProRegular', Arial, san-serifs/ubuntu-light-web'SourceSansProRegular', Arial, san-serif.eot?#iefix') format('embedded-opentype'), url('/resources/base/'SourceSansProRegular', Arial, san-serifs/ubuntu-light-web'SourceSansProRegular', Arial, san-serif.woff') format('woff'), url('/resources/base/'SourceSansProRegular', Arial, san-serifs/ubuntu-light-web'SourceSansProRegular', Arial, san-serif.ttf') format('truetype'), url('/resources/base/'SourceSansProRegular', Arial, san-serifs/ubuntu-light-web'SourceSansProRegular', Arial, san-serif.svg#opensansregular') format('svg');
+  'SourceSansProRegular', Arial, san-serif-weight: normal;
+  'SourceSansProRegular', Arial, san-serif-style: normal;
+}
+#prism-toolbar,
+#prism-leftview,
+#prism-rightview {
+  background: #f2f2f2;
+}
+#prism-header,
+#prism-toolbar,
+#prism-content,
+#prism-leftview,
+#prism-rightview,
+#prism-mainview {
+  position: absolute !important;
+}
+/*#prism-header, #prism-content, #prism-leftview, #prism-rightview, #prism-mainview {
+
+  overflow-y:auto;
+}*/
+#prism-header,
+#prism-content,
+#prism-leftview,
+#prism-rightview {
+  overflow-y: auto;
+}
+#prism-header {
+  text-align: center;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-color: #fff;
+}
+#prism-header .zoom-warning-container {
+  padding-top: 3px;
+  margin: 15px 24px 0px 0px;
+  color: #808080;
+  position: fixed;
+  z-index: 999999;
+}
+#prism-header .zoom-warning-container .zoom-warning {
+  width: auto;
+  padding: 8px 12px;
+  background-color: #ffff9b;
+  border: 1px solid #E6E6E6;
+  border-radius: 8px;
+}
+#prism-header .zoom-warning-container .zoom-warning .dismiss {
+  color: #008db8;
+  margin-left: 52px;
+  cursor: pointer;
+}
+#prism-header .zoom-warning-container .zoom-warning .dismiss:hover {
+  text-decoration: underline;
+}
+#prism-header #prism-logo {
+  float: left;
+  display: inline-block;
+  width: 114px;
+  height: 34px;
+  margin: 11px 0px 0px 12px;
+  background-image: url('/resources/base/images/logo_sisense.png');
+  background-repeat: no-repeat;
+}
+#prism-header #main-nav {
+  float: right;
+  padding-top: 5px;
+  margin: 15px 24px 0px 0px;
+}
+#prism-header #main-nav .nav-item {
+  cursor: pointer;
+  margin-left: 24px;
+  display: inline-block;
+}
+#prism-header #main-nav .nav-item[disabled=disabled] {
+  cursor: default;
+}
+#prism-header #main-nav .nav-item a {
+  color: #2c3342;
+  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProRegular', Arial, san-serif;
+  text-decoration: none;
+  text-transform: uppercase;
+  'SourceSansProRegular', Arial, san-serif-size: 14px;
+}
+#prism-header #main-nav .nav-item a[disabled=disabled] {
+  cursor: default;
+  pointer-events: none;
+}
+#prism-header #main-nav .nav-item .line {
+  margin: 0% 15%;
+  height: 1px;
+  background: #2c3342;
+  display: none;
+}
+#prism-header #main-nav .nav-item:hover:not([disabled=disabled]) .line {
+  display: block;
+}
+#prism-header .user-control-holder {
+  float: right;
+  padding-top: 5px;
+  margin: 15px 22px 0px 0px;
+}
+#prism-header .user-control-holder .user-fullname {
+  display: inline-block;
+  color: #2c3342;
+  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProRegular', Arial, san-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.3px;
+  'SourceSansProRegular', Arial, san-serif-size: 13px;
+  'SourceSansProRegular', Arial, san-serif-size: 14px;
+  text-transform: none;
+}
+#prism-header .user-control-holder .signout-link-holder {
+  display: inline-block;
+  margin-left: 3px;
+  cursor: pointer;
+}
+#prism-header .user-control-holder .signout-link-holder .signout-text {
+  color: #2c3342;
+  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProRegular', Arial, san-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.3px;
+  'SourceSansProRegular', Arial, san-serif-size: 13px;
+  color: #008db8;
+  'SourceSansProRegular', Arial, san-serif-size: 14px;
+  text-transform: none;
+}
+#prism-header .user-control-holder .signout-link-holder .line {
+  margin: 0% 15%;
+  height: 1px;
+  background: #008db8;
+  display: none;
+}
+#prism-header .user-control-holder .signout-link-holder:hover .line {
+  display: block;
+}
+/*body {
+        overflow-y: auto;
+
+    }*/
+#prism-toolbar button {
+  color: #2c3342;
+  cursor: pointer;
+}
+#prism-toolbar button:hover {
+  background: #ffff9c;
+}
+#prism-window {
+  /*width: 100%;
+    height: 100%;*/
+  /*display:block;*/
+}
+#prism-window #prism-header {
+  /*display:block;
+        height: 32px;
+        padding: 2px 8px;
+        background-color: black;*/
+}
+#prism-window #prism-header #prism-logo {
+  /*display: block;
+            width: 100px;
+            height: 27px;
+            background-image: url('/resources/base/images/logo.png');*/
+}
+#prism-window #prism-toolbar {
+  /*background-color: gray;
+        display:block;
+        padding: 4px 8px;*/
+}
+#prism-window #prism-content {
+  /*margin: 0 auto;
+        display: block;
+        position:relative;
+        width: 100%;*/
+}
+#prism-window #prism-content #prism-leftview {
+  /*background:green;
+            display: inline-block;
+            border: 0 transparent none;
+            margin: 0;
+            padding: 0;
+            float: left;
+            width: 150px;
+            height: 100%;*/
+}
+#prism-window #prism-content #prism-rightview {
+  /*background:red;
+            border: 0 transparent none;
+            display: inline-block;
+            float: right;
+            right:0px;
+            top:0px;
+                        margin: 0;
+            padding: 0;
+            width: 150px;
+            height: 100%;*/
+}
+#prism-window #prism-content #prism-mainview {
+  /*background:blue;*/
+  /*width: 100%;
+            border: 0 transparent none;
+            display: inline-block;
+            height: 100%;
+            margin: 0;
+            padding: 0;*/
+}

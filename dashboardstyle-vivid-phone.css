@@ -1,0 +1,112 @@
+/* base */
+/* sizing */
+/* foreground */
+/* background */
+/* 'SourceSansProRegular', Arial, san-serifs */
+/* scrollbars */
+/* headers */
+.base-header {
+  color: #2c3342;
+  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProRegular', Arial, san-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.3px;
+}
+.lomithalef-btn {
+  cursor: default;
+  outline: none;
+}
+.lomithalef-btn,
+.lomithalef-btn:focus,
+.lomithalef-btn:hover {
+  background: none;
+  border: none;
+}
+.header-xl {
+  color: #2c3342;
+  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProRegular', Arial, san-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.3px;
+  'SourceSansProRegular', Arial, san-serif-size: 24px;
+}
+.header-l {
+  color: #2c3342;
+  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProRegular', Arial, san-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.3px;
+  'SourceSansProRegular', Arial, san-serif-size: 16px;
+}
+.header-m {
+  color: #2c3342;
+  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProRegular', Arial, san-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.3px;
+  'SourceSansProRegular', Arial, san-serif-size: 15px;
+}
+.header-s {
+  color: #2c3342;
+  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProRegular', Arial, san-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.3px;
+  'SourceSansProRegular', Arial, san-serif-size: 13px;
+}
+.header-mn {
+  color: #2c3342;
+  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProRegular', Arial, san-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.3px;
+  'SourceSansProRegular', Arial, san-serif-size: 14px;
+}
+/* text */
+.base-txt {
+  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProLight';
+  color: #272a34;
+}
+.text-xl {
+  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProLight';
+  color: #272a34;
+  'SourceSansProRegular', Arial, san-serif-size: 16px;
+}
+.text-l {
+  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProLight';
+  color: #272a34;
+  'SourceSansProRegular', Arial, san-serif-size: 13px;
+}
+.text-m {
+  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProLight';
+  color: #272a34;
+  'SourceSansProRegular', Arial, san-serif-size: 12.5px;
+}
+.text-s {
+  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProLight';
+  color: #272a34;
+  'SourceSansProRegular', Arial, san-serif-size: 12px;
+}
+.text-xs {
+  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProLight';
+  color: #272a34;
+  'SourceSansProRegular', Arial, san-serif-size: 11px;
+}
+/* dom common */
+body {
+  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProLight';
+  color: #272a34;
+  'SourceSansProRegular', Arial, san-serif-size: 12.5px;
+  cursor: default;
+}
+/* behavior */
+.no-user-select {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.user-select {
+  -webkit-touch-callout: text;
+  -webkit-user-select: text;
+  -khtml-user-select: text;
+  -moz-user-select: text;
+  -ms-user-select: text;
+  user-select: text;
+}

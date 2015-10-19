@@ -1,0 +1,403 @@
+/* base */
+/* sizing */
+/* foreground */
+/* background */
+/* 'SourceSansProRegular', Arial, san-serifs */
+/* scrollbars */
+/* headers */
+.base-header {
+  color: #2c3342;
+  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProRegular', Arial, san-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.3px;
+}
+.lomithalef-btn {
+  cursor: default;
+  outline: none;
+}
+.lomithalef-btn,
+.lomithalef-btn:focus,
+.lomithalef-btn:hover {
+  background: none;
+  border: none;
+}
+.header-xl {
+  color: #2c3342;
+  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProRegular', Arial, san-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.3px;
+  'SourceSansProRegular', Arial, san-serif-size: 24px;
+}
+.header-l {
+  color: #2c3342;
+  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProRegular', Arial, san-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.3px;
+  'SourceSansProRegular', Arial, san-serif-size: 16px;
+}
+.header-m {
+  color: #2c3342;
+  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProRegular', Arial, san-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.3px;
+  'SourceSansProRegular', Arial, san-serif-size: 15px;
+}
+.header-s {
+  color: #2c3342;
+  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProRegular', Arial, san-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.3px;
+  'SourceSansProRegular', Arial, san-serif-size: 13px;
+}
+.header-mn {
+  color: #2c3342;
+  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProRegular', Arial, san-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.3px;
+  'SourceSansProRegular', Arial, san-serif-size: 14px;
+}
+/* text */
+.base-txt {
+  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProLight';
+  color: #272a34;
+}
+.text-xl {
+  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProLight';
+  color: #272a34;
+  'SourceSansProRegular', Arial, san-serif-size: 16px;
+}
+.text-l {
+  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProLight';
+  color: #272a34;
+  'SourceSansProRegular', Arial, san-serif-size: 13px;
+}
+.text-m {
+  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProLight';
+  color: #272a34;
+  'SourceSansProRegular', Arial, san-serif-size: 12.5px;
+}
+.text-s {
+  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProLight';
+  color: #272a34;
+  'SourceSansProRegular', Arial, san-serif-size: 12px;
+}
+.text-xs {
+  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProLight';
+  color: #272a34;
+  'SourceSansProRegular', Arial, san-serif-size: 11px;
+}
+/* dom common */
+body {
+  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProLight';
+  color: #272a34;
+  'SourceSansProRegular', Arial, san-serif-size: 12.5px;
+  cursor: default;
+}
+/* behavior */
+.no-user-select {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.user-select {
+  -webkit-touch-callout: text;
+  -webkit-user-select: text;
+  -khtml-user-select: text;
+  -moz-user-select: text;
+  -ms-user-select: text;
+  user-select: text;
+}
+/**
+ * Hook
+ * Version: 1.1
+ * Author: Jordan Singer, Brandon Jacoby, Adam Girton
+ * Copyright (c) 2013 - Hook.  All rights reserved.
+ * http://www.usehook.com
+ */
+/* 'customizable' declares that a property can be customized without breaking functionality */
+.hook * {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+.hook {
+  display: none;
+  /* customizable */
+  height: 85px;
+  /* customizable */
+  background: url(/resources/dashboard/images/hook-bgs.png) repeat;
+  /* customizable */
+  box-shadow: 0 -8px 5px -5px #999999 inset;
+  clear: both;
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  text-align: center;
+}
+.hook-text {
+  /* customizable */
+  'SourceSansProRegular', Arial, san-serif-size: 14px;
+  /* customizable */
+  'SourceSansProRegular', Arial, san-serif-family: Arial, Helvetica, sans-serif;
+  /* customizable */
+  color: #666;
+  /* customizable */
+  'SourceSansProRegular', Arial, san-serif-weight: normal;
+  /* customizable */
+  text-shadow: 0 1px #fff;
+}
+.hook-loader {
+  padding: 25px 0;
+  top: 0px;
+  position: absolute;
+}
+.hook-spinner {
+  display: block;
+  /* customizable */
+  background: url(/resources/dashboard/images/hook-spinner.png) no-repeat center;
+  /* customizable */
+  width: 32px;
+  /* customizable */
+  height: 32px;
+  -webkit-animation: spin 1s linear infinite both;
+  -moz-animation: spin 1s linear infinite both;
+  -o-animation: spin 1s linear infinite both;
+  animation: spin 1s linear infinite both;
+}
+.hook-with-text .hook-loader {
+  padding: 10px 0;
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2/1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+  .hook-spinner {
+    background: url(/resources/dashboard/images/hook-spinner@2x.png) no-repeat center;
+    background-size: 32px 32px;
+  }
+}
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+@-moz-keyframes spin {
+  0% {
+    -moz-transform: rotate(0deg);
+  }
+  100% {
+    -moz-transform: rotate(360deg);
+  }
+}
+@-o-keyframes spin {
+  0% {
+    -o-transform: rotate(0deg);
+  }
+  100% {
+    -o-transform: rotate(360deg);
+  }
+}
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+#mySwipe div b {
+  display: block;
+  'SourceSansProRegular', Arial, san-serif-weight: bold;
+  color: #14ADE5;
+  'SourceSansProRegular', Arial, san-serif-size: 20px;
+  text-align: center;
+  margin: 10px;
+  padding: 100px 10px;
+  box-shadow: 0 1px #EBEBEB;
+  background: #fff;
+  border-radius: 3px;
+  border: 1px solid;
+  border-color: #E5E5E5 #D3D3D3 #B9C1C6;
+}
+.swipe {
+  overflow: hidden;
+  visibility: hidden;
+  position: relative;
+}
+.swipe-wrap {
+  overflow: hidden;
+  position: relative;
+}
+.swipe-wrap > div {
+  float: left;
+  width: 100%;
+  position: relative;
+}
+#prism-toolbar,
+#prism-leftview,
+#prism-rightview {
+  background: #efefef;
+}
+.snap-drawer {
+  background: #efefef;
+}
+.snap-content {
+  top: 40px;
+  overflow-y: auto;
+}
+.snap-content.fullview {
+  top: 0px;
+  overflow: hidden;
+}
+#main-nav {
+  float: right;
+  margin-right: 16px;
+  padding-top: 5px;
+}
+#main-nav a {
+  text-decoration: none;
+  margin-left: 8px;
+  color: #dedede;
+  cursor: pointer;
+}
+#main-nav a:hover {
+  color: white;
+}
+#prism-content,
+#prism-mainview {
+  background-color: #f2f2f2;
+}
+#prism-header,
+#prism-toolbar,
+#prism-header-full {
+  position: fixed;
+  overflow-y: auto;
+}
+#prism-window #prism-header-full {
+  height: 40px;
+  width: 100%;
+  top: 0px;
+  left: 0px;
+  opacity: .5;
+  background: black;
+}
+#prism-window #prism-header-full #header-nav {
+  float: left;
+  margin-right: 16px;
+  padding-top: 7px;
+}
+#prism-window #prism-header-full #header-nav .nav-back {
+  left: 15px;
+  'SourceSansProRegular', Arial, san-serif-weight: bold;
+  'SourceSansProRegular', Arial, san-serif-size: 18px;
+  color: white;
+  text-decoration: none;
+  display: block;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+}
+#prism-window #prism-header {
+  z-index: 3;
+  background-color: #ffffff;
+  height: 40px;
+  width: 100%;
+  top: 0px;
+  left: 0px;
+}
+#prism-window #prism-header #prism-logo {
+  position: relative;
+  top: 3px;
+  margin: 0 auto;
+  display: block;
+  width: 114px;
+  height: 34px;
+  background-image: url('/resources/base/images/logo_sisense.png');
+  background-repeat: no-repeat;
+}
+#prism-window #prism-header .nav {
+  background: center center no-repeat transparent;
+  background-image: url('/resources/base/images/menu_mobile.png');
+  display: block;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 0;
+}
+#prism-window #prism-header .nav.right {
+  /*right: 10px;*/
+  right: 0;
+}
+#prism-window #prism-header .nav.left {
+  /*left: 10px;*/
+  left: 0px;
+}
+#prism-window #prism-header .nav-filter-right {
+  background: center center no-repeat transparent;
+  background-image: url('/resources/base/images/nav-right.png');
+  display: block;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 0;
+  right: 10px;
+}
+#prism-window #prism-header #nav-left {
+  background: center center no-repeat transparent;
+  background-image: url('/resources/base/images/menu_mobile.png');
+  display: block;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 0;
+  left: 10px;
+}
+#prism-window #prism-header #nav-right {
+  background: center center no-repeat transparent;
+  background-image: url('/resources/base/images/menu_mobile.png');
+  display: block;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 0;
+  left: auto;
+  right: 10px;
+}
+#prism-toolbar a {
+  background: center center no-repeat transparent;
+  background-image: url('/resources/base/images/menu_mobile.png');
+  display: block;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 0;
+  left: 10px;
+}
+#prism-toolbar a.friends {
+  background-image: url('/resources/base/images/menu_mobile.png');
+}
+#prism-toolbar a.right {
+  left: auto;
+  right: 10px;
+}
+#prism-toolbar a {
+  background: center center no-repeat transparent;
+  background-image: url('/resources/base/images/menu_mobile.png');
+  display: block;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 0;
+  left: 10px;
+}
+#prism-toolbar a.friends {
+  background-image: url('/resources/base/images/menu_mobile.png');
+}
+#prism-toolbar a.right {
+  left: auto;
+  right: 10px;
+}
