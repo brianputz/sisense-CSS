@@ -203,27 +203,49 @@ body {
   -moz-box-align: center;
   box-align: center;
 }
-/* 'SourceSansProRegular', Arial, san-serifs */
-@'SourceSansProRegular', Arial, san-serif-face {
-  font-family: ''SourceSansProRegular', Arial, san-serif';
-  src: url('/resources/base/'SourceSansProRegular', Arial, san-serifs/abel-regular-web'SourceSansProRegular', Arial, san-serif.eot');
-  src: url('/resources/base/'SourceSansProRegular', Arial, san-serifs/abel-regular-web'SourceSansProRegular', Arial, san-serif.eot?#iefix') format('embedded-opentype'), url('/resources/base/'SourceSansProRegular', Arial, san-serifs/abel-regular-web'SourceSansProRegular', Arial, san-serif.woff') format('woff'), url('/resources/base/'SourceSansProRegular', Arial, san-serifs/abel-regular-web'SourceSansProRegular', Arial, san-serif.ttf') format('truetype'), url('/resources/base/'SourceSansProRegular', Arial, san-serifs/abel-regular-web'SourceSansProRegular', Arial, san-serif.svg#'SourceSansProRegular', Arial, san-serif') format('svg');
-  'SourceSansProRegular', Arial, san-serif-weight: normal;
-  'SourceSansProRegular', Arial, san-serif-style: normal;
+/* FONTS */
+@font-face {
+	font-family: 'SourceSansProRegular';
+	font-style: normal;
+	font-weight: normal;
+	src: url('../../Resources/fonts/SourceSansPro-Regular-webfont.eot');
+	src: url('../../Resources/fonts/SourceSansPro-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+		url('../../Resources/fonts/SourceSansPro-Regular-webfont.woff') format('woff'),
+		url('../../Resources/fonts/SourceSansPro-Regular-webfont.ttf') format('truetype'),
+		url('../../Resources/fonts/SourceSansPro-Regular-webfont.svg#SourceSansProRegular') format('svg');
 }
-/*@'SourceSansProRegular', Arial, san-serif-face {
-  font-family: 'opensansregular';
-  src: url('/resources/base/'SourceSansProRegular', Arial, san-serifs/opensans-regular-web'SourceSansProRegular', Arial, san-serif.eot');
-  src: url('/resources/base/'SourceSansProRegular', Arial, san-serifs/opensans-regular-web'SourceSansProRegular', Arial, san-serif.eot?#iefix') format('embedded-opentype'), url('/resources/base/'SourceSansProRegular', Arial, san-serifs/opensans-regular-web'SourceSansProRegular', Arial, san-serif.woff') format('woff'), url('/resources/base/'SourceSansProRegular', Arial, san-serifs/opensans-regular-web'SourceSansProRegular', Arial, san-serif.ttf') format('truetype'), url('/resources/base/'SourceSansProRegular', Arial, san-serifs/opensans-regular-web'SourceSansProRegular', Arial, san-serif.svg#opensansregular') format('svg');
-  'SourceSansProRegular', Arial, san-serif-weight: normal;
-  'SourceSansProRegular', Arial, san-serif-style: normal;
-}*/
-@'SourceSansProRegular', Arial, san-serif-face {
-  font-family: ''SourceSansProLight'';
-  src: url('/resources/base/'SourceSansProRegular', Arial, san-serifs/ubuntu-light-web'SourceSansProRegular', Arial, san-serif.eot');
-  src: url('/resources/base/'SourceSansProRegular', Arial, san-serifs/ubuntu-light-web'SourceSansProRegular', Arial, san-serif.eot?#iefix') format('embedded-opentype'), url('/resources/base/'SourceSansProRegular', Arial, san-serifs/ubuntu-light-web'SourceSansProRegular', Arial, san-serif.woff') format('woff'), url('/resources/base/'SourceSansProRegular', Arial, san-serifs/ubuntu-light-web'SourceSansProRegular', Arial, san-serif.ttf') format('truetype'), url('/resources/base/'SourceSansProRegular', Arial, san-serifs/ubuntu-light-web'SourceSansProRegular', Arial, san-serif.svg#opensansregular') format('svg');
-  'SourceSansProRegular', Arial, san-serif-weight: normal;
-  'SourceSansProRegular', Arial, san-serif-style: normal;
+
+@font-face {
+	font-family: 'SourceSansProBold';
+	font-style: normal;
+	font-weight: normal;
+	src: url('../../Resources/fonts/SourceSansPro-Bold-webfont.eot');
+	src: url('../../Resources/fonts/SourceSansPro-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+		url('../../Resources/fonts/SourceSansPro-Bold-webfont.woff') format('woff'),
+		url('../../Resources/fonts/SourceSansPro-Bold-webfont.ttf') format('truetype'),
+		url('../../Resources/fonts/SourceSansPro-Bold-webfont.svg#SourceSansProBold') format('svg');
+}
+
+@font-face {
+	font-family: 'SourceSansProLight';
+	font-style: normal;
+	font-weight: normal;
+	src: url('../../Resources/fonts/SourceSansPro-Light-webfont.eot');
+	src: url('../../Resources/fonts/framework/font_sourcesans-proSource/SansPro-Light-webfont.eot?#iefix') format('embedded-opentype'),
+		url('../../Resources/fonts/SourceSansPro-Light-webfont.woff') format('woff'),
+		url('../../Resources/fonts/SourceSansPro-Light-webfont.ttf') format('truetype'),
+		url('../../Resources/fonts/framework/font_sourcesans-proSource/SansPro-Light-webfont.svg#SourceSansProLight') format('svg');
+}
+
+@font-face {
+	font-family: 'SourceSansProSemibold';
+	font-style: normal;
+	font-weight: normal;
+	src: url('../../Resources/fonts/SourceSansPro-Semibold-webfont.eot');
+	src: url('../../Resources/fonts/SourceSansPro-Semibold-webfont.eot?#iefix') format('embedded-opentype'),
+		url('../../Resources/fonts/SourceSansPro-Semibold-webfont.woff') format('woff'),
+		url('../../Resources/fonts/SourceSansPro-Semibold-webfont.ttf') format('truetype'),
+		url('../../Resources/fonts/SourceSansPro-Semibold-webfont.svg#SourceSansProSemibold') format('svg');
 }
 /* css reset */
 /* removed: tbody, tfoot, thead, tr, th, td, div, span*/
@@ -577,7 +599,7 @@ select {
   border: 1px solid #008EB9;
   background: #008EB9;
   color: #ffffff;
-  'SourceSansProRegular', Arial, san-serif-weight: bold;
+  font-weight: bold;
 }
 .ui-widget-header a {
   color: #ffffff;
@@ -589,7 +611,7 @@ select {
 .ui-widget-header .ui-state-default {
   border: 1px solid #cccccc;
   background: #f6f6f6;
-  'SourceSansProRegular', Arial, san-serif-weight: bold;
+  font-weight: bold;
   color: #1c94c4;
 }
 .ui-state-default a,
@@ -606,7 +628,7 @@ select {
 .ui-widget-header .ui-state-focus {
   border: 1px solid #6DDFFF;
   background: #fdf5ce;
-  'SourceSansProRegular', Arial, san-serif-weight: bold;
+  font-weight: bold;
   color: #008EB9;
 }
 .ui-state-hover a,
@@ -621,7 +643,7 @@ select {
 .ui-widget-header .ui-state-active {
   border: 1px solid #6DDFFF;
   background: #ffffff;
-  'SourceSansProRegular', Arial, san-serif-weight: bold;
+  font-weight: bold;
   color: #008EB9;
 }
 .ui-state-active a,
@@ -664,14 +686,14 @@ select {
 .ui-priority-primary,
 .ui-widget-content .ui-priority-primary,
 .ui-widget-header .ui-priority-primary {
-  'SourceSansProRegular', Arial, san-serif-weight: bold;
+  font-weight: bold;
 }
 .ui-priority-secondary,
 .ui-widget-content .ui-priority-secondary,
 .ui-widget-header .ui-priority-secondary {
   opacity: .7;
   filter: alpha(opacity=70);
-  'SourceSansProRegular', Arial, san-serif-weight: normal;
+  font-weight: normal;
 }
 .ui-state-disabled,
 .ui-widget-content .ui-state-disabled,
@@ -1079,7 +1101,7 @@ button.ui-button::-moz-focus-inner {
 .ui-datepicker th {
   padding: .7em .3em;
   text-align: center;
-  'SourceSansProRegular', Arial, san-serif-weight: bold;
+  font-weight: bold;
   border: 0;
 }
 .ui-datepicker td {
@@ -1270,15 +1292,15 @@ button.ui-button::-moz-focus-inner {
   line-height: 1.5;
   min-height: 0;
   /* support: IE7 */
-  'SourceSansProRegular', Arial, san-serif-weight: normal;
+  font-weight: normal;
 }
 .ui-menu .ui-menu-item a.ui-state-focus,
 .ui-menu .ui-menu-item a.ui-state-active {
-  'SourceSansProRegular', Arial, san-serif-weight: normal;
+  font-weight: normal;
   margin: -1px;
 }
 .ui-menu .ui-state-disabled {
-  'SourceSansProRegular', Arial, san-serif-weight: normal;
+  font-weight: normal;
   margin: .4em 0 .2em;
   line-height: 1.5;
 }
@@ -1516,7 +1538,7 @@ body .ui-tooltip {
 .ui-widget-header {
   border: 1px solid #e78f08;
   color: #ffffff;
-  'SourceSansProRegular', Arial, san-serif-weight: bold;
+  font-weight: bold;
 }
 .ui-widget-header a {
   color: #ffffff;
@@ -1527,7 +1549,7 @@ body .ui-tooltip {
 .ui-widget-content .ui-state-default,
 .ui-widget-header .ui-state-default {
   border: 1px solid #cccccc;
-  'SourceSansProRegular', Arial, san-serif-weight: bold;
+  font-weight: bold;
   color: #1c94c4;
 }
 .ui-state-default a,
@@ -1543,7 +1565,7 @@ body .ui-tooltip {
 .ui-widget-content .ui-state-focus,
 .ui-widget-header .ui-state-focus {
   border: 1px solid #fbcb09;
-  'SourceSansProRegular', Arial, san-serif-weight: bold;
+  font-weight: bold;
   color: #c77405;
 }
 .ui-state-hover a,
@@ -1557,7 +1579,7 @@ body .ui-tooltip {
 .ui-widget-content .ui-state-active,
 .ui-widget-header .ui-state-active {
   border: 1px solid #fbd850;
-  'SourceSansProRegular', Arial, san-serif-weight: bold;
+  font-weight: bold;
   color: #eb8f00;
 }
 .ui-state-active a,
@@ -1598,14 +1620,14 @@ body .ui-tooltip {
 .ui-priority-primary,
 .ui-widget-content .ui-priority-primary,
 .ui-widget-header .ui-priority-primary {
-  'SourceSansProRegular', Arial, san-serif-weight: bold;
+  font-weight: bold;
 }
 .ui-priority-secondary,
 .ui-widget-content .ui-priority-secondary,
 .ui-widget-header .ui-priority-secondary {
   opacity: .7;
   filter: alpha(opacity=70);
-  'SourceSansProRegular', Arial, san-serif-weight: normal;
+  font-weight: normal;
 }
 .ui-state-disabled,
 .ui-widget-content .ui-state-disabled,
@@ -2576,7 +2598,7 @@ body .ui-tooltip {
   color: #272a34;
   font-size:: 13px;
   text-transform: capitalize;
-  'SourceSansProRegular', Arial, san-serif-weight: bold;
+  font-weight: bold;
   max-width: 100%;
   word-wrap: normal;
   text-overflow: ellipsis;
@@ -2587,7 +2609,7 @@ body .ui-tooltip {
 }
 .autocomplete-host .autocomplete-float-box .autocomplete-item .item-details .title-text.invite-text {
   display: inline-block;
-  'SourceSansProRegular', Arial, san-serif-weight: normal;
+  font-weight: normal;
   text-transform: none;
 }
 .autocomplete-host .autocomplete-float-box .autocomplete-item .item-details .sub-title-text {
@@ -2619,7 +2641,7 @@ body .ui-tooltip {
   border: 1px solid #b3b3b3;
 }
 .autocomplete-host .highlightText {
-  'SourceSansProRegular', Arial, san-serif-weight: bold;
+  font-weight: bold;
 }
 .autocomplete-host .no-parties {
   -webkit-box-shadow: 0px 3px 5px #e2e2e2;
@@ -2740,7 +2762,7 @@ body .ui-tooltip {
   color: #272a34;
   font-size:: 13px;
   text-transform: capitalize;
-  'SourceSansProRegular', Arial, san-serif-weight: bold;
+  font-weight: bold;
   max-width: 100%;
   word-wrap: normal;
   text-overflow: ellipsis;
@@ -2751,7 +2773,7 @@ body .ui-tooltip {
 }
 .autocomplete-host .no-parties .autocomplete-item .item-details .title-text.invite-text {
   display: inline-block;
-  'SourceSansProRegular', Arial, san-serif-weight: normal;
+  font-weight: normal;
   text-transform: none;
 }
 .autocomplete-host .no-parties .autocomplete-item .item-details .sub-title-text {
@@ -2975,7 +2997,7 @@ body .ui-tooltip {
 }
 /* Whoerever uses the breadcrumbs component and wants the crumbs to get ellipsis after
  	a certion width, should use the following snippet in his/her less file:
- 	
+
 	.bc-breadcrumbs .bc-crumb-wrapper {
 		max-width: 300px;
 	}
@@ -2984,10 +3006,10 @@ body .ui-tooltip {
 	the crumbs themselves. Pay attention that the crumb max width has to be less than
 	the component in order to prevent the ':after' pseudo-element of long crumbs to
 	exceed the component width.
-	
+
 	.bc-breadcrumbs .bc-crumb-wrapper {
 		max-width: 300px;
-		
+
 		.bc-crumb-wrapper {
 			max-width: 268px;
 		}
@@ -3009,7 +3031,7 @@ body .ui-tooltip {
   margin-right: 4px;
   margin-bottom: 5px;
   display: inline-block;
-  /* The following display techniques will also work (instead of 'dispaly: inline-block;'): 
+  /* The following display techniques will also work (instead of 'dispaly: inline-block;'):
 			'float: left;' in this class (nowrap option not available) or
 			'display: flexbox; flex-wrap: wrap;' in parent class
 		*/
@@ -3568,7 +3590,7 @@ body .ui-tooltip {
   padding: 4px 15px;
   height: auto;
   font-size:: 13px;
-  'SourceSansProRegular', Arial, san-serif-weight: 400;
+  font-weight: 400;
   -webkit-box-shadow: 0px 1px 4px 0px rgba(96, 96, 96, 0.15);
   -moz-box-shadow: 0px 1px 4px 0px rgba(96, 96, 96, 0.15);
   box-shadow: 0px 1px 4px 0px rgba(96, 96, 96, 0.15);
@@ -3678,7 +3700,7 @@ body .ui-tooltip {
   padding: 4px 15px;
   height: auto;
   font-size:: 13px;
-  'SourceSansProRegular', Arial, san-serif-weight: 400;
+  font-weight: 400;
   -webkit-box-shadow: 0px 1px 4px 0px rgba(96, 96, 96, 0.15);
   -moz-box-shadow: 0px 1px 4px 0px rgba(96, 96, 96, 0.15);
   box-shadow: 0px 1px 4px 0px rgba(96, 96, 96, 0.15);
@@ -3787,7 +3809,7 @@ body .ui-tooltip {
   padding: 4px 15px;
   height: auto;
   font-size:: 13px;
-  'SourceSansProRegular', Arial, san-serif-weight: 400;
+  font-weight: 400;
   -webkit-box-shadow: 0px 1px 4px 0px rgba(96, 96, 96, 0.15);
   -moz-box-shadow: 0px 1px 4px 0px rgba(96, 96, 96, 0.15);
   box-shadow: 0px 1px 4px 0px rgba(96, 96, 96, 0.15);
@@ -3896,7 +3918,7 @@ body .ui-tooltip {
   padding: 4px 15px;
   height: auto;
   font-size:: 13px;
-  'SourceSansProRegular', Arial, san-serif-weight: 400;
+  font-weight: 400;
   -webkit-box-shadow: 0px 1px 4px 0px rgba(96, 96, 96, 0.15);
   -moz-box-shadow: 0px 1px 4px 0px rgba(96, 96, 96, 0.15);
   box-shadow: 0px 1px 4px 0px rgba(96, 96, 96, 0.15);
@@ -4503,7 +4525,7 @@ body .ui-tooltip {
 .color-picker .color-header {
   margin-top: 12px;
   margin-bottom: 3px;
-  'SourceSansProRegular', Arial, san-serif-weight: 500;
+  font-weight: 500;
 }
 .color-picker .colors-entry {
   width: 100%;
@@ -4977,7 +4999,7 @@ body .ui-tooltip {
   color: #999999;
 }
 .dp-container .dp-dow {
-  'SourceSansProRegular', Arial, san-serif-weight: 300;
+  font-weight: 300;
   color: #2c3342;
   background-color: #f0f0f0;
   width: 162px;
@@ -5531,7 +5553,7 @@ body .ui-tooltip {
   color: #2c3342;
   padding-left: 17px;
   padding-top: 10px;
-  'SourceSansProRegular', Arial, san-serif-weight: normal;
+  font-weight: normal;
 }
 .users-groups-grid .ngCell {
   border-bottom: 1px solid #e6e6e6;
@@ -8021,7 +8043,7 @@ body {
   font-family: 'SourceSansProRegular', Arial, san-serif;
   text-transform: uppercase;
   letter-spacing: 0.3px;
-  'SourceSansProRegular', Arial, san-serif-color: #2b3342;
+  color: #2b3342;
   font-size:: 89px;
 }
 .dashboard-error-wrapper .not-found-wrapper .main-box .info-box .small-title {
@@ -8030,13 +8052,13 @@ body {
   font-family: 'SourceSansProRegular', Arial, san-serif;
   text-transform: uppercase;
   letter-spacing: 0.3px;
-  'SourceSansProRegular', Arial, san-serif-color: #2b3342;
+  color: #2b3342;
   font-size:: 18px;
 }
 .dashboard-error-wrapper .not-found-wrapper .main-box .info-box .error-text {
   margin-top: 20px;
   font-family: 'SourceSansProLight';
-  'SourceSansProRegular', Arial, san-serif-color: #56535b;
+  color: #56535b;
   font-size:: 15px;
   white-space: pre-wrap;
   word-wrap: break-word;
@@ -8047,7 +8069,7 @@ body {
 .dashboard-error-wrapper .not-found-wrapper .main-box .info-box .goto-elsticube-link {
   margin-top: 20px;
   font-family: 'SourceSansProLight';
-  'SourceSansProRegular', Arial, san-serif-color: #56535b;
+  color: #56535b;
   font-size:: 15px;
   display: inline;
   text-decoration: none;
@@ -8055,7 +8077,7 @@ body {
 .dashboard-error-wrapper .not-found-wrapper .main-box .info-box .action-box {
   margin-top: 23px;
   font-family: 'SourceSansProLight';
-  'SourceSansProRegular', Arial, san-serif-color: #56535b;
+  color: #56535b;
   font-size:: 15px;
 }
 .dashboard-error-wrapper .not-found-wrapper .main-box .info-box .action-box .link {
@@ -8188,7 +8210,7 @@ body {
   font-family: 'SourceSansProRegular', Arial, san-serif;
   font-size:: 24px;
   color: #222222;
-  'SourceSansProRegular', Arial, san-serif-weight: normal;
+  font-weight: normal;
 }
 .dashboard-export-dialog-content hr {
   position: absolute;
@@ -8744,7 +8766,7 @@ body {
   background-color: transparent;
   float: left;
   opacity: .7;
-  'SourceSansProRegular', Arial, san-serif-weight: bold;
+  font-weight: bold;
   color: transparent;
   position: absolute;
   top: 0px;
@@ -9027,6 +9049,8 @@ dashboard widget.columnar widget-title {
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
+  font-size: 20px;
+  font-family: 'SourceSansProSemiBold', Arial, sans-serif;
 }
 dashboard widget.columnar widget-overlay {
   /*opacity: 0;*/
@@ -9092,7 +9116,7 @@ dashboard widget.columnar widget-header .widget-desc-edit .desc-edit-caption:hov
   cursor: pointer;
   background-color: #f2f2f2;
   /*.desc-thumb {
-                        
+
                     }*/
 }
 dashboard widget.columnar widget-toolbar {
@@ -9283,7 +9307,7 @@ dashboard widget.columnar widget-overlay {
 .ui-resizable-s:hover {
   cursor: row-resize;
   border-bottom: 2px  #B3B3B3;
-  /* background-color:transparent; 
+  /* background-color:transparent;
 	border-bottom: 2px dashed #B3B3B3;*/
 }
 .ds-layout-host .dash-scrollpane {
@@ -10985,7 +11009,7 @@ button.cond-add:hover {
   text-transform: uppercase;
   font-size:: 15px;
   font-family: 'SourceSansProRegular', Arial, san-serif;
-  'SourceSansProRegular', Arial, san-serif-weight: normal;
+  font-weight: normal;
   padding: 0px 2px 10px 4px;
   vertical-align: middle;
   line-height: 18px;
@@ -11326,7 +11350,7 @@ button.cond-add:hover {
   background-color: #ffff9b;
 }
 .fe-base-container .uc-filter .starred .formula .title {
-  'SourceSansProRegular', Arial, san-serif-weight: bold;
+  font-weight: bold;
 }
 .fe-base-container .uc-filter .starred .formula .delete {
   float: right;
@@ -11334,7 +11358,7 @@ button.cond-add:hover {
   background: transparent;
   border: none;
   color: red;
-  'SourceSansProRegular', Arial, san-serif-weight: bold;
+  font-weight: bold;
   width: 40px;
   opacity: 0.5;
 }
@@ -11546,7 +11570,7 @@ button.cond-add:hover {
   margin-left: 6px;
 }
 .fe-numbers .abbr-item B {
-  'SourceSansProRegular', Arial, san-serif-weight: normal;
+  font-weight: normal;
 }
 .fe-numbers .abbr-item B:first-child {
   color: #bebebe;
@@ -11558,7 +11582,7 @@ button.cond-add:hover {
   padding-top: 6px;
 }
 .fe-numbers .symb-item B {
-  'SourceSansProRegular', Arial, san-serif-weight: normal;
+  font-weight: normal;
 }
 .fe-numbers .symb-item B:last-child {
   color: #bebebe;
@@ -11736,7 +11760,7 @@ button.cond-add:hover {
   text-transform: uppercase;
   font-size:: 15px;
   font-family: 'SourceSansProRegular', Arial, san-serif;
-  'SourceSansProRegular', Arial, san-serif-weight: normal;
+  font-weight: normal;
   margin: 7px 0 12px 0;
   vertical-align: middle;
   line-height: 20px;
@@ -11964,10 +11988,10 @@ button.cond-add:hover {
 }
 .cm-header,
 .cm-strong {
-  'SourceSansProRegular', Arial, san-serif-weight: bold;
+  font-weight: bold;
 }
 .cm-em {
-  'SourceSansProRegular', Arial, san-serif-style: italic;
+  font-style: italic;
 }
 .cm-link {
   text-decoration: underline;
@@ -12207,7 +12231,7 @@ div.CodeMirror-cursors {
   opacity: 0;
   background: none;
   border: none;
-  'SourceSansProRegular', Arial, san-serif-weight: bold;
+  font-weight: bold;
 }
 .uc-af-attr button:hover {
   color: red;
@@ -13004,7 +13028,7 @@ button.uc-db-fx:focus {
   text-transform: uppercase;
   font-size:: 15px;
   font-family: 'SourceSansProRegular', Arial, san-serif;
-  'SourceSansProRegular', Arial, san-serif-weight: normal;
+  font-weight: normal;
   padding: 2px 0px 2px 0px;
   vertical-align: middle;
   line-height: 28px;
@@ -13806,7 +13830,7 @@ button.uc-db-fx:focus {
 .filters-global-header h2 {
   margin: 0 0 9px 0;
   padding: 0;
-  'SourceSansProRegular', Arial, san-serif-weight: normal;
+  font-weight: normal;
   font-family: 'SourceSansProRegular', Arial, san-serif;
   font-size:: 14px;
   line-height: 14px;
@@ -13882,7 +13906,7 @@ button.uc-db-fx:focus {
   text-align: center;
 }
 .func-tip .func-code {
-  'SourceSansProRegular', Arial, san-serif-weight: bold;
+  font-weight: bold;
 }
 .uc-fe {
   width: 428px;
@@ -13900,7 +13924,7 @@ button.uc-db-fx:focus {
   background-color: #ffff9b;
 }
 .uc-fe .starred .formula .title {
-  'SourceSansProRegular', Arial, san-serif-weight: bold;
+  font-weight: bold;
 }
 .uc-fe .starred .formula .delete {
   float: right;
@@ -13908,7 +13932,7 @@ button.uc-db-fx:focus {
   background: transparent;
   border: none;
   color: red;
-  'SourceSansProRegular', Arial, san-serif-weight: bold;
+  font-weight: bold;
   width: 40px;
   opacity: 0.5;
 }
@@ -14042,10 +14066,10 @@ button.uc-db-fx:focus {
 }
 .uc-fe .formula-popup .cm-header,
 .uc-fe .formula-popup .cm-strong {
-  'SourceSansProRegular', Arial, san-serif-weight: bold;
+  font-weight: bold;
 }
 .uc-fe .formula-popup .cm-em {
-  'SourceSansProRegular', Arial, san-serif-style: italic;
+  font-style: italic;
 }
 .uc-fe .formula-popup .cm-link {
   text-decoration: underline;
@@ -14277,7 +14301,7 @@ button.uc-db-fx:focus {
   background-color: #ffff9b;
 }
 .uc-container .uc-filter .starred .formula .title {
-  'SourceSansProRegular', Arial, san-serif-weight: bold;
+  font-weight: bold;
 }
 .uc-container .uc-filter .starred .formula .delete {
   float: right;
@@ -14285,7 +14309,7 @@ button.uc-db-fx:focus {
   background: transparent;
   border: none;
   color: red;
-  'SourceSansProRegular', Arial, san-serif-weight: bold;
+  font-weight: bold;
   width: 40px;
   opacity: 0.5;
 }
@@ -14464,7 +14488,7 @@ button.uc-db-fx:focus {
 .uc-toggle-btn.active {
   text-decoration: none;
   color: #000;
-  'SourceSansProRegular', Arial, san-serif-weight: bold;
+  font-weight: bold;
 }
 .uc-minifilter .uc-tagline-content {
   margin-bottom: -6px;
@@ -14599,7 +14623,7 @@ button.uc-db-fx:focus {
 .uc-ms-noresult {
   margin-top: 30px;
   text-align: center;
-  'SourceSansProRegular', Arial, san-serif-weight: bold;
+  font-weight: bold;
 }
 .disabled .uc-ms-toprow .checkmode-toggle {
   background-color: inherit;
@@ -14779,7 +14803,7 @@ div.uc-exclude.toggle {
   display: inline-block;
 }
 .uc-mp .uc-db-header h4 {
-  'SourceSansProRegular', Arial, san-serif-weight: normal;
+  font-weight: normal;
 }
 .uc-mp .uc-db-header > button {
   padding: 0px 10px 2px 10px;
@@ -14791,7 +14815,7 @@ div.uc-exclude.toggle {
   text-transform: uppercase;
   font-size:: 15px;
   font-family: 'SourceSansProRegular', Arial, san-serif;
-  'SourceSansProRegular', Arial, san-serif-weight: normal;
+  font-weight: normal;
   padding: 2px 2px 10px 4px;
   vertical-align: middle;
   line-height: 18px;
@@ -17441,7 +17465,7 @@ div.uc-exclude.toggle {
   font-family: 'SourceSansProRegular', Arial, san-serif;
   font-size:: 24px;
   color: #222;
-  'SourceSansProRegular', Arial, san-serif-weight: normal;
+  font-weight: normal;
 }
 .select-hierarchies-popup hr {
   position: absolute;
@@ -18991,7 +19015,7 @@ body {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  'SourceSansProRegular', Arial, san-serif: 'SourceSansProLight';
+  font-family: 'SourceSansProLight';
   font-size:: 12.5px;
   background: #f2f2f2;
   position: relative;

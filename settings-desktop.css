@@ -165,28 +165,52 @@ body {
   word-break: keep-all;
   white-space: nowrap;
 }
-/* 'SourceSansProRegular', Arial, san-serifs */
-@'SourceSansProRegular', Arial, san-serif-face {
-  font-family: ''SourceSansProRegular', Arial, san-serif';
-  src: url('/resources/base/'SourceSansProRegular', Arial, san-serifs/abel-regular-web'SourceSansProRegular', Arial, san-serif.eot');
-  src: url('/resources/base/'SourceSansProRegular', Arial, san-serifs/abel-regular-web'SourceSansProRegular', Arial, san-serif.eot?#iefix') format('embedded-opentype'), url('/resources/base/'SourceSansProRegular', Arial, san-serifs/abel-regular-web'SourceSansProRegular', Arial, san-serif.woff') format('woff'), url('/resources/base/'SourceSansProRegular', Arial, san-serifs/abel-regular-web'SourceSansProRegular', Arial, san-serif.ttf') format('truetype'), url('/resources/base/'SourceSansProRegular', Arial, san-serifs/abel-regular-web'SourceSansProRegular', Arial, san-serif.svg#'SourceSansProRegular', Arial, san-serif') format('svg');
-  'SourceSansProRegular', Arial, san-serif-weight: normal;
-  'SourceSansProRegular', Arial, san-serif-style: normal;
+
+@font-face {
+	font-family: 'SourceSansProRegular';
+	font-style: normal;
+	font-weight: normal;
+	src: url('../../Resources/fonts/SourceSansPro-Regular-webfont.eot');
+	src: url('../../Resources/fonts/SourceSansPro-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+		url('../../Resources/fonts/SourceSansPro-Regular-webfont.woff') format('woff'),
+		url('../../Resources/fonts/SourceSansPro-Regular-webfont.ttf') format('truetype'),
+		url('../../Resources/fonts/SourceSansPro-Regular-webfont.svg#SourceSansProRegular') format('svg');
 }
-/*@'SourceSansProRegular', Arial, san-serif-face {
-  font-family: 'opensansregular';
-  src: url('/resources/base/'SourceSansProRegular', Arial, san-serifs/opensans-regular-web'SourceSansProRegular', Arial, san-serif.eot');
-  src: url('/resources/base/'SourceSansProRegular', Arial, san-serifs/opensans-regular-web'SourceSansProRegular', Arial, san-serif.eot?#iefix') format('embedded-opentype'), url('/resources/base/'SourceSansProRegular', Arial, san-serifs/opensans-regular-web'SourceSansProRegular', Arial, san-serif.woff') format('woff'), url('/resources/base/'SourceSansProRegular', Arial, san-serifs/opensans-regular-web'SourceSansProRegular', Arial, san-serif.ttf') format('truetype'), url('/resources/base/'SourceSansProRegular', Arial, san-serifs/opensans-regular-web'SourceSansProRegular', Arial, san-serif.svg#opensansregular') format('svg');
-  'SourceSansProRegular', Arial, san-serif-weight: normal;
-  'SourceSansProRegular', Arial, san-serif-style: normal;
-}*/
-@'SourceSansProRegular', Arial, san-serif-face {
-  font-family: ''SourceSansProLight'';
-  src: url('/resources/base/'SourceSansProRegular', Arial, san-serifs/ubuntu-light-web'SourceSansProRegular', Arial, san-serif.eot');
-  src: url('/resources/base/'SourceSansProRegular', Arial, san-serifs/ubuntu-light-web'SourceSansProRegular', Arial, san-serif.eot?#iefix') format('embedded-opentype'), url('/resources/base/'SourceSansProRegular', Arial, san-serifs/ubuntu-light-web'SourceSansProRegular', Arial, san-serif.woff') format('woff'), url('/resources/base/'SourceSansProRegular', Arial, san-serifs/ubuntu-light-web'SourceSansProRegular', Arial, san-serif.ttf') format('truetype'), url('/resources/base/'SourceSansProRegular', Arial, san-serifs/ubuntu-light-web'SourceSansProRegular', Arial, san-serif.svg#opensansregular') format('svg');
-  'SourceSansProRegular', Arial, san-serif-weight: normal;
-  'SourceSansProRegular', Arial, san-serif-style: normal;
+
+/* Fonts */
+@font-face {
+	font-family: 'SourceSansProBold';
+	font-style: normal;
+	font-weight: normal;
+	src: url('../../Resources/fonts/SourceSansPro-Bold-webfont.eot');
+	src: url('../../Resources/fonts/SourceSansPro-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+		url('../../Resources/fonts/SourceSansPro-Bold-webfont.woff') format('woff'),
+		url('../../Resources/fonts/SourceSansPro-Bold-webfont.ttf') format('truetype'),
+		url('../../Resources/fonts/SourceSansPro-Bold-webfont.svg#SourceSansProBold') format('svg');
 }
+
+@font-face {
+	font-family: 'SourceSansProLight';
+	font-style: normal;
+	font-weight: normal;
+	src: url('../../Resources/fonts/SourceSansPro-Light-webfont.eot');
+	src: url('../../Resources/fonts/framework/font_sourcesans-proSource/SansPro-Light-webfont.eot?#iefix') format('embedded-opentype'),
+		url('../../Resources/fonts/SourceSansPro-Light-webfont.woff') format('woff'),
+		url('../../Resources/fonts/SourceSansPro-Light-webfont.ttf') format('truetype'),
+		url('../../Resources/fonts/framework/font_sourcesans-proSource/SansPro-Light-webfont.svg#SourceSansProLight') format('svg');
+}
+
+@font-face {
+	font-family: 'SourceSansProSemibold';
+	font-style: normal;
+	font-weight: normal;
+	src: url('../../Resources/fonts/SourceSansPro-Semibold-webfont.eot');
+	src: url('../../Resources/fonts/SourceSansPro-Semibold-webfont.eot?#iefix') format('embedded-opentype'),
+		url('../../Resources/fonts/SourceSansPro-Semibold-webfont.woff') format('woff'),
+		url('../../Resources/fonts/SourceSansPro-Semibold-webfont.ttf') format('truetype'),
+		url('../../Resources/fonts/SourceSansPro-Semibold-webfont.svg#SourceSansProSemibold') format('svg');
+}
+
 #prism-toolbar,
 #prism-leftview,
 #prism-rightview {

@@ -146,7 +146,7 @@ body {
   /* customizable */
   color: #666;
   /* customizable */
-  'SourceSansProRegular', Arial, san-serif-weight: normal;
+  font-weight: normal;
   /* customizable */
   text-shadow: 0 1px #fff;
 }
@@ -211,7 +211,7 @@ body {
 }
 #mySwipe div b {
   display: block;
-  'SourceSansProRegular', Arial, san-serif-weight: bold;
+  font-weight: bold;
   color: #14ADE5;
   font-size:: 20px;
   text-align: center;
@@ -292,7 +292,7 @@ body {
 }
 #prism-window #prism-header-full #header-nav .nav-back {
   left: 15px;
-  'SourceSansProRegular', Arial, san-serif-weight: bold;
+  font-weight: bold;
   font-size:: 18px;
   color: white;
   text-decoration: none;
@@ -825,7 +825,7 @@ widget[type="richtexteditor"] .dashboard-layout-subcell-horizontal-divider {
   overflow: hidden;
 }
 .acc-win .acc-inner .acc-inner-h .acc-h-subtitle .account-recoverpass-uname {
-  'SourceSansProRegular', Arial, san-serif-weight: bold;
+  font-weight: bold;
 }
 .acc-win .acc-inner .acc-body {
   height: 270px;

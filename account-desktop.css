@@ -165,27 +165,48 @@ body {
   word-break: keep-all;
   white-space: nowrap;
 }
-/* 'SourceSansProRegular', Arial, san-serifs */
-@'SourceSansProRegular', Arial, san-serif-face {
-  font-family: ''SourceSansProRegular', Arial, san-serif';
-  src: url('/resources/base/'SourceSansProRegular', Arial, san-serifs/abel-regular-web'SourceSansProRegular', Arial, san-serif.eot');
-  src: url('/resources/base/'SourceSansProRegular', Arial, san-serifs/abel-regular-web'SourceSansProRegular', Arial, san-serif.eot?#iefix') format('embedded-opentype'), url('/resources/base/'SourceSansProRegular', Arial, san-serifs/abel-regular-web'SourceSansProRegular', Arial, san-serif.woff') format('woff'), url('/resources/base/'SourceSansProRegular', Arial, san-serifs/abel-regular-web'SourceSansProRegular', Arial, san-serif.ttf') format('truetype'), url('/resources/base/'SourceSansProRegular', Arial, san-serifs/abel-regular-web'SourceSansProRegular', Arial, san-serif.svg#'SourceSansProRegular', Arial, san-serif') format('svg');
-  'SourceSansProRegular', Arial, san-serif-weight: normal;
-  'SourceSansProRegular', Arial, san-serif-style: normal;
+@font-face {
+	font-family: 'SourceSansProRegular';
+	font-style: normal;
+	font-weight: normal;
+	src: url('../../Resources/fonts/SourceSansPro-Regular-webfont.eot');
+	src: url('../../Resources/fonts/SourceSansPro-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+		url('../../Resources/fonts/SourceSansPro-Regular-webfont.woff') format('woff'),
+		url('../../Resources/fonts/SourceSansPro-Regular-webfont.ttf') format('truetype'),
+		url('../../Resources/fonts/SourceSansPro-Regular-webfont.svg#SourceSansProRegular') format('svg');
 }
-/*@'SourceSansProRegular', Arial, san-serif-face {
-  font-family: 'opensansregular';
-  src: url('/resources/base/'SourceSansProRegular', Arial, san-serifs/opensans-regular-web'SourceSansProRegular', Arial, san-serif.eot');
-  src: url('/resources/base/'SourceSansProRegular', Arial, san-serifs/opensans-regular-web'SourceSansProRegular', Arial, san-serif.eot?#iefix') format('embedded-opentype'), url('/resources/base/'SourceSansProRegular', Arial, san-serifs/opensans-regular-web'SourceSansProRegular', Arial, san-serif.woff') format('woff'), url('/resources/base/'SourceSansProRegular', Arial, san-serifs/opensans-regular-web'SourceSansProRegular', Arial, san-serif.ttf') format('truetype'), url('/resources/base/'SourceSansProRegular', Arial, san-serifs/opensans-regular-web'SourceSansProRegular', Arial, san-serif.svg#opensansregular') format('svg');
-  'SourceSansProRegular', Arial, san-serif-weight: normal;
-  'SourceSansProRegular', Arial, san-serif-style: normal;
-}*/
-@'SourceSansProRegular', Arial, san-serif-face {
-  font-family: ''SourceSansProLight'';
-  src: url('/resources/base/'SourceSansProRegular', Arial, san-serifs/ubuntu-light-web'SourceSansProRegular', Arial, san-serif.eot');
-  src: url('/resources/base/'SourceSansProRegular', Arial, san-serifs/ubuntu-light-web'SourceSansProRegular', Arial, san-serif.eot?#iefix') format('embedded-opentype'), url('/resources/base/'SourceSansProRegular', Arial, san-serifs/ubuntu-light-web'SourceSansProRegular', Arial, san-serif.woff') format('woff'), url('/resources/base/'SourceSansProRegular', Arial, san-serifs/ubuntu-light-web'SourceSansProRegular', Arial, san-serif.ttf') format('truetype'), url('/resources/base/'SourceSansProRegular', Arial, san-serifs/ubuntu-light-web'SourceSansProRegular', Arial, san-serif.svg#opensansregular') format('svg');
-  'SourceSansProRegular', Arial, san-serif-weight: normal;
-  'SourceSansProRegular', Arial, san-serif-style: normal;
+
+@font-face {
+	font-family: 'SourceSansProBold';
+	font-style: normal;
+	font-weight: normal;
+	src: url('../../Resources/fonts/SourceSansPro-Bold-webfont.eot');
+	src: url('../../Resources/fonts/SourceSansPro-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+		url('../../Resources/fonts/SourceSansPro-Bold-webfont.woff') format('woff'),
+		url('../../Resources/fonts/SourceSansPro-Bold-webfont.ttf') format('truetype'),
+		url('../../Resources/fonts/SourceSansPro-Bold-webfont.svg#SourceSansProBold') format('svg');
+}
+
+@font-face {
+	font-family: 'SourceSansProLight';
+	font-style: normal;
+	font-weight: normal;
+	src: url('../../Resources/fonts/SourceSansPro-Light-webfont.eot');
+	src: url('../../Resources/fonts/framework/font_sourcesans-proSource/SansPro-Light-webfont.eot?#iefix') format('embedded-opentype'),
+		url('../../Resources/fonts/SourceSansPro-Light-webfont.woff') format('woff'),
+		url('../../Resources/fonts/SourceSansPro-Light-webfont.ttf') format('truetype'),
+		url('../../Resources/fonts/framework/font_sourcesans-proSource/SansPro-Light-webfont.svg#SourceSansProLight') format('svg');
+}
+
+@font-face {
+	font-family: 'SourceSansProSemibold';
+	font-style: normal;
+	font-weight: normal;
+	src: url('../../Resources/fonts/SourceSansPro-Semibold-webfont.eot');
+	src: url('../../Resources/fonts/SourceSansPro-Semibold-webfont.eot?#iefix') format('embedded-opentype'),
+		url('../../Resources/fonts/SourceSansPro-Semibold-webfont.woff') format('woff'),
+		url('../../Resources/fonts/SourceSansPro-Semibold-webfont.ttf') format('truetype'),
+		url('../../Resources/fonts/SourceSansPro-Semibold-webfont.svg#SourceSansProSemibold') format('svg');
 }
 #prism-toolbar,
 #prism-leftview,
@@ -1306,7 +1327,7 @@ body {
   overflow: hidden;
 }
 .acc-win .acc-inner .acc-inner-h .acc-h-subtitle .account-recoverpass-uname {
-  'SourceSansProRegular', Arial, san-serif-weight: bold;
+  font-weight: bold;
 }
 .acc-win .acc-inner .acc-body {
   height: 235px;
@@ -1331,7 +1352,7 @@ body {
   min-height: 138px;
 }
 .acc-win .acc-inner .acc-body .acc-content .acc-con-box form {
-  'SourceSansProRegular', Arial, san-serif: inherit;
+  font-family: inherit;
   color: inherit;
 }
 .acc-win .acc-inner .acc-body .acc-content .acc-con-box .cbox-pane-row {
@@ -1457,7 +1478,7 @@ body {
   padding-bottom: 35px;
 }
 .acc-win .acc-inner .acc-body .acc-sent-u-mes .acc-sent-uname {
-  'SourceSansProRegular', Arial, san-serif-weight: bold;
+  font-weight: bold;
 }
 .acc-win .acc-inner .acc-body .acc-sent-b-mes {
   text-transform: capitalize;
@@ -1494,7 +1515,7 @@ body {
 }
 .acc-win .acc-inner .acc-body .input-box input {
   min-height: 22px;
-  'SourceSansProRegular', Arial, san-serif: inherit;
+  font-family: inherit;
   color: #2c3342 !important;
   border: none;
   width: 375px;
@@ -1580,7 +1601,7 @@ body {
   width: 100%;
   border-radius: 0 0 6px 6px;
   text-align: center;
-  'SourceSansProRegular', Arial, san-serif-weight: bold;
+  font-weight: bold;
 }
 .acc-win .accerr.error {
   color: #fb7570;
