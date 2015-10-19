@@ -7,16 +7,16 @@
 /* headers */
 .base-header {
   color: #2c3342;
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProRegular', Arial, san-serif;
+  font-family: 'SourceSansProRegular', Arial, san-serif;
   text-transform: uppercase;
   letter-spacing: 0.3px;
 }
 .subtitle {
   color: #b3b3b3;
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProRegular', Arial, san-serif;
+  font-family: 'SourceSansProRegular', Arial, san-serif;
   text-transform: capitalize;
   letter-spacing: 0.3px;
-  'SourceSansProRegular', Arial, san-serif-size: 15px;
+  font-size:: 15px;
 }
 .lomithalef-btn {
   cursor: default;
@@ -30,74 +30,74 @@
 }
 .header-xl {
   color: #2c3342;
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProRegular', Arial, san-serif;
+  font-family: 'SourceSansProRegular', Arial, san-serif;
   text-transform: uppercase;
   letter-spacing: 0.3px;
-  'SourceSansProRegular', Arial, san-serif-size: 24px;
+  font-size:: 24px;
 }
 .header-l {
   color: #2c3342;
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProRegular', Arial, san-serif;
+  font-family: 'SourceSansProRegular', Arial, san-serif;
   text-transform: uppercase;
   letter-spacing: 0.3px;
-  'SourceSansProRegular', Arial, san-serif-size: 16px;
+  font-size:: 16px;
 }
 .header-m {
   color: #2c3342;
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProRegular', Arial, san-serif;
+  font-family: 'SourceSansProRegular', Arial, san-serif;
   text-transform: uppercase;
   letter-spacing: 0.3px;
-  'SourceSansProRegular', Arial, san-serif-size: 15px;
+  font-size:: 15px;
 }
 .header-s {
   color: #2c3342;
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProRegular', Arial, san-serif;
+  font-family: 'SourceSansProRegular', Arial, san-serif;
   text-transform: uppercase;
   letter-spacing: 0.3px;
-  'SourceSansProRegular', Arial, san-serif-size: 13px;
+  font-size:: 13px;
 }
 .header-mn {
   color: #2c3342;
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProRegular', Arial, san-serif;
+  font-family: 'SourceSansProRegular', Arial, san-serif;
   text-transform: uppercase;
   letter-spacing: 0.3px;
-  'SourceSansProRegular', Arial, san-serif-size: 14px;
+  font-size:: 14px;
 }
 /* text */
 .base-txt {
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProLight';
+  font-family: 'SourceSansProLight';
   color: #272a34;
 }
 .text-xl {
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProLight';
+  font-family: 'SourceSansProLight';
   color: #272a34;
-  'SourceSansProRegular', Arial, san-serif-size: 16px;
+  font-size:: 16px;
 }
 .text-l {
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProLight';
+  font-family: 'SourceSansProLight';
   color: #272a34;
-  'SourceSansProRegular', Arial, san-serif-size: 13px;
+  font-size:: 13px;
 }
 .text-m {
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProLight';
+  font-family: 'SourceSansProLight';
   color: #272a34;
-  'SourceSansProRegular', Arial, san-serif-size: 12.5px;
+  font-size:: 12.5px;
 }
 .text-s {
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProLight';
+  font-family: 'SourceSansProLight';
   color: #272a34;
-  'SourceSansProRegular', Arial, san-serif-size: 12px;
+  font-size:: 12px;
 }
 .text-xs {
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProLight';
+  font-family: 'SourceSansProLight';
   color: #272a34;
-  'SourceSansProRegular', Arial, san-serif-size: 11px;
+  font-size:: 11px;
 }
 /* dom common */
 body {
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProLight';
+  font-family: 'SourceSansProLight';
   color: #272a34;
-  'SourceSansProRegular', Arial, san-serif-size: 12.5px;
+  font-size:: 12.5px;
   cursor: default;
 }
 ::-webkit-input-placeholder {
@@ -205,21 +205,21 @@ body {
 }
 /* 'SourceSansProRegular', Arial, san-serifs */
 @'SourceSansProRegular', Arial, san-serif-face {
-  'SourceSansProRegular', Arial, san-serif-family: ''SourceSansProRegular', Arial, san-serif';
+  font-family: ''SourceSansProRegular', Arial, san-serif';
   src: url('/resources/base/'SourceSansProRegular', Arial, san-serifs/abel-regular-web'SourceSansProRegular', Arial, san-serif.eot');
   src: url('/resources/base/'SourceSansProRegular', Arial, san-serifs/abel-regular-web'SourceSansProRegular', Arial, san-serif.eot?#iefix') format('embedded-opentype'), url('/resources/base/'SourceSansProRegular', Arial, san-serifs/abel-regular-web'SourceSansProRegular', Arial, san-serif.woff') format('woff'), url('/resources/base/'SourceSansProRegular', Arial, san-serifs/abel-regular-web'SourceSansProRegular', Arial, san-serif.ttf') format('truetype'), url('/resources/base/'SourceSansProRegular', Arial, san-serifs/abel-regular-web'SourceSansProRegular', Arial, san-serif.svg#'SourceSansProRegular', Arial, san-serif') format('svg');
   'SourceSansProRegular', Arial, san-serif-weight: normal;
   'SourceSansProRegular', Arial, san-serif-style: normal;
 }
 /*@'SourceSansProRegular', Arial, san-serif-face {
-  'SourceSansProRegular', Arial, san-serif-family: 'opensansregular';
+  font-family: 'opensansregular';
   src: url('/resources/base/'SourceSansProRegular', Arial, san-serifs/opensans-regular-web'SourceSansProRegular', Arial, san-serif.eot');
   src: url('/resources/base/'SourceSansProRegular', Arial, san-serifs/opensans-regular-web'SourceSansProRegular', Arial, san-serif.eot?#iefix') format('embedded-opentype'), url('/resources/base/'SourceSansProRegular', Arial, san-serifs/opensans-regular-web'SourceSansProRegular', Arial, san-serif.woff') format('woff'), url('/resources/base/'SourceSansProRegular', Arial, san-serifs/opensans-regular-web'SourceSansProRegular', Arial, san-serif.ttf') format('truetype'), url('/resources/base/'SourceSansProRegular', Arial, san-serifs/opensans-regular-web'SourceSansProRegular', Arial, san-serif.svg#opensansregular') format('svg');
   'SourceSansProRegular', Arial, san-serif-weight: normal;
   'SourceSansProRegular', Arial, san-serif-style: normal;
 }*/
 @'SourceSansProRegular', Arial, san-serif-face {
-  'SourceSansProRegular', Arial, san-serif-family: ''SourceSansProLight'';
+  font-family: ''SourceSansProLight'';
   src: url('/resources/base/'SourceSansProRegular', Arial, san-serifs/ubuntu-light-web'SourceSansProRegular', Arial, san-serif.eot');
   src: url('/resources/base/'SourceSansProRegular', Arial, san-serifs/ubuntu-light-web'SourceSansProRegular', Arial, san-serif.eot?#iefix') format('embedded-opentype'), url('/resources/base/'SourceSansProRegular', Arial, san-serifs/ubuntu-light-web'SourceSansProRegular', Arial, san-serif.woff') format('woff'), url('/resources/base/'SourceSansProRegular', Arial, san-serifs/ubuntu-light-web'SourceSansProRegular', Arial, san-serif.ttf') format('truetype'), url('/resources/base/'SourceSansProRegular', Arial, san-serifs/ubuntu-light-web'SourceSansProRegular', Arial, san-serif.svg#opensansregular') format('svg');
   'SourceSansProRegular', Arial, san-serif-weight: normal;
@@ -303,8 +303,8 @@ video {
   margin: 0;
   padding: 0;
   border: 0;
-  'SourceSansProRegular', Arial, san-serif-size: 9pt;
-  'SourceSansProRegular', Arial, san-serif-family: Tahoma, Geneva, sans-serif;
+  font-size:: 9pt;
+  font-family: Tahoma, Geneva, sans-serif;
   vertical-align: baseline;
   outline: none;
 }
@@ -437,7 +437,7 @@ select {
   outline: 0;
   line-height: 1.3;
   text-decoration: none;
-  'SourceSansProRegular', Arial, san-serif-size: 100%;
+  font-size:: 100%;
   list-style: none;
 }
 .ui-helper-clearfix:before,
@@ -503,7 +503,7 @@ select {
 .ui-slider .ui-slider-range {
   position: absolute;
   z-index: 1;
-  'SourceSansProRegular', Arial, san-serif-size: .7em;
+  font-size:: .7em;
   display: block;
   border: 0;
   background-position: 0 0;
@@ -552,18 +552,18 @@ select {
 /* Component containers
 ----------------------------------*/
 .ui-widget {
-  'SourceSansProRegular', Arial, san-serif-family: Trebuchet MS, Tahoma, Verdana, Arial, sans-serif;
-  'SourceSansProRegular', Arial, san-serif-size: 1.1em;
+  font-family: Trebuchet MS, Tahoma, Verdana, Arial, sans-serif;
+  font-size:: 1.1em;
 }
 .ui-widget .ui-widget {
-  'SourceSansProRegular', Arial, san-serif-size: 1em;
+  font-size:: 1em;
 }
 .ui-widget input,
 .ui-widget select,
 .ui-widget textarea,
 .ui-widget button {
-  'SourceSansProRegular', Arial, san-serif-family: Trebuchet MS, Tahoma, Verdana, Arial, sans-serif;
-  'SourceSansProRegular', Arial, san-serif-size: 1em;
+  font-family: Trebuchet MS, Tahoma, Verdana, Arial, sans-serif;
+  font-size:: 1em;
 }
 .ui-widget-content {
   border: 1px solid #dddddd;
@@ -752,7 +752,7 @@ select {
   outline: 0;
   line-height: 1.3;
   text-decoration: none;
-  'SourceSansProRegular', Arial, san-serif-size: 100%;
+  font-size:: 100%;
   list-style: none;
 }
 .ui-helper-clearfix:before,
@@ -809,7 +809,7 @@ select {
 }
 .ui-resizable-handle {
   position: absolute;
-  'SourceSansProRegular', Arial, san-serif-size: 0.1px;
+  font-size:: 0.1px;
   display: block;
 }
 .ui-resizable-disabled .ui-resizable-handle,
@@ -1060,7 +1060,7 @@ button.ui-button::-moz-focus-inner {
   text-align: center;
 }
 .ui-datepicker .ui-datepicker-title select {
-  'SourceSansProRegular', Arial, san-serif-size: 1em;
+  font-size:: 1em;
   margin: 1px 0;
 }
 .ui-datepicker select.ui-datepicker-month-year {
@@ -1072,7 +1072,7 @@ button.ui-button::-moz-focus-inner {
 }
 .ui-datepicker table {
   width: 100%;
-  'SourceSansProRegular', Arial, san-serif-size: .9em;
+  font-size:: .9em;
   border-collapse: collapse;
   margin: 0 0 .4em;
 }
@@ -1142,7 +1142,7 @@ button.ui-button::-moz-focus-inner {
 .ui-datepicker-row-break {
   clear: both;
   width: 100%;
-  'SourceSansProRegular', Arial, san-serif-size: 0;
+  font-size:: 0;
 }
 /* RTL support */
 .ui-datepicker-rtl {
@@ -1259,7 +1259,7 @@ button.ui-button::-moz-focus-inner {
 .ui-menu .ui-menu-divider {
   margin: 5px -2px 5px -2px;
   height: 0;
-  'SourceSansProRegular', Arial, san-serif-size: 0;
+  font-size:: 0;
   line-height: 0;
   border-width: 1px 0 0 0;
 }
@@ -1336,7 +1336,7 @@ button.ui-button::-moz-focus-inner {
 .ui-slider .ui-slider-range {
   position: absolute;
   z-index: 1;
-  'SourceSansProRegular', Arial, san-serif-size: .7em;
+  font-size:: .7em;
   display: block;
   border: 0;
   background-position: 0 0;
@@ -1402,7 +1402,7 @@ button.ui-button::-moz-focus-inner {
 .ui-spinner-button {
   width: 16px;
   height: 50%;
-  'SourceSansProRegular', Arial, san-serif-size: .5em;
+  font-size:: .5em;
   padding: 0;
   margin: 0;
   text-align: center;
@@ -1493,18 +1493,18 @@ body .ui-tooltip {
 /* Component containers
 ----------------------------------*/
 .ui-widget {
-  'SourceSansProRegular', Arial, san-serif-family: Trebuchet MS, Tahoma, Verdana, Arial, sans-serif;
-  'SourceSansProRegular', Arial, san-serif-size: 1.1em;
+  font-family: Trebuchet MS, Tahoma, Verdana, Arial, sans-serif;
+  font-size:: 1.1em;
 }
 .ui-widget .ui-widget {
-  'SourceSansProRegular', Arial, san-serif-size: 1em;
+  font-size:: 1em;
 }
 .ui-widget input,
 .ui-widget select,
 .ui-widget textarea,
 .ui-widget button {
-  'SourceSansProRegular', Arial, san-serif-family: Trebuchet MS, Tahoma, Verdana, Arial, sans-serif;
-  'SourceSansProRegular', Arial, san-serif-size: 1em;
+  font-family: Trebuchet MS, Tahoma, Verdana, Arial, sans-serif;
+  font-size:: 1em;
 }
 .ui-widget-content {
   border: 1px solid #dddddd;
@@ -2414,9 +2414,9 @@ body .ui-tooltip {
 }
 .autocomplete-host .autocomplete-input.bigInput {
   width: 100%;
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProLight';
+  font-family: 'SourceSansProLight';
   color: #272a34;
-  'SourceSansProRegular', Arial, san-serif-size: 13px;
+  font-size:: 13px;
 }
 .autocomplete-host .search-icon {
   background: url('/resources/ux-controls/images/magnify_16.png') no-repeat;
@@ -2513,9 +2513,9 @@ body .ui-tooltip {
 }
 .autocomplete-host .autocomplete-float-box .autocomplete-item .floating-disabled-msg {
   display: none;
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProLight';
+  font-family: 'SourceSansProLight';
   color: #272a34;
-  'SourceSansProRegular', Arial, san-serif-size: 13px;
+  font-size:: 13px;
   color: #b3b3b3;
   position: absolute;
   top: 13px;
@@ -2525,11 +2525,11 @@ body .ui-tooltip {
   float: left;
   margin-left: 6px;
   color: #2c3342;
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProRegular', Arial, san-serif;
+  font-family: 'SourceSansProRegular', Arial, san-serif;
   text-transform: uppercase;
   letter-spacing: 0.3px;
-  'SourceSansProRegular', Arial, san-serif-size: 24px;
-  'SourceSansProRegular', Arial, san-serif-size: 29px;
+  font-size:: 24px;
+  font-size:: 29px;
   width: 30px;
   display: inline-block;
   text-align: center;
@@ -2572,9 +2572,9 @@ body .ui-tooltip {
   width: calc(100% - 86px);
 }
 .autocomplete-host .autocomplete-float-box .autocomplete-item .item-details .title-text {
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProLight';
+  font-family: 'SourceSansProLight';
   color: #272a34;
-  'SourceSansProRegular', Arial, san-serif-size: 13px;
+  font-size:: 13px;
   text-transform: capitalize;
   'SourceSansProRegular', Arial, san-serif-weight: bold;
   max-width: 100%;
@@ -2591,9 +2591,9 @@ body .ui-tooltip {
   text-transform: none;
 }
 .autocomplete-host .autocomplete-float-box .autocomplete-item .item-details .sub-title-text {
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProLight';
+  font-family: 'SourceSansProLight';
   color: #272a34;
-  'SourceSansProRegular', Arial, san-serif-size: 13px;
+  font-size:: 13px;
   color: #999999;
   max-width: 100%;
   word-wrap: normal;
@@ -2677,9 +2677,9 @@ body .ui-tooltip {
 }
 .autocomplete-host .no-parties .autocomplete-item .floating-disabled-msg {
   display: none;
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProLight';
+  font-family: 'SourceSansProLight';
   color: #272a34;
-  'SourceSansProRegular', Arial, san-serif-size: 13px;
+  font-size:: 13px;
   color: #b3b3b3;
   position: absolute;
   top: 13px;
@@ -2689,11 +2689,11 @@ body .ui-tooltip {
   float: left;
   margin-left: 6px;
   color: #2c3342;
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProRegular', Arial, san-serif;
+  font-family: 'SourceSansProRegular', Arial, san-serif;
   text-transform: uppercase;
   letter-spacing: 0.3px;
-  'SourceSansProRegular', Arial, san-serif-size: 24px;
-  'SourceSansProRegular', Arial, san-serif-size: 29px;
+  font-size:: 24px;
+  font-size:: 29px;
   width: 30px;
   display: inline-block;
   text-align: center;
@@ -2736,9 +2736,9 @@ body .ui-tooltip {
   width: calc(100% - 86px);
 }
 .autocomplete-host .no-parties .autocomplete-item .item-details .title-text {
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProLight';
+  font-family: 'SourceSansProLight';
   color: #272a34;
-  'SourceSansProRegular', Arial, san-serif-size: 13px;
+  font-size:: 13px;
   text-transform: capitalize;
   'SourceSansProRegular', Arial, san-serif-weight: bold;
   max-width: 100%;
@@ -2755,9 +2755,9 @@ body .ui-tooltip {
   text-transform: none;
 }
 .autocomplete-host .no-parties .autocomplete-item .item-details .sub-title-text {
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProLight';
+  font-family: 'SourceSansProLight';
   color: #272a34;
-  'SourceSansProRegular', Arial, san-serif-size: 13px;
+  font-size:: 13px;
   color: #999999;
   max-width: 100%;
   word-wrap: normal;
@@ -2945,8 +2945,8 @@ body .ui-tooltip {
   outline: none;
   background: transparent;
   color: #979797;
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProLight';
-  'SourceSansProRegular', Arial, san-serif-size: 13px;
+  font-family: 'SourceSansProLight';
+  font-size:: 13px;
 }
 .bc-rename-container .bc-rename-actions {
   position: absolute;
@@ -3188,9 +3188,9 @@ body .ui-tooltip {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProLight';
+  font-family: 'SourceSansProLight';
   color: #272a34;
-  'SourceSansProRegular', Arial, san-serif-size: 13px;
+  font-size:: 13px;
   color: #979797;
   height: 24px;
   line-height: 24px;
@@ -3468,8 +3468,8 @@ body .ui-tooltip {
   text-align: center;
   color: white !important;
   display: inline-block;
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProRegular', Arial, san-serif !important;
-  'SourceSansProRegular', Arial, san-serif-size: 16px !important;
+  font-family: 'SourceSansProRegular', Arial, san-serif !important;
+  font-size:: 16px !important;
   margin-left: 8px;
   cursor: pointer;
 }
@@ -3504,8 +3504,8 @@ body .ui-tooltip {
   color: #808080;
   margin-left: 4px;
   margin-top: 3px;
-  'SourceSansProRegular', Arial, san-serif-size: 15px;
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProLight';
+  font-size:: 15px;
+  font-family: 'SourceSansProLight';
   text-transform: lowercase;
 }
 .prism-btn-round-reset:hover:not(.disabled) {
@@ -3564,10 +3564,10 @@ body .ui-tooltip {
   cursor: pointer;
   white-space: nowrap;
   text-transform: uppercase;
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProRegular', Arial, san-serif, 'Trebuchet MS', Tahoma, Verdana, Arial, sans-serif;
+  font-family: 'SourceSansProRegular', Arial, san-serif, 'Trebuchet MS', Tahoma, Verdana, Arial, sans-serif;
   padding: 4px 15px;
   height: auto;
-  'SourceSansProRegular', Arial, san-serif-size: 13px;
+  font-size:: 13px;
   'SourceSansProRegular', Arial, san-serif-weight: 400;
   -webkit-box-shadow: 0px 1px 4px 0px rgba(96, 96, 96, 0.15);
   -moz-box-shadow: 0px 1px 4px 0px rgba(96, 96, 96, 0.15);
@@ -3674,10 +3674,10 @@ body .ui-tooltip {
   cursor: pointer;
   white-space: nowrap;
   text-transform: uppercase;
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProRegular', Arial, san-serif, 'Trebuchet MS', Tahoma, Verdana, Arial, sans-serif;
+  font-family: 'SourceSansProRegular', Arial, san-serif, 'Trebuchet MS', Tahoma, Verdana, Arial, sans-serif;
   padding: 4px 15px;
   height: auto;
-  'SourceSansProRegular', Arial, san-serif-size: 13px;
+  font-size:: 13px;
   'SourceSansProRegular', Arial, san-serif-weight: 400;
   -webkit-box-shadow: 0px 1px 4px 0px rgba(96, 96, 96, 0.15);
   -moz-box-shadow: 0px 1px 4px 0px rgba(96, 96, 96, 0.15);
@@ -3783,10 +3783,10 @@ body .ui-tooltip {
   cursor: pointer;
   white-space: nowrap;
   text-transform: uppercase;
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProRegular', Arial, san-serif, 'Trebuchet MS', Tahoma, Verdana, Arial, sans-serif;
+  font-family: 'SourceSansProRegular', Arial, san-serif, 'Trebuchet MS', Tahoma, Verdana, Arial, sans-serif;
   padding: 4px 15px;
   height: auto;
-  'SourceSansProRegular', Arial, san-serif-size: 13px;
+  font-size:: 13px;
   'SourceSansProRegular', Arial, san-serif-weight: 400;
   -webkit-box-shadow: 0px 1px 4px 0px rgba(96, 96, 96, 0.15);
   -moz-box-shadow: 0px 1px 4px 0px rgba(96, 96, 96, 0.15);
@@ -3892,10 +3892,10 @@ body .ui-tooltip {
   cursor: pointer;
   white-space: nowrap;
   text-transform: uppercase;
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProRegular', Arial, san-serif, 'Trebuchet MS', Tahoma, Verdana, Arial, sans-serif;
+  font-family: 'SourceSansProRegular', Arial, san-serif, 'Trebuchet MS', Tahoma, Verdana, Arial, sans-serif;
   padding: 4px 15px;
   height: auto;
-  'SourceSansProRegular', Arial, san-serif-size: 13px;
+  font-size:: 13px;
   'SourceSansProRegular', Arial, san-serif-weight: 400;
   -webkit-box-shadow: 0px 1px 4px 0px rgba(96, 96, 96, 0.15);
   -moz-box-shadow: 0px 1px 4px 0px rgba(96, 96, 96, 0.15);
@@ -3993,10 +3993,10 @@ body .ui-tooltip {
   cursor: default;
   outline: none;
   color: #2c3342;
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProRegular', Arial, san-serif;
+  font-family: 'SourceSansProRegular', Arial, san-serif;
   text-transform: uppercase;
   letter-spacing: 0.3px;
-  'SourceSansProRegular', Arial, san-serif-size: 14px;
+  font-size:: 14px;
   cursor: pointer;
   color: #ffffff;
 }
@@ -4074,9 +4074,9 @@ body .ui-tooltip {
   transition: opacity 400ms ease-out;
 }
 .confirm-host .conf-message {
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProLight';
+  font-family: 'SourceSansProLight';
   color: #272a34;
-  'SourceSansProRegular', Arial, san-serif-size: 12.5px;
+  font-size:: 12.5px;
   color: #2c3342;
   line-height: 19px;
   max-width: 230px;
@@ -4090,7 +4090,7 @@ body .ui-tooltip {
 .confirm-host .conf-btns-host button {
   width: 95px;
   height: 100%;
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProRegular', Arial, san-serif;
+  font-family: 'SourceSansProRegular', Arial, san-serif;
   border-width: 1px;
   border-style: solid;
   text-transform: uppercase;
@@ -4602,10 +4602,10 @@ body .ui-tooltip {
 .chk-onoff-text .on-text,
 .chk-onoff-text .off-text {
   color: #2c3342;
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProRegular', Arial, san-serif;
+  font-family: 'SourceSansProRegular', Arial, san-serif;
   text-transform: uppercase;
   letter-spacing: 0.3px;
-  'SourceSansProRegular', Arial, san-serif-size: 15px;
+  font-size:: 15px;
   color: #e6e6e6;
   display: inline-block;
   -webkit-transition: color 250ms ease;
@@ -4678,10 +4678,10 @@ body .ui-tooltip {
 }
 .transput-holder .transput-caption {
   color: #2c3342;
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProRegular', Arial, san-serif;
+  font-family: 'SourceSansProRegular', Arial, san-serif;
   text-transform: uppercase;
   letter-spacing: 0.3px;
-  'SourceSansProRegular', Arial, san-serif-size: 24px;
+  font-size:: 24px;
   float: left;
   display: inline-block;
   text-transform: none;
@@ -4694,11 +4694,11 @@ body .ui-tooltip {
 }
 .transput-holder .transput-caption.small {
   color: #2c3342;
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProRegular', Arial, san-serif;
+  font-family: 'SourceSansProRegular', Arial, san-serif;
   text-transform: uppercase;
   letter-spacing: 0.3px;
-  'SourceSansProRegular', Arial, san-serif-size: 13px;
-  'SourceSansProRegular', Arial, san-serif-size: 16px;
+  font-size:: 13px;
+  font-size:: 16px;
   margin: 0px;
   text-transform: none;
   width: 100%;
@@ -4726,19 +4726,19 @@ body .ui-tooltip {
   outline: 0;
   width: 5px;
   color: #2c3342;
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProRegular', Arial, san-serif;
+  font-family: 'SourceSansProRegular', Arial, san-serif;
   text-transform: uppercase;
   letter-spacing: 0.3px;
-  'SourceSansProRegular', Arial, san-serif-size: 24px;
+  font-size:: 24px;
   text-transform: none;
 }
 .transput-holder .transput-input.small {
   color: #2c3342;
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProRegular', Arial, san-serif;
+  font-family: 'SourceSansProRegular', Arial, san-serif;
   text-transform: uppercase;
   letter-spacing: 0.3px;
-  'SourceSansProRegular', Arial, san-serif-size: 13px;
-  'SourceSansProRegular', Arial, san-serif-size: 16px;
+  font-size:: 13px;
+  font-size:: 16px;
   margin: 0px;
   text-transform: none;
   width: 100%;
@@ -4777,9 +4777,9 @@ body .ui-tooltip {
   position: relative;
 }
 .search-box-holder .search-box-input {
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProLight';
+  font-family: 'SourceSansProLight';
   color: #272a34;
-  'SourceSansProRegular', Arial, san-serif-size: 13px;
+  font-size:: 13px;
   border: none;
   outline: none;
   color: #2c3342;
@@ -4830,9 +4830,9 @@ body .ui-tooltip {
 .cbox-pane-row .pane-caption {
   float: left;
   margin: 4px 0px 0px 4px;
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProLight';
+  font-family: 'SourceSansProLight';
   color: #272a34;
-  'SourceSansProRegular', Arial, san-serif-size: 12.5px;
+  font-size:: 12.5px;
   color: #56535b;
 }
 .cbox-pane-row .generic-pane-selected .pane-caption {
@@ -4889,8 +4889,8 @@ body .ui-tooltip {
   display: inline-block;
   /*  border: 1px solid #BDBDC2;
   border-radius: 5px;*/
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProLight';
-  'SourceSansProRegular', Arial, san-serif-size: 12px;
+  font-family: 'SourceSansProLight';
+  font-size:: 12px;
   position: relative;
   -webkit-touch-callout: none;
   -webkit-user-select: none;
@@ -5014,7 +5014,7 @@ body .ui-tooltip {
   margin: 5px 0px 5px 0px;
 }
 .dp-container .dp-head * {
-  'SourceSansProRegular', Arial, san-serif-size: 13px !important;
+  font-size:: 13px !important;
 }
 .dp-container .dp-head .dp-head-month {
   color: #2c3342;
@@ -5231,8 +5231,8 @@ body .ui-tooltip {
   border: none;
   outline: none;
   background: transparent;
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProLight';
-  'SourceSansProRegular', Arial, san-serif-size: 13px;
+  font-family: 'SourceSansProLight';
+  font-size:: 13px;
   min-width: 1px;
   width: calc(100% - 74px);
 }
@@ -5396,10 +5396,10 @@ body .ui-tooltip {
 }
 .users-groups-grid .grid-del-txt {
   color: #2c3342;
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProRegular', Arial, san-serif;
+  font-family: 'SourceSansProRegular', Arial, san-serif;
   text-transform: uppercase;
   letter-spacing: 0.3px;
-  'SourceSansProRegular', Arial, san-serif-size: 13px;
+  font-size:: 13px;
   height: 25px;
   width: 54px;
   color: #ffffff;
@@ -5525,9 +5525,9 @@ body .ui-tooltip {
   background-color: #ffffff;
 }
 .users-groups-grid .ngHeaderText {
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProLight';
+  font-family: 'SourceSansProLight';
   color: #272a34;
-  'SourceSansProRegular', Arial, san-serif-size: 13px;
+  font-size:: 13px;
   color: #2c3342;
   padding-left: 17px;
   padding-top: 10px;
@@ -5572,8 +5572,8 @@ body .ui-tooltip {
 }
 .users-groups-grid .set-pager-container div {
   margin: 4px 10px 4px 10px;
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProLight';
-  'SourceSansProRegular', Arial, san-serif-size: 13px;
+  font-family: 'SourceSansProLight';
+  font-size:: 13px;
 }
 .users-groups-grid .set-pager-container ul {
   float: left;
@@ -5590,8 +5590,8 @@ body .ui-tooltip {
   vertical-align: middle;
 }
 .users-groups-grid .set-pager-container ul li a {
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProLight';
-  'SourceSansProRegular', Arial, san-serif-size: 13px;
+  font-family: 'SourceSansProLight';
+  font-size:: 13px;
 }
 .users-groups-grid .set-pager-container ul li.pager-link,
 .users-groups-grid .set-pager-container ul li .pager-link {
@@ -5651,12 +5651,12 @@ body .ui-tooltip {
 }
 .no-results {
   color: #2c3342;
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProRegular', Arial, san-serif;
+  font-family: 'SourceSansProRegular', Arial, san-serif;
   text-transform: uppercase;
   letter-spacing: 0.3px;
   position: absolute;
   top: 20%;
-  'SourceSansProRegular', Arial, san-serif-size: 52px;
+  font-size:: 52px;
   opacity: 0;
   color: #b8b8b8;
   width: 100%;
@@ -5677,7 +5677,7 @@ body .ui-tooltip {
 .no-results .no-results-subtitle {
   width: 100%;
   text-align: center;
-  'SourceSansProRegular', Arial, san-serif-size: 15px;
+  font-size:: 15px;
 }
 .group-icon {
   width: 22px;
@@ -5688,11 +5688,11 @@ body .ui-tooltip {
 .group-icon .lt-line-bx {
   display: inline-block;
   color: #2c3342;
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProRegular', Arial, san-serif;
+  font-family: 'SourceSansProRegular', Arial, san-serif;
   text-transform: uppercase;
   letter-spacing: 0.3px;
-  'SourceSansProRegular', Arial, san-serif-size: 13px;
-  'SourceSansProRegular', Arial, san-serif-size: 14px;
+  font-size:: 13px;
+  font-size:: 14px;
   float: left;
   line-height: 14px;
 }
@@ -5736,9 +5736,9 @@ body .ui-tooltip {
   user-select: none;
 }
 .menu-host .menu-item-host .menu-content {
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProLight';
+  font-family: 'SourceSansProLight';
   color: #272a34;
-  'SourceSansProRegular', Arial, san-serif-size: 12px;
+  font-size:: 12px;
   color: #2c3342;
   width: 170px;
   min-width: 170px;
@@ -5760,9 +5760,9 @@ body .ui-tooltip {
   height: 28px;
 }
 .menu-host .menu-item-host.large .menu-content {
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProLight';
+  font-family: 'SourceSansProLight';
   color: #272a34;
-  'SourceSansProRegular', Arial, san-serif-size: 12px;
+  font-size:: 12px;
   color: #2c3342;
   width: 215px;
   min-width: 215px;
@@ -5784,9 +5784,9 @@ body .ui-tooltip {
   height: 28px;
 }
 .menu-host .menu-item-host.xlarge .menu-content {
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProLight';
+  font-family: 'SourceSansProLight';
   color: #272a34;
-  'SourceSansProRegular', Arial, san-serif-size: 12px;
+  font-size:: 12px;
   color: #2c3342;
   width: 235px;
   min-width: 235px;
@@ -5808,9 +5808,9 @@ body .ui-tooltip {
   height: 28px;
 }
 .menu-host .menu-item-host.xxlarge .menu-content {
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProLight';
+  font-family: 'SourceSansProLight';
   color: #272a34;
-  'SourceSansProRegular', Arial, san-serif-size: 12px;
+  font-size:: 12px;
   color: #2c3342;
   width: 255px;
   min-width: 255px;
@@ -5832,9 +5832,9 @@ body .ui-tooltip {
   height: 28px;
 }
 .menu-host .menu-item-host.mini .menu-content {
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProLight';
+  font-family: 'SourceSansProLight';
   color: #272a34;
-  'SourceSansProRegular', Arial, san-serif-size: 11px;
+  font-size:: 11px;
   color: #2c3342;
   width: 160px;
   min-width: 160px;
@@ -6098,10 +6098,10 @@ body .ui-tooltip {
 }
 .toolbar-menu .item-holder {
   color: #2c3342;
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProRegular', Arial, san-serif;
+  font-family: 'SourceSansProRegular', Arial, san-serif;
   text-transform: uppercase;
   letter-spacing: 0.3px;
-  'SourceSansProRegular', Arial, san-serif-size: 16px;
+  font-size:: 16px;
   width: 100%;
   border-bottom: 1px solid #ffffff;
   cursor: pointer;
@@ -6112,7 +6112,7 @@ body .ui-tooltip {
   border-bottom: none;
 }
 .toolbar-menu .item-holder .item-text {
-  'SourceSansProRegular', Arial, san-serif-size: 16px;
+  font-size:: 16px;
   display: inline-block;
   margin-left: 14px;
   margin-top: 14px;
@@ -6134,10 +6134,10 @@ body .ui-tooltip {
 }
 .settings-modal .set-modal-title .title-text {
   color: #2c3342;
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProRegular', Arial, san-serif;
+  font-family: 'SourceSansProRegular', Arial, san-serif;
   text-transform: uppercase;
   letter-spacing: 0.3px;
-  'SourceSansProRegular', Arial, san-serif-size: 24px;
+  font-size:: 24px;
   text-transform: none;
   display: inline-block;
   margin-top: 3px;
@@ -6156,17 +6156,17 @@ body .ui-tooltip {
   position: relative;
 }
 .settings-modal .input-box .lbl {
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProLight';
+  font-family: 'SourceSansProLight';
   color: #272a34;
-  'SourceSansProRegular', Arial, san-serif-size: 13px;
+  font-size:: 13px;
   display: inline-block;
   color: #808080;
   vertical-align: middle;
 }
 .settings-modal .input-box input {
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProLight';
+  font-family: 'SourceSansProLight';
   color: #272a34;
-  'SourceSansProRegular', Arial, san-serif-size: 13px;
+  font-size:: 13px;
   color: #56535b;
   min-height: 22px;
   height: 26px;
@@ -6213,9 +6213,9 @@ body .ui-tooltip {
   position: absolute;
 }
 .settings-modal .input-box .no-res {
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProLight';
+  font-family: 'SourceSansProLight';
   color: #272a34;
-  'SourceSansProRegular', Arial, san-serif-size: 13px;
+  font-size:: 13px;
   display: inline-block;
   color: #999999;
   position: absolute;
@@ -6224,9 +6224,9 @@ body .ui-tooltip {
   width: 100%;
 }
 .settings-modal .roles-box .lbl {
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProLight';
+  font-family: 'SourceSansProLight';
   color: #272a34;
-  'SourceSansProRegular', Arial, san-serif-size: 13px;
+  font-size:: 13px;
   display: inline-block;
   color: #808080;
   vertical-align: middle;
@@ -6280,10 +6280,10 @@ body .ui-tooltip {
   float: right;
   height: 36px;
   color: #2c3342;
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProRegular', Arial, san-serif;
+  font-family: 'SourceSansProRegular', Arial, san-serif;
   text-transform: uppercase;
   letter-spacing: 0.3px;
-  'SourceSansProRegular', Arial, san-serif-size: 15px;
+  font-size:: 15px;
   cursor: pointer;
   border: none;
   outline: none;
@@ -6481,9 +6481,9 @@ body .ui-tooltip {
   padding: 0px 7px;
   height: 25px;
   line-height: 25px;
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProLight';
+  font-family: 'SourceSansProLight';
   color: #272a34;
-  'SourceSansProRegular', Arial, san-serif-size: 12.5px;
+  font-size:: 12.5px;
 }
 .uc-spinner-host.white-spinner .uc-spinner-navs {
   /*top: 3px;
@@ -6609,10 +6609,10 @@ body .ui-tooltip {
 .po-open,
 .po-hide {
   color: #2c3342;
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProRegular', Arial, san-serif;
+  font-family: 'SourceSansProRegular', Arial, san-serif;
   text-transform: uppercase;
   letter-spacing: 0.3px;
-  'SourceSansProRegular', Arial, san-serif-size: 14px;
+  font-size:: 14px;
   position: absolute;
   height: 32px;
   width: 0;
@@ -6793,9 +6793,9 @@ body .ui-tooltip {
   background: transparent;
 }
 .input-wrapper label {
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProLight';
+  font-family: 'SourceSansProLight';
   color: #272a34;
-  'SourceSansProRegular', Arial, san-serif-size: 13px;
+  font-size:: 13px;
   position: absolute;
   color: #b3b3b3;
 }
@@ -7041,10 +7041,10 @@ body .ui-tooltip {
 }
 .popup-header {
   display: inline-block;
-  'SourceSansProRegular', Arial, san-serif-size: 17px;
+  font-size:: 17px;
   text-transform: uppercase;
   color: #636467;
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProRegular', Arial, san-serif;
+  font-family: 'SourceSansProRegular', Arial, san-serif;
 }
 .popup-buttons {
   margin-top: 14px;
@@ -7151,7 +7151,7 @@ body .ui-tooltip {
   -ms-user-select: none;
   user-select: none;
   display: inline-block;
-  'SourceSansProRegular', Arial, san-serif-size: 12px;
+  font-size:: 12px;
   color: #2C3342;
   cursor: pointer;
   width: 140px;
@@ -7197,7 +7197,7 @@ body .ui-tooltip {
   -ms-user-select: none;
   user-select: none;
   min-width: 130px;
-  'SourceSansProRegular', Arial, san-serif-size: 12px;
+  font-size:: 12px;
 }
 .qsc-combo-host .qsc-combo-content {
   overflow-x: hidden;
@@ -7393,10 +7393,10 @@ body {
 }
 .settings-toolbar .tbar-title {
   color: #2c3342;
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProRegular', Arial, san-serif;
+  font-family: 'SourceSansProRegular', Arial, san-serif;
   text-transform: uppercase;
   letter-spacing: 0.3px;
-  'SourceSansProRegular', Arial, san-serif-size: 24px;
+  font-size:: 24px;
   display: inline-block;
   border-width: 0px 3px 0px 0px;
   border-color: #ffffff;
@@ -7406,10 +7406,10 @@ body {
 }
 .settings-toolbar .tbar-subtitle {
   color: #2c3342;
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProRegular', Arial, san-serif;
+  font-family: 'SourceSansProRegular', Arial, san-serif;
   text-transform: uppercase;
   letter-spacing: 0.3px;
-  'SourceSansProRegular', Arial, san-serif-size: 24px;
+  font-size:: 24px;
   display: inline-block;
   margin-left: 15px;
   vertical-align: middle;
@@ -7439,10 +7439,10 @@ body {
   vertical-align: middle;
   display: inline-block;
   color: #2c3342;
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProRegular', Arial, san-serif;
+  font-family: 'SourceSansProRegular', Arial, san-serif;
   text-transform: uppercase;
   letter-spacing: 0.3px;
-  'SourceSansProRegular', Arial, san-serif-size: 16px;
+  font-size:: 16px;
 }
 .settings-toolbar .btn-box .toolbar-btn .btn-icon {
   display: inline-block;
@@ -7530,7 +7530,7 @@ body {
 .tipper-host.ttip-info .tipper-content {
   max-width: 280px;
   line-height: 18px;
-  'SourceSansProRegular', Arial, san-serif-size: 12px;
+  font-size:: 12px;
   margin: 5px 8px;
 }
 .tipper-host.hint-dpi {
@@ -7547,16 +7547,16 @@ body {
 }
 .tipper-host.hint-dpi .ih-host .ih .ih-header {
   color: #2c3342;
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProRegular', Arial, san-serif;
+  font-family: 'SourceSansProRegular', Arial, san-serif;
   text-transform: uppercase;
   letter-spacing: 0.3px;
-  'SourceSansProRegular', Arial, san-serif-size: 15px;
+  font-size:: 15px;
   text-transform: capitalize;
 }
 .tipper-host.hint-dpi .ih-host .ih .ih-text {
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProLight';
+  font-family: 'SourceSansProLight';
   color: #272a34;
-  'SourceSansProRegular', Arial, san-serif-size: 11px;
+  font-size:: 11px;
   color: #008eb9;
   margin-top: 0;
   max-width: 190px;
@@ -7670,8 +7670,8 @@ body {
 }
 .update-ball .update-caption {
   color: white;
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProLight';
-  'SourceSansProRegular', Arial, san-serif-size: 15px;
+  font-family: 'SourceSansProLight';
+  font-size:: 15px;
   width: 100%;
   text-align: center;
   position: absolute;
@@ -7689,12 +7689,12 @@ body {
 }
 .user-group-list .group-user-item-holder .group-user-item .letter-icon {
   color: #2c3342;
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProRegular', Arial, san-serif;
+  font-family: 'SourceSansProRegular', Arial, san-serif;
   text-transform: uppercase;
   letter-spacing: 0.3px;
-  'SourceSansProRegular', Arial, san-serif-size: 24px;
+  font-size:: 24px;
   float: left;
-  'SourceSansProRegular', Arial, san-serif-size: 36px;
+  font-size:: 36px;
   display: inline-block;
   margin-left: 15px;
   margin-top: 3px;
@@ -7716,9 +7716,9 @@ body {
   white-space: nowrap;
 }
 .user-group-list .group-user-item-holder .group-user-item .user-details-holder .title-text {
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProLight';
+  font-family: 'SourceSansProLight';
   color: #272a34;
-  'SourceSansProRegular', Arial, san-serif-size: 12.5px;
+  font-size:: 12.5px;
   text-transform: capitalize;
   word-wrap: normal;
   text-overflow: ellipsis;
@@ -7727,9 +7727,9 @@ body {
   margin: 8px 0px 0px 4px;
 }
 .user-group-list .group-user-item-holder .group-user-item .user-details-holder .subtitle-text {
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProLight';
+  font-family: 'SourceSansProLight';
   color: #272a34;
-  'SourceSansProRegular', Arial, san-serif-size: 12.5px;
+  font-size:: 12.5px;
   color: #999999;
   word-wrap: normal;
   text-overflow: ellipsis;
@@ -7806,9 +7806,9 @@ body {
 .user-group-list .group-user-item-holder .group-user-item .user-actions-holder .invite-box-holder .invite-box {
   background: #d8d8d8;
   border-radius: 11px;
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProLight';
+  font-family: 'SourceSansProLight';
   color: #272a34;
-  'SourceSansProRegular', Arial, san-serif-size: 13px;
+  font-size:: 13px;
   color: #ffffff;
   width: 126px;
   height: 22px;
@@ -7841,10 +7841,10 @@ body {
   float: right;
   margin: 8px 11px 7px 19px;
   color: #2c3342;
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProRegular', Arial, san-serif;
+  font-family: 'SourceSansProRegular', Arial, san-serif;
   text-transform: uppercase;
   letter-spacing: 0.3px;
-  'SourceSansProRegular', Arial, san-serif-size: 16px;
+  font-size:: 16px;
   color: #b3b3b3;
   text-transform: none;
 }
@@ -8018,26 +8018,26 @@ body {
   margin-top: 21px;
   margin-left: -4px;
   color: #2c3342;
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProRegular', Arial, san-serif;
+  font-family: 'SourceSansProRegular', Arial, san-serif;
   text-transform: uppercase;
   letter-spacing: 0.3px;
   'SourceSansProRegular', Arial, san-serif-color: #2b3342;
-  'SourceSansProRegular', Arial, san-serif-size: 89px;
+  font-size:: 89px;
 }
 .dashboard-error-wrapper .not-found-wrapper .main-box .info-box .small-title {
   margin-top: -15px;
   color: #2c3342;
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProRegular', Arial, san-serif;
+  font-family: 'SourceSansProRegular', Arial, san-serif;
   text-transform: uppercase;
   letter-spacing: 0.3px;
   'SourceSansProRegular', Arial, san-serif-color: #2b3342;
-  'SourceSansProRegular', Arial, san-serif-size: 18px;
+  font-size:: 18px;
 }
 .dashboard-error-wrapper .not-found-wrapper .main-box .info-box .error-text {
   margin-top: 20px;
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProLight';
+  font-family: 'SourceSansProLight';
   'SourceSansProRegular', Arial, san-serif-color: #56535b;
-  'SourceSansProRegular', Arial, san-serif-size: 15px;
+  font-size:: 15px;
   white-space: pre-wrap;
   word-wrap: break-word;
 }
@@ -8046,17 +8046,17 @@ body {
 }
 .dashboard-error-wrapper .not-found-wrapper .main-box .info-box .goto-elsticube-link {
   margin-top: 20px;
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProLight';
+  font-family: 'SourceSansProLight';
   'SourceSansProRegular', Arial, san-serif-color: #56535b;
-  'SourceSansProRegular', Arial, san-serif-size: 15px;
+  font-size:: 15px;
   display: inline;
   text-decoration: none;
 }
 .dashboard-error-wrapper .not-found-wrapper .main-box .info-box .action-box {
   margin-top: 23px;
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProLight';
+  font-family: 'SourceSansProLight';
   'SourceSansProRegular', Arial, san-serif-color: #56535b;
-  'SourceSansProRegular', Arial, san-serif-size: 15px;
+  font-size:: 15px;
 }
 .dashboard-error-wrapper .not-found-wrapper .main-box .info-box .action-box .link {
   display: inline;
@@ -8166,7 +8166,7 @@ body {
 .dashboard-export-dialog-content .loader-content .show-details {
   display: block;
   text-align: center;
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProLight', sans-serif;
+  font-family: 'SourceSansProLight', sans-serif;
   color: #158db5;
   text-decoration: none;
 }
@@ -8185,8 +8185,8 @@ body {
 .dashboard-export-dialog-content h1 {
   padding: 0 0 5px 0;
   margin: 0;
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProRegular', Arial, san-serif;
-  'SourceSansProRegular', Arial, san-serif-size: 24px;
+  font-family: 'SourceSansProRegular', Arial, san-serif;
+  font-size:: 24px;
   color: #222222;
   'SourceSansProRegular', Arial, san-serif-weight: normal;
 }
@@ -8209,8 +8209,8 @@ body {
   border-top: none;
 }
 .dashboard-export-dialog-content dl dt {
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProLight', sans-serif;
-  'SourceSansProRegular', Arial, san-serif-size: 13px;
+  font-family: 'SourceSansProLight', sans-serif;
+  font-size:: 13px;
   color: #808080;
   padding-left: 7px;
   width: 152px;
@@ -8255,14 +8255,14 @@ body {
 }
 .dashboard-export-dialog-content p.message {
   margin-top: 36px;
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProLight', sans-serif;
-  'SourceSansProRegular', Arial, san-serif-size: 13px;
+  font-family: 'SourceSansProLight', sans-serif;
+  font-size:: 13px;
   color: #808080;
 }
 .dashboard-export-dialog-content p.filename {
   word-wrap: break-word;
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProLight', sans-serif;
-  'SourceSansProRegular', Arial, san-serif-size: 13px;
+  font-family: 'SourceSansProLight', sans-serif;
+  font-size:: 13px;
   color: #2c3342;
 }
 .dashboard-export-dialog-content p.error {
@@ -8292,8 +8292,8 @@ body {
 .orientation-item .layout-caption,
 .layout-item .layout-caption {
   text-align: center;
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProLight', sans-serif;
-  'SourceSansProRegular', Arial, san-serif-size: 13px;
+  font-family: 'SourceSansProLight', sans-serif;
+  font-size:: 13px;
   color: #2c3342;
 }
 .orientation-item:hover,
@@ -8347,8 +8347,8 @@ body {
   margin: 0 12px 12px 0;
 }
 .dialog-buttons button {
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProRegular', Arial, san-serif;
-  'SourceSansProRegular', Arial, san-serif-size: 16px;
+  font-family: 'SourceSansProRegular', Arial, san-serif;
+  font-size:: 16px;
   color: #ffffff;
   height: 36px;
   margin-left: 10px;
@@ -8482,10 +8482,10 @@ body {
 .widget-error-overlay .widget-error-notify-holder .main-info .info-title {
   margin-top: 15px;
   color: #2c3342;
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProRegular', Arial, san-serif;
+  font-family: 'SourceSansProRegular', Arial, san-serif;
   text-transform: uppercase;
   letter-spacing: 0.3px;
-  'SourceSansProRegular', Arial, san-serif-size: 16px;
+  font-size:: 16px;
   color: transparent;
   width: 100%;
   text-align: center;
@@ -8494,9 +8494,9 @@ body {
 .widget-error-overlay .widget-error-notify-holder .main-info .info-text {
   display: none;
   margin-top: 10px;
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProLight';
+  font-family: 'SourceSansProLight';
   color: #272a34;
-  'SourceSansProRegular', Arial, san-serif-size: 12.5px;
+  font-size:: 12.5px;
   width: 100%;
   text-align: center;
   white-space: pre-wrap;
@@ -8521,9 +8521,9 @@ body {
 }
 .widget-error-overlay .widget-error-notify-holder .main-info .info-controls .info-link {
   display: inline-block;
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProLight';
+  font-family: 'SourceSansProLight';
   color: #272a34;
-  'SourceSansProRegular', Arial, san-serif-size: 12.5px;
+  font-size:: 12.5px;
   color: #008db8;
 }
 .widget-error-overlay .widget-error-notify-holder .main-info .info-controls .horz-line {
@@ -8561,13 +8561,13 @@ body {
 }
 .widget-no-result-overlay .widget-no-result-notify-holder .no-result-title {
   color: #2c3342;
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProRegular', Arial, san-serif;
+  font-family: 'SourceSansProRegular', Arial, san-serif;
   text-transform: uppercase;
   letter-spacing: 0.3px;
-  'SourceSansProRegular', Arial, san-serif-size: 16px;
+  font-size:: 16px;
   letter-spacing: normal;
   color: #e4e4e4;
-  'SourceSansProRegular', Arial, san-serif-size: 18px;
+  font-size:: 18px;
   /* fallback */
   text-align: center;
   position: absolute;
@@ -8673,7 +8673,7 @@ body {
   animation: load7 1.8s infinite ease-in-out;
 }
 .widget-refresh-overlay .widget-loader {
-  'SourceSansProRegular', Arial, san-serif-size: 5px;
+  font-size:: 5px;
   margin-left: auto;
   margin-right: auto;
   position: relative;
@@ -9060,8 +9060,8 @@ dashboard widget.columnar widget-header .widget-desc-edit .desc-popup-target {
   z-index: 10;
 }
 dashboard widget.columnar widget-header .widget-desc-edit .desc-edit-caption {
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProLight';
-  'SourceSansProRegular', Arial, san-serif-size: 12px;
+  font-family: 'SourceSansProLight';
+  font-size:: 12px;
   display: inline-block;
   vertical-align: middle;
   background-color: white;
@@ -9455,8 +9455,8 @@ dashboard widget.columnar widget-overlay {
   width: 250px;
   height: 26px;
   border: 1px solid #cccccc;
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProLight';
-  'SourceSansProRegular', Arial, san-serif-size: 13px;
+  font-family: 'SourceSansProLight';
+  font-size:: 13px;
   position: relative;
   overflow: hidden;
   -webkit-box-sizing: border-box;
@@ -9474,8 +9474,8 @@ dashboard widget.columnar widget-overlay {
   height: 24px;
   vertical-align: top;
   line-height: 26px;
-  'SourceSansProRegular', Arial, san-serif-family: inherit;
-  'SourceSansProRegular', Arial, san-serif-size: inherit;
+  font-family: inherit;
+  font-size:: inherit;
   text-align: right;
   margin-right: 3px;
 }
@@ -9486,8 +9486,8 @@ dashboard widget.columnar widget-overlay {
   width: 230px;
   vertical-align: top;
   height: 24px;
-  'SourceSansProRegular', Arial, san-serif-family: inherit;
-  'SourceSansProRegular', Arial, san-serif-size: inherit;
+  font-family: inherit;
+  font-size:: inherit;
 }
 .fe-color-hexbox .preview {
   height: 22px;
@@ -9640,7 +9640,7 @@ dashboard widget.columnar widget-overlay {
   height: 100%;
   border-radius: 3px;
   overflow: hidden;
-  'SourceSansProRegular', Arial, san-serif-size: 0px;
+  font-size:: 0px;
 }
 .fe-color-pallete .row .wrap .item {
   width: 50px;
@@ -9885,7 +9885,7 @@ dashboard widget.columnar widget-overlay {
   margin-left: -1px;
   margin-bottom: 2px;
   overflow: hidden;
-  'SourceSansProRegular', Arial, san-serif-size: 0px;
+  font-size:: 0px;
 }
 .fe-drop-palette .content .fe-color-palette.recent .recent-column .row,
 .fe-drop-palette .content .fe-color-pallete.recent .recent-column .row {
@@ -10001,8 +10001,8 @@ dashboard widget.columnar widget-overlay {
   border-radius: 3px;
   box-sizing: border-box;
   border: 1px solid #ccc;
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProLight';
-  'SourceSansProRegular', Arial, san-serif-size: 11px;
+  font-family: 'SourceSansProLight';
+  font-size:: 11px;
   color: #2c3342;
   -webkit-box-shadow: 2px 2px 5px 0px #ddd;
   /* Safari and Chrome */
@@ -10061,8 +10061,8 @@ dashboard widget.columnar widget-overlay {
   display: inline-block;
 }
 .fe-colors .fe-colors-condition .add-condition {
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProLight';
-  'SourceSansProRegular', Arial, san-serif-size: 13px;
+  font-family: 'SourceSansProLight';
+  font-size:: 13px;
   color: #33cee5;
   text-align: center;
   height: 22px;
@@ -10177,9 +10177,9 @@ dashboard widget.columnar widget-overlay {
 }
 .fe-colors .fe-colors-condition .condition-list .row .condition .fe-left-cond input,
 .fe-colors .fe-colors-condition .condition-list .row .condition .fe-left-cond .fe-formula {
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProLight';
+  font-family: 'SourceSansProLight';
   color: #272a34;
-  'SourceSansProRegular', Arial, san-serif-size: 13px;
+  font-size:: 13px;
   height: 24px;
   display: inline-block;
   color: #56535b;
@@ -10459,7 +10459,7 @@ dashboard widget.columnar widget-overlay {
 }
 .color-picker {
   margin: 10px;
-  'SourceSansProRegular', Arial, san-serif-size: 0;
+  font-size:: 0;
 }
 .color-picker .colors-entry {
   display: block;
@@ -10474,7 +10474,7 @@ dashboard widget.columnar widget-overlay {
   cursor: pointer;
   display: inline-block;
   margin-left: 5px;
-  'SourceSansProRegular', Arial, san-serif-size: 0;
+  font-size:: 0;
   width: 41px;
   height: 29px;
   position: relative;
@@ -10983,8 +10983,8 @@ button.cond-add:hover {
 }
 .fe-breadcrumbs {
   text-transform: uppercase;
-  'SourceSansProRegular', Arial, san-serif-size: 15px;
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProRegular', Arial, san-serif;
+  font-size:: 15px;
+  font-family: 'SourceSansProRegular', Arial, san-serif;
   'SourceSansProRegular', Arial, san-serif-weight: normal;
   padding: 0px 2px 10px 4px;
   vertical-align: middle;
@@ -11020,8 +11020,8 @@ button.cond-add:hover {
   cursor: pointer;
 }
 .fe-type-title {
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProLight';
-  'SourceSansProRegular', Arial, san-serif-size: 13px;
+  font-family: 'SourceSansProLight';
+  font-size:: 13px;
   color: #808080;
   vertical-align: middle;
   margin-bottom: 5px;
@@ -11036,8 +11036,8 @@ button.cond-add:hover {
   height: 100%;
 }
 .fe-base-container .type-title {
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProLight';
-  'SourceSansProRegular', Arial, san-serif-size: 13px;
+  font-family: 'SourceSansProLight';
+  font-size:: 13px;
   color: #808080;
   vertical-align: middle;
   margin-bottom: 5px;
@@ -11115,8 +11115,8 @@ button.cond-add:hover {
   text-align: center;
   color: white !important;
   display: inline-block;
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProRegular', Arial, san-serif !important;
-  'SourceSansProRegular', Arial, san-serif-size: 16px !important;
+  font-family: 'SourceSansProRegular', Arial, san-serif !important;
+  font-size:: 16px !important;
   cursor: pointer;
   margin-left: 8px;
 }
@@ -11143,8 +11143,8 @@ button.cond-add:hover {
 .fe-base-container .fe-input {
   border: 1px solid #cccccc;
   color: #56535b;
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProLight';
-  'SourceSansProRegular', Arial, san-serif-size: 12px;
+  font-family: 'SourceSansProLight';
+  font-size:: 12px;
   outline: none;
   padding-left: 10px;
   padding-right: 10px;
@@ -11154,8 +11154,8 @@ button.cond-add:hover {
   padding-right: 0px;
 }
 .fe-base-container .fe-input.uc-spinner-host INPUT[type="text"] {
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProLight';
-  'SourceSansProRegular', Arial, san-serif-size: 13px;
+  font-family: 'SourceSansProLight';
+  font-size:: 13px;
   padding-left: 4px;
   padding-right: 4px;
   margin: 0px;
@@ -11263,8 +11263,8 @@ button.cond-add:hover {
 .fe-base-container .bottom .uc-tagline-reset .text {
   display: inline-block;
   color: #808080;
-  'SourceSansProRegular', Arial, san-serif-size: 15px;
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProLight';
+  font-size:: 15px;
+  font-family: 'SourceSansProLight';
   vertical-align: top;
   margin-top: 1px;
 }
@@ -11454,8 +11454,8 @@ button.cond-add:hover {
   background: #fff;
   margin-bottom: 10px;
   padding: 10px;
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProLight';
-  'SourceSansProRegular', Arial, san-serif-size: 12px;
+  font-family: 'SourceSansProLight';
+  font-size:: 12px;
 }
 .eyecon .tip .bubble .group:not(:last-child) {
   margin-bottom: 5px;
@@ -11609,7 +11609,7 @@ button.cond-add:hover {
   padding: 10px 2px;
 }
 .sample-box .sample-area .sample {
-  'SourceSansProRegular', Arial, san-serif-size: 20px;
+  font-size:: 20px;
   vertical-align: middle;
   text-align: center;
 }
@@ -11674,9 +11674,9 @@ button.cond-add:hover {
   display: inline-block;
 }
 .formatting-editor .decimals-host .none-ind {
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProLight';
+  font-family: 'SourceSansProLight';
   color: #272a34;
-  'SourceSansProRegular', Arial, san-serif-size: 12.5px;
+  font-size:: 12.5px;
   display: inline-block;
   line-height: 25px;
   vertical-align: bottom;
@@ -11705,8 +11705,8 @@ button.cond-add:hover {
   border: 1px solid #D9DED5;
   border-radius: 4px;
   background: #fff;
-  'SourceSansProRegular', Arial, san-serif-family: opensansregular;
-  'SourceSansProRegular', Arial, san-serif-size: 13px;
+  font-family: opensansregular;
+  font-size:: 13px;
   color: #2B3541;
   -webkit-box-shadow: 2px 0 5px 3px rgba(94, 94, 94, 0.1);
   -moz-box-shadow: 2px 0 5px 3px rgba(94, 94, 94, 0.1);
@@ -11734,8 +11734,8 @@ button.cond-add:hover {
 }
 .popup-host.simple .breadcrumbs {
   text-transform: uppercase;
-  'SourceSansProRegular', Arial, san-serif-size: 15px;
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProRegular', Arial, san-serif;
+  font-size:: 15px;
+  font-family: 'SourceSansProRegular', Arial, san-serif;
   'SourceSansProRegular', Arial, san-serif-weight: normal;
   margin: 7px 0 12px 0;
   vertical-align: middle;
@@ -11835,7 +11835,7 @@ button.cond-add:hover {
 /* BASICS */
 .CodeMirror {
   /* Set height, width, borders, and global 'SourceSansProRegular', Arial, san-serif properties here */
-  'SourceSansProRegular', Arial, san-serif-family: monospace;
+  font-family: monospace;
   height: 300px;
 }
 .CodeMirror-scroll {
@@ -11846,7 +11846,7 @@ button.cond-add:hover {
 .CodeMirror-placeholder {
   color: #B4B4B4 !important;
   line-height: 18px;
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProLight';
+  font-family: 'SourceSansProLight';
   margin-left: 2px !important;
 }
 /* PADDING */
@@ -12083,8 +12083,8 @@ div.CodeMirror span.CodeMirror-nonmatchingbracket {
   border-radius: 0;
   border-width: 0;
   background: transparent;
-  'SourceSansProRegular', Arial, san-serif-family: inherit;
-  'SourceSansProRegular', Arial, san-serif-size: inherit;
+  font-family: inherit;
+  font-size:: inherit;
   margin: 0;
   white-space: pre;
   word-wrap: normal;
@@ -12229,7 +12229,7 @@ div.CodeMirror-cursors {
 }
 .seperator-catpion {
   margin: 0px 6px;
-  'SourceSansProRegular', Arial, san-serif-size: 12px;
+  font-size:: 12px;
   color: #b3b3b3 !important;
   line-height: 12px;
   align-self: center;
@@ -12428,16 +12428,16 @@ background-position: -44px -20px;
   padding: 10px;
 }
 .uc-cf .uc-cf-results .ucf-header {
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProLight';
+  font-family: 'SourceSansProLight';
   color: #272a34;
-  'SourceSansProRegular', Arial, san-serif-size: 13px;
+  font-size:: 13px;
   color: #999999;
   margin-bottom: 5px;
 }
 .uc-cf .uc-cf-results .ucf-sample {
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProLight';
+  font-family: 'SourceSansProLight';
   color: #272a34;
-  'SourceSansProRegular', Arial, san-serif-size: 12px;
+  font-size:: 12px;
   max-width: 194px;
   word-wrap: normal;
   white-space: nowrap;
@@ -12454,8 +12454,8 @@ background-position: -44px -20px;
   border: none;
   color: white;
   height: 30px;
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProRegular', Arial, san-serif;
-  'SourceSansProRegular', Arial, san-serif-size: 16px;
+  font-family: 'SourceSansProRegular', Arial, san-serif;
+  font-size:: 16px;
   outline: none;
   -webkit-transition: background 100ms ease;
   -moz-transition: background 100ms ease;
@@ -12642,7 +12642,7 @@ button.uc-db-fx:focus {
   overflow: hidden;
 }
 .uc-db-table .uc-db-name div {
-  'SourceSansProRegular', Arial, san-serif-size: 13px;
+  font-size:: 13px;
   color: #1a1a1a;
 }
 .uc-db .search-bar input[type="text"] {
@@ -12842,8 +12842,8 @@ button.uc-db-fx:focus {
   text-align: center;
   color: white !important;
   display: inline-block;
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProRegular', Arial, san-serif !important;
-  'SourceSansProRegular', Arial, san-serif-size: 16px !important;
+  font-family: 'SourceSansProRegular', Arial, san-serif !important;
+  font-size:: 16px !important;
   margin-left: 8px;
   cursor: pointer;
 }
@@ -12884,8 +12884,8 @@ button.uc-db-fx:focus {
   padding: 2px;
   cursor: pointer;
   opacity: 0.8;
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProLight';
-  'SourceSansProRegular', Arial, san-serif-size: 12px;
+  font-family: 'SourceSansProLight';
+  font-size:: 12px;
   color: #56535b;
 }
 .uc-linkbutton:hover {
@@ -12933,8 +12933,8 @@ button.uc-db-fx:focus {
 .uc-db,
 .uc-minifilter,
 .uc {
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProLight';
-  'SourceSansProRegular', Arial, san-serif-size: 12px;
+  font-family: 'SourceSansProLight';
+  font-size:: 12px;
   color: #56535b;
 }
 .uc-db DIV,
@@ -12965,8 +12965,8 @@ button.uc-db-fx:focus {
 .uc-minifilter BUTTON,
 .uc BUTTON {
   box-sizing: border-box;
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProLight';
-  'SourceSansProRegular', Arial, san-serif-size: 12px;
+  font-family: 'SourceSansProLight';
+  font-size:: 12px;
   color: #56535b;
 }
 .uc-db SELECT,
@@ -13002,8 +13002,8 @@ button.uc-db-fx:focus {
 }
 .popup-host.simple .uc-breadcrumbs {
   text-transform: uppercase;
-  'SourceSansProRegular', Arial, san-serif-size: 15px;
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProRegular', Arial, san-serif;
+  font-size:: 15px;
+  font-family: 'SourceSansProRegular', Arial, san-serif;
   'SourceSansProRegular', Arial, san-serif-weight: normal;
   padding: 2px 0px 2px 0px;
   vertical-align: middle;
@@ -13219,10 +13219,10 @@ button.uc-db-fx:focus {
   height: 26px !important;
 }
 .uc-filter-criteria-toprow .logical-operator-block .logical-operator-combo .drop .drop-item {
-  'SourceSansProRegular', Arial, san-serif-size: 12px !important;
+  font-size:: 12px !important;
 }
 .uc-filter-criteria-toprow .logical-operator-block .logical-operator-combo .drop .drop-item .item-text {
-  'SourceSansProRegular', Arial, san-serif-size: 12px !important;
+  font-size:: 12px !important;
 }
 .conditions {
   -webkit-box-flex: 0;
@@ -13417,7 +13417,7 @@ button.uc-db-fx:focus {
   border-bottom: 0px !important;
 }
 .textCombo .item-text {
-  'SourceSansProRegular', Arial, san-serif-size: 12px;
+  font-size:: 12px;
   line-height: 17px;
 }
 .smallCombo {
@@ -13434,11 +13434,11 @@ button.uc-db-fx:focus {
   float: left;
   width: 37px;
   text-align: center;
-  'SourceSansProRegular', Arial, san-serif-size: 12px;
+  font-size:: 12px;
   line-height: 17px;
 }
 .smallCombo .item-description {
-  'SourceSansProRegular', Arial, san-serif-size: 12px;
+  font-size:: 12px;
   margin-left: 0px !important;
   line-height: 17px;
   padding-top: 1px;
@@ -13807,14 +13807,14 @@ button.uc-db-fx:focus {
   margin: 0 0 9px 0;
   padding: 0;
   'SourceSansProRegular', Arial, san-serif-weight: normal;
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProRegular', Arial, san-serif;
-  'SourceSansProRegular', Arial, san-serif-size: 14px;
+  font-family: 'SourceSansProRegular', Arial, san-serif;
+  font-size:: 14px;
   line-height: 14px;
   text-transform: uppercase;
 }
 .filters-global-header button:not(.filters-reset-button) {
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProLight', sans-serif;
-  'SourceSansProRegular', Arial, san-serif-size: 12px;
+  font-family: 'SourceSansProLight', sans-serif;
+  font-size:: 12px;
   line-height: 12px;
   padding: 6px 3px 3px;
   margin: 0;
@@ -13873,8 +13873,8 @@ button.uc-db-fx:focus {
 }
 .filter-global-add-button-container .filter-global-add-button-caption {
   margin: 10px 70px;
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProLight', sans-serif;
-  'SourceSansProRegular', Arial, san-serif-size: 17px;
+  font-family: 'SourceSansProLight', sans-serif;
+  font-size:: 17px;
   color: #cdcdcd;
   top: 50%;
   position: relative;
@@ -13981,8 +13981,8 @@ button.uc-db-fx:focus {
   color: #636467;
 }
 .uc-fe .formula-popup .CodeMirror * {
-  'SourceSansProRegular', Arial, san-serif-size: 12px !important;
-  'SourceSansProRegular', Arial, san-serif-family: Consolas !important;
+  font-size:: 12px !important;
+  font-family: Consolas !important;
 }
 .uc-fe .formula-popup .CodeMirror-lines {
   padding: 0;
@@ -14789,8 +14789,8 @@ div.uc-exclude.toggle {
 }
 .uc-breadcrumbs {
   text-transform: uppercase;
-  'SourceSansProRegular', Arial, san-serif-size: 15px;
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProRegular', Arial, san-serif;
+  font-size:: 15px;
+  font-family: 'SourceSansProRegular', Arial, san-serif;
   'SourceSansProRegular', Arial, san-serif-weight: normal;
   padding: 2px 2px 10px 4px;
   vertical-align: middle;
@@ -14906,7 +14906,7 @@ div.uc-exclude.toggle {
 .uc-sample-bubble .uc-sb-title {
   padding: 5px 5px 5px 11px;
   align-self: center;
-  'SourceSansProRegular', Arial, san-serif-size: 12px;
+  font-size:: 12px;
   color: #999999;
   border-bottom: 1px solid #e6e6e6;
   max-height: 29px;
@@ -14975,7 +14975,7 @@ div.uc-exclude.toggle {
 .uc-tag {
   margin: 5px 0px 5px 5px;
   padding: 5px 8px 0px 8px;
-  'SourceSansProRegular', Arial, san-serif-size: 12px;
+  font-size:: 12px;
   color: white;
   background-color: #00dae9;
   height: 24px;
@@ -14986,7 +14986,7 @@ div.uc-exclude.toggle {
   line-height:22px;
    color: white;
   height: 22px;
-  'SourceSansProRegular', Arial, san-serif-size: @uc-'SourceSansProRegular', Arial, san-serif-size-small;
+  font-size:: @uc-font-size:-small;
   background-color: @uc-blue;
   padding: 0px 2px 2px 2px;*/
   display: inline-block;
@@ -15026,10 +15026,10 @@ div.uc-exclude.toggle {
   display: inline-block;
   margin: 2px 0px 0px 6px;
   color: #2c3342;
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProRegular', Arial, san-serif;
+  font-family: 'SourceSansProRegular', Arial, san-serif;
   text-transform: uppercase;
   letter-spacing: 0.3px;
-  'SourceSansProRegular', Arial, san-serif-size: 15px;
+  font-size:: 15px;
 }
 .single-numeric-pane-holder .main-section {
   height: 34px;
@@ -15038,9 +15038,9 @@ div.uc-exclude.toggle {
 }
 .single-numeric-pane-holder .main-section .pane-subtitle {
   display: inline-block;
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProLight';
+  font-family: 'SourceSansProLight';
   color: #272a34;
-  'SourceSansProRegular', Arial, san-serif-size: 12.5px;
+  font-size:: 12.5px;
   float: left;
   margin: 10px 0px 0px 6px;
 }
@@ -15070,10 +15070,10 @@ div.uc-exclude.toggle {
 .settings-pane-host .type-title {
   margin: 0px 0px 0px 6px;
   color: #2c3342;
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProRegular', Arial, san-serif;
+  font-family: 'SourceSansProRegular', Arial, san-serif;
   text-transform: uppercase;
   letter-spacing: 0.3px;
-  'SourceSansProRegular', Arial, san-serif-size: 15px;
+  font-size:: 15px;
 }
 .settings-pane-host .types-holder {
   margin-top: 5px;
@@ -15430,9 +15430,9 @@ div.uc-exclude.toggle {
   background-position: 0px -94px;
 }
 .settings-pane-host .types-holder .col-type-item .type-caption {
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProLight';
+  font-family: 'SourceSansProLight';
   color: #272a34;
-  'SourceSansProRegular', Arial, san-serif-size: 12px;
+  font-size:: 12px;
   color: #56535b;
   margin-top: 7px;
   text-align: center;
@@ -15625,18 +15625,18 @@ div.uc-exclude.toggle {
 }
 .settings-pane-host .line-width-title {
   color: #2c3342;
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProRegular', Arial, san-serif;
+  font-family: 'SourceSansProRegular', Arial, san-serif;
   text-transform: uppercase;
   letter-spacing: 0.3px;
-  'SourceSansProRegular', Arial, san-serif-size: 15px;
+  font-size:: 15px;
   margin: 18px 0px 0px 3px;
 }
 .settings-pane-host .line-type-title {
   color: #2c3342;
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProRegular', Arial, san-serif;
+  font-family: 'SourceSansProRegular', Arial, san-serif;
   text-transform: uppercase;
   letter-spacing: 0.3px;
-  'SourceSansProRegular', Arial, san-serif-size: 15px;
+  font-size:: 15px;
   margin: 18px 0px 0px 3px;
 }
 .settings-pane-host .line-width-holder {
@@ -15673,9 +15673,9 @@ div.uc-exclude.toggle {
   background: #272a34;
 }
 .settings-pane-host .line-width-holder .line-width-item .line-width-caption {
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProLight';
+  font-family: 'SourceSansProLight';
   color: #272a34;
-  'SourceSansProRegular', Arial, san-serif-size: 12px;
+  font-size:: 12px;
   color: #56535b;
   margin: 13px 0px 0px 13px;
   display: inline-block;
@@ -15742,9 +15742,9 @@ div.uc-exclude.toggle {
   background-position: 0px -44px;
 }
 .settings-pane-host .line-type-holder .line-type-item .line-type-caption {
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProLight';
+  font-family: 'SourceSansProLight';
   color: #272a34;
-  'SourceSansProRegular', Arial, san-serif-size: 12px;
+  font-size:: 12px;
   color: #56535b;
   text-align: center;
   word-wrap: break-word;
@@ -15765,10 +15765,10 @@ div.uc-exclude.toggle {
   display: inline-block;
   margin: 2px 0px 0px 6px;
   color: #2c3342;
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProRegular', Arial, san-serif;
+  font-family: 'SourceSansProRegular', Arial, san-serif;
   text-transform: uppercase;
   letter-spacing: 0.3px;
-  'SourceSansProRegular', Arial, san-serif-size: 15px;
+  font-size:: 15px;
 }
 .legend-host .legend-enabled {
   margin: 2px 4px 0px 0px;
@@ -15796,9 +15796,9 @@ div.uc-exclude.toggle {
 .radio-option-item .radio-option-caption {
   float: left;
   margin: 5px 0px 0px 4px;
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProLight';
+  font-family: 'SourceSansProLight';
   color: #272a34;
-  'SourceSansProRegular', Arial, san-serif-size: 12.5px;
+  font-size:: 12.5px;
   color: #56535b;
 }
 .radio-option-item .radio-option-selected .radio-option-caption {
@@ -15820,10 +15820,10 @@ div.uc-exclude.toggle {
   display: inline-block;
   margin: 2px 0px 0px 6px;
   color: #2c3342;
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProRegular', Arial, san-serif;
+  font-family: 'SourceSansProRegular', Arial, san-serif;
   text-transform: uppercase;
   letter-spacing: 0.3px;
-  'SourceSansProRegular', Arial, san-serif-size: 15px;
+  font-size:: 15px;
 }
 .series-labels-host .series-labels-enabled {
   margin: 2px 4px 0px 0px;
@@ -15884,9 +15884,9 @@ div.uc-exclude.toggle {
 }
 .series-labels-host .degrees-holder .degree-item .abc-holder .abc-text {
   margin-left: 9px;
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProLight';
+  font-family: 'SourceSansProLight';
   color: #272a34;
-  'SourceSansProRegular', Arial, san-serif-size: 12px;
+  font-size:: 12px;
   color: #e5e5e5;
 }
 .series-labels-host .degrees-holder .degree-item .abc-holder .abc-underline {
@@ -15900,9 +15900,9 @@ div.uc-exclude.toggle {
   background: #ffffff;
 }
 .series-labels-host .selected-degree-caption .caption-text {
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProLight';
+  font-family: 'SourceSansProLight';
   color: #272a34;
-  'SourceSansProRegular', Arial, san-serif-size: 12px;
+  font-size:: 12px;
   padding-top: 7px;
   text-align: center;
 }
@@ -15910,10 +15910,10 @@ div.uc-exclude.toggle {
   display: inline-block;
   margin: 2px 0px 0px 6px;
   color: #2c3342;
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProRegular', Arial, san-serif;
+  font-family: 'SourceSansProRegular', Arial, san-serif;
   text-transform: uppercase;
   letter-spacing: 0.3px;
-  'SourceSansProRegular', Arial, san-serif-size: 15px;
+  font-size:: 15px;
 }
 .generic-pane-holder .generic-pane-enabled {
   margin: 2px 4px 0px 0px;
@@ -15956,9 +15956,9 @@ div.uc-exclude.toggle {
   color: #cccccc;
 }
 .generic-pane-holder .generic-pane-rows-holder .axis-title-row .axis-title-text {
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProLight';
+  font-family: 'SourceSansProLight';
   color: #272a34;
-  'SourceSansProRegular', Arial, san-serif-size: 13px;
+  font-size:: 13px;
   display: inline-block;
   border: 1px solid #e6e6e6;
   height: 26px;
@@ -16045,9 +16045,9 @@ div.uc-exclude.toggle {
   margin-left: 4px;
 }
 .generic-pane-holder .generic-pane-rows-holder .axis-range-row .axis-range-text {
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProLight';
+  font-family: 'SourceSansProLight';
   color: #272a34;
-  'SourceSansProRegular', Arial, san-serif-size: 13px;
+  font-size:: 13px;
   display: inline-block;
   border: 1px solid #e6e6e6;
   height: 26px;
@@ -16111,9 +16111,9 @@ div.uc-exclude.toggle {
   margin-left: 4px;
 }
 .generic-pane-holder .generic-pane-rows-holder .intervals-pane-row .axis-range-text {
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProLight';
+  font-family: 'SourceSansProLight';
   color: #272a34;
-  'SourceSansProRegular', Arial, san-serif-size: 13px;
+  font-size:: 13px;
   display: inline-block;
   border: 1px solid #e6e6e6;
   height: 26px;
@@ -16158,9 +16158,9 @@ div.uc-exclude.toggle {
   background-position: 0px -24px;
 }
 .generic-pane-holder .generic-pane-rows-holder .intervals-pane-row .axis-intervals-text {
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProLight';
+  font-family: 'SourceSansProLight';
   color: #272a34;
-  'SourceSansProRegular', Arial, san-serif-size: 13px;
+  font-size:: 13px;
   display: inline-block;
   border: 1px solid #e6e6e6;
   height: 26px;
@@ -16218,10 +16218,10 @@ div.uc-exclude.toggle {
   display: inline-block;
   margin: 2px 0px 0px 6px;
   color: #2c3342;
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProRegular', Arial, san-serif;
+  font-family: 'SourceSansProRegular', Arial, san-serif;
   text-transform: uppercase;
   letter-spacing: 0.3px;
-  'SourceSansProRegular', Arial, san-serif-size: 15px;
+  font-size:: 15px;
 }
 .checker-pane-holder .checker-pane-enabled {
   float: right;
@@ -16254,10 +16254,10 @@ div.uc-exclude.toggle {
   display: inline-block;
   margin: 2px 0px 0px 6px;
   color: #2c3342;
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProRegular', Arial, san-serif;
+  font-family: 'SourceSansProRegular', Arial, san-serif;
   text-transform: uppercase;
   letter-spacing: 0.3px;
-  'SourceSansProRegular', Arial, san-serif-size: 15px;
+  font-size:: 15px;
 }
 .markers-host .markers-enabled {
   margin: 2px 4px 0px 0px;
@@ -16332,9 +16332,9 @@ div.uc-exclude.toggle {
   display: inline-block;
   margin: 11px 0px 0px 19px;
   color: #e5e5e5;
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProRegular', Arial, san-serif;
+  font-family: 'SourceSansProRegular', Arial, san-serif;
   text-transform: uppercase;
-  'SourceSansProRegular', Arial, san-serif-size: 28px;
+  font-size:: 28px;
 }
 .markers-host .markers-options-holder .selected-marker-caption {
   width: 105px;
@@ -16343,9 +16343,9 @@ div.uc-exclude.toggle {
   background: #ffffff;
 }
 .markers-host .markers-options-holder .selected-marker-caption .caption-text {
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProLight';
+  font-family: 'SourceSansProLight';
   color: #272a34;
-  'SourceSansProRegular', Arial, san-serif-size: 12px;
+  font-size:: 12px;
   padding-top: 7px;
   text-align: center;
 }
@@ -16353,10 +16353,10 @@ div.uc-exclude.toggle {
   display: inline-block;
   margin: 2px 0px 0px 6px;
   color: #2c3342;
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProRegular', Arial, san-serif;
+  font-family: 'SourceSansProRegular', Arial, san-serif;
   text-transform: uppercase;
   letter-spacing: 0.3px;
-  'SourceSansProRegular', Arial, san-serif-size: 15px;
+  font-size:: 15px;
 }
 .pie-labels-host .pie-labels-enabled {
   margin: 2px 4px 0px 0px;
@@ -16368,10 +16368,10 @@ div.uc-exclude.toggle {
   display: inline-block;
   margin: 2px 0px 0px 6px;
   color: #2c3342;
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProRegular', Arial, san-serif;
+  font-family: 'SourceSansProRegular', Arial, san-serif;
   text-transform: uppercase;
   letter-spacing: 0.3px;
-  'SourceSansProRegular', Arial, san-serif-size: 15px;
+  font-size:: 15px;
 }
 .indicator-components-holder .indicator-components-rows-holder {
   margin-top: 5px;
@@ -16453,9 +16453,9 @@ div.uc-exclude.toggle {
   max-width: calc(100% - 70px);
 }
 .hr-hierarchies-main .hr-hierarchies-container .hr-hierarchy-wrapper .hr-hierarchy .hr-name-container .hr-name-wrapper .hr-hierarchy-name {
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProLight';
+  font-family: 'SourceSansProLight';
   color: #272a34;
-  'SourceSansProRegular', Arial, san-serif-size: 13px;
+  font-size:: 13px;
   color: #2c3342;
   display: inline-block;
   -webkit-touch-callout: none;
@@ -16481,9 +16481,9 @@ div.uc-exclude.toggle {
   border: none;
   outline: none;
   border-bottom: 1px solid black;
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProLight';
+  font-family: 'SourceSansProLight';
   color: #272a34;
-  'SourceSansProRegular', Arial, san-serif-size: 13px;
+  font-size:: 13px;
   color: #2c3342;
   padding-top: 0;
   background-color: transparent;
@@ -16602,9 +16602,9 @@ div.uc-exclude.toggle {
 }
 .hr-hierarchies-main .hr-hierarchies-container .hr-hierarchy-wrapper .hr-hierarchy .hr-ai-row .hr-ai-caption {
   display: inline-block;
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProLight';
+  font-family: 'SourceSansProLight';
   color: #272a34;
-  'SourceSansProRegular', Arial, san-serif-size: 13px;
+  font-size:: 13px;
   color: #a5a5a5;
   margin-left: 7px;
   margin-top: 2px;
@@ -16617,11 +16617,11 @@ div.uc-exclude.toggle {
 }
 .no-data {
   color: #2c3342;
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProRegular', Arial, san-serif;
+  font-family: 'SourceSansProRegular', Arial, san-serif;
   text-transform: uppercase;
   letter-spacing: 0.3px;
-  'SourceSansProRegular', Arial, san-serif-size: 16px;
-  'SourceSansProRegular', Arial, san-serif-size: 18px;
+  font-size:: 16px;
+  font-size:: 18px;
   margin-top: 125px;
   text-align: center;
   min-height: 350px;
@@ -16638,7 +16638,7 @@ div.uc-exclude.toggle {
   display: -ms-flexbox;
 }
 .no-data .no-data-header .no-data-header-text {
-  'SourceSansProRegular', Arial, san-serif-size: 46px;
+  font-size:: 46px;
   border-bottom: 2px solid #b3b3b3;
   -webkit-box-flex-grow: 0.4;
   -moz-box-flex-grow: 0.4;
@@ -16663,8 +16663,8 @@ div.uc-exclude.toggle {
   margin-top: 36px;
 }
 .no-data .no-data-message a {
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProRegular', Arial, san-serif;
-  'SourceSansProRegular', Arial, san-serif-size: 18px;
+  font-family: 'SourceSansProRegular', Arial, san-serif;
+  font-size:: 18px;
   color: #008db8;
   text-decoration: none;
 }
@@ -16720,11 +16720,11 @@ div.uc-exclude.toggle {
 .hierarchies-toolbar .hierarchies-tbar-sub-host {
   float: left;
   display: inline-block;
-  'SourceSansProRegular', Arial, san-serif-size: 24px;
+  font-size:: 24px;
   margin-left: 12px;
 }
 .hierarchies-toolbar .hierarchies-tbar-sub-host .hierarchies-tbar-subtitle {
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProRegular', Arial, san-serif;
+  font-family: 'SourceSansProRegular', Arial, san-serif;
   margin-left: 0px;
   padding-right: 12px;
   border-right: 1px solid #cacaca;
@@ -16739,17 +16739,17 @@ div.uc-exclude.toggle {
   height: 30px;
 }
 .hierarchies-toolbar .hierarchies-tbar-info .hierarchies-tbar-cls {
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProLight';
+  font-family: 'SourceSansProLight';
   margin-left: 0px;
   color: #56535b;
-  'SourceSansProRegular', Arial, san-serif-size: 12px;
+  font-size:: 12px;
 }
 .hierarchies-toolbar .hierarchies-tbar-info .hierarchies-tbar-server {
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProLight';
+  font-family: 'SourceSansProLight';
   margin-top: 1px;
   margin-left: 0px;
   color: #909090;
-  'SourceSansProRegular', Arial, san-serif-size: 12px;
+  font-size:: 12px;
   display: block;
 }
 .hierarchies-toolbar .hierarchies-tbar-search-box {
@@ -16804,8 +16804,8 @@ div.uc-exclude.toggle {
   padding-right: 11px;
 }
 .datasources-popup {
-  'SourceSansProRegular', Arial, san-serif-size: 13px;
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProLight';
+  font-size:: 13px;
+  font-family: 'SourceSansProLight';
   position: relative;
   color: #ffffff;
   opacity: 1.0;
@@ -16917,9 +16917,9 @@ div.uc-exclude.toggle {
 }
 .datasources-popup .ds-empty {
   color: #2c3342;
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProRegular', Arial, san-serif;
+  font-family: 'SourceSansProRegular', Arial, san-serif;
   letter-spacing: 0.3px;
-  'SourceSansProRegular', Arial, san-serif-size: 16px;
+  font-size:: 16px;
   color: #ffffff;
   cursor: default;
   width: 70%;
@@ -16945,8 +16945,8 @@ div.uc-exclude.toggle {
   width: 100%;
   resize: none;
   border: none;
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProLight';
-  'SourceSansProRegular', Arial, san-serif-size: 12.5px;
+  font-family: 'SourceSansProLight';
+  font-size:: 12.5px;
   color: #2c3342;
   padding: 0px;
   position: relative;
@@ -16968,8 +16968,8 @@ div.uc-exclude.toggle {
 .desc-editor-popup .desc-hide-button {
   margin-left: 2px;
   color: #00899F;
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProLight';
-  'SourceSansProRegular', Arial, san-serif-size: 12px;
+  font-family: 'SourceSansProLight';
+  font-size:: 12px;
 }
 .desc-editor-popup .desc-hide-button:hover {
   cursor: pointer;
@@ -17001,7 +17001,7 @@ div.uc-exclude.toggle {
   cursor: pointer;
 }
 .wf-host {
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProLight';
+  font-family: 'SourceSansProLight';
   position: relative;
   height: 100%;
   overflow: hidden;
@@ -17081,7 +17081,7 @@ div.uc-exclude.toggle {
 }
 .wf-host .f-host.dash .f-wrapper .f-header-host {
   cursor: default;
-  'SourceSansProRegular', Arial, san-serif-size: 0;
+  font-size:: 0;
 }
 .wf-host .f-host.dash .f-wrapper .f-header-host .i-locked {
   background: url('/resources/ux-controls/images/recent/lock-16.png') -3px 0 no-repeat;
@@ -17124,10 +17124,10 @@ div.uc-exclude.toggle {
 }
 .wf-host .f-host .fs-header-host .fs-header {
   color: #2c3342;
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProRegular', Arial, san-serif;
+  font-family: 'SourceSansProRegular', Arial, san-serif;
   text-transform: uppercase;
   letter-spacing: 0.3px;
-  'SourceSansProRegular', Arial, san-serif-size: 14px;
+  font-size:: 14px;
   display: inline-block;
   margin-left: 3px;
   float: left;
@@ -17149,10 +17149,10 @@ div.uc-exclude.toggle {
 }
 .wf-host .f-host .fs-header-host .fs-add .fs-add-txt {
   color: #2c3342;
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProRegular', Arial, san-serif;
+  font-family: 'SourceSansProRegular', Arial, san-serif;
   text-transform: uppercase;
   letter-spacing: 0.3px;
-  'SourceSansProRegular', Arial, san-serif-size: 13px;
+  font-size:: 13px;
   vertical-align: middle;
   display: none;
   margin-right: 7px;
@@ -17199,9 +17199,9 @@ div.uc-exclude.toggle {
   min-height: 25px;
 }
 .wf-host .f-host .f-wrapper .f-header-host .f-caption {
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProLight';
+  font-family: 'SourceSansProLight';
   color: #272a34;
-  'SourceSansProRegular', Arial, san-serif-size: 12px;
+  font-size:: 12px;
   cursor: default;
   display: inline-block;
   max-width: 140px;
@@ -17341,10 +17341,10 @@ div.uc-exclude.toggle {
 }
 #prism-header .header-actions-host button {
   color: #2c3342;
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProRegular', Arial, san-serif;
+  font-family: 'SourceSansProRegular', Arial, san-serif;
   text-transform: uppercase;
   letter-spacing: 0.3px;
-  'SourceSansProRegular', Arial, san-serif-size: 15px;
+  font-size:: 15px;
   float: right;
   height: 40px;
   cursor: pointer;
@@ -17428,8 +17428,8 @@ div.uc-exclude.toggle {
   padding: 10px;
 }
 .select-hierarchies-popup a {
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProLight';
-  'SourceSansProRegular', Arial, san-serif-size: 13px;
+  font-family: 'SourceSansProLight';
+  font-size:: 13px;
   color: #008DB8;
   text-decoration: none;
   cursor: pointer;
@@ -17438,8 +17438,8 @@ div.uc-exclude.toggle {
 .select-hierarchies-popup h1 {
   padding: 5px 0 5px 10px;
   margin: 0;
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProRegular', Arial, san-serif;
-  'SourceSansProRegular', Arial, san-serif-size: 24px;
+  font-family: 'SourceSansProRegular', Arial, san-serif;
+  font-size:: 24px;
   color: #222;
   'SourceSansProRegular', Arial, san-serif-weight: normal;
 }
@@ -17463,8 +17463,8 @@ div.uc-exclude.toggle {
 }
 .select-hierarchies-popup .help-sign {
   padding: 21px 15px 11px 15px;
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProLight';
-  'SourceSansProRegular', Arial, san-serif-size: 13px;
+  font-family: 'SourceSansProLight';
+  font-size:: 13px;
   color: #979797;
 }
 .select-hierarchies-popup .select-hierarchies-container {
@@ -17597,8 +17597,8 @@ div.uc-exclude.toggle {
   background: #fc7571;
 }
 .select-hierarchies-popup .hierarchies-buttons button {
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProRegular', Arial, san-serif;
-  'SourceSansProRegular', Arial, san-serif-size: 16px;
+  font-family: 'SourceSansProRegular', Arial, san-serif;
+  font-size:: 16px;
   padding: 0px 17px;
   color: #FFF;
   height: 36px;
@@ -17775,7 +17775,7 @@ body {
   transition: opacity 150ms ease-out;
 }
 .ew-host {
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProLight';
+  font-family: 'SourceSansProLight';
   position: relative;
   height: 100%;
   -webkit-touch-callout: none;
@@ -17865,9 +17865,9 @@ body {
 }
 .ew-host .ew-panel .ui-draggable-dragging .ew-id-caption,
 .ew-host .ew-filters-pane .ui-draggable-dragging .ew-id-caption {
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProLight';
+  font-family: 'SourceSansProLight';
   color: #272a34;
-  'SourceSansProRegular', Arial, san-serif-size: 12.5px;
+  font-size:: 12.5px;
   max-width: 200px;
   width: 200px;
   margin: 5px 0 0 10px;
@@ -17898,10 +17898,10 @@ body {
 .ew-host .ew-panel .ew-p-header-host .ew-p-header,
 .ew-host .ew-filters-pane .ew-p-header-host .ew-p-header {
   color: #2c3342;
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProRegular', Arial, san-serif;
+  font-family: 'SourceSansProRegular', Arial, san-serif;
   text-transform: uppercase;
   letter-spacing: 0.3px;
-  'SourceSansProRegular', Arial, san-serif-size: 14px;
+  font-size:: 14px;
   display: inline-block;
   margin-left: 3px;
   float: left;
@@ -17918,10 +17918,10 @@ body {
 .ew-host .ew-panel .ew-p-header-host .ew-p-add .ew-pact-txt,
 .ew-host .ew-filters-pane .ew-p-header-host .ew-p-add .ew-pact-txt {
   color: #2c3342;
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProRegular', Arial, san-serif;
+  font-family: 'SourceSansProRegular', Arial, san-serif;
   text-transform: uppercase;
   letter-spacing: 0.3px;
-  'SourceSansProRegular', Arial, san-serif-size: 13px;
+  font-size:: 13px;
   vertical-align: middle;
   display: none;
   margin-right: 7px;
@@ -18253,11 +18253,11 @@ body {
   min-height: 27px;
 }
 .ew-host .ew-item-wrapper .ew-item .ew-i-header-host .ew-i-caption {
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProLight';
+  font-family: 'SourceSansProLight';
   color: #272a34;
-  'SourceSansProRegular', Arial, san-serif-size: 12.5px;
+  font-size:: 12.5px;
   line-height: 16px;
-  'SourceSansProRegular', Arial, san-serif-size: 12px;
+  font-size:: 12px;
   display: inline-block;
   margin: 6px 0 4px 7px;
   max-width: 145px;
@@ -18267,10 +18267,10 @@ body {
   max-width: 120px;
 }
 .ew-host .ew-item-wrapper .ew-item .ew-i-header-host .we-i-rename {
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProLight';
+  font-family: 'SourceSansProLight';
   color: #272a34;
-  'SourceSansProRegular', Arial, san-serif-size: 12.5px;
-  'SourceSansProRegular', Arial, san-serif-size: 12px;
+  font-size:: 12.5px;
+  font-size:: 12px;
   max-width: 140px;
   width: 140px;
   padding: 0;
@@ -18620,7 +18620,7 @@ body {
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow-x: hidden;
-  'SourceSansProRegular', Arial, san-serif-size: 12px;
+  font-size:: 12px;
 }
 .ew-host .ew-item-wrapper .ew-item .ew-members-host .ew-member .ms-color {
   cursor: pointer;
@@ -18669,8 +18669,8 @@ body {
   top: 0;
   left: 2px;
   letter-spacing: -0.5px;
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProLight';
-  'SourceSansProRegular', Arial, san-serif-size: 10px;
+  font-family: 'SourceSansProLight';
+  font-size:: 10px;
   color: #b4b4b4;
 }
 .ew-host .ew-item-wrapper .ew-item .ew-i-footer .ew-i-format .ew-i-color .tc-fixed {
@@ -18992,7 +18992,7 @@ body {
   -ms-user-select: none;
   user-select: none;
   'SourceSansProRegular', Arial, san-serif: 'SourceSansProLight';
-  'SourceSansProRegular', Arial, san-serif-size: 12.5px;
+  font-size:: 12.5px;
   background: #f2f2f2;
   position: relative;
   height: 100%;
@@ -19106,10 +19106,10 @@ body {
   -ms-flex-order: 1;
   /* TWEENER - IE 10 */
   color: #2c3342;
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProRegular', Arial, san-serif;
+  font-family: 'SourceSansProRegular', Arial, san-serif;
   text-transform: uppercase;
   letter-spacing: 0.3px;
-  'SourceSansProRegular', Arial, san-serif-size: 24px;
+  font-size:: 24px;
   display: inline-block;
   color: #008db8;
   vertical-align: middle;
@@ -19307,10 +19307,10 @@ body {
 }
 #prism-toolbar #widgeteditor-toolbar button {
   color: #2c3342;
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProRegular', Arial, san-serif;
+  font-family: 'SourceSansProRegular', Arial, san-serif;
   text-transform: uppercase;
   letter-spacing: 0.3px;
-  'SourceSansProRegular', Arial, san-serif-size: 16px;
+  font-size:: 16px;
   cursor: pointer;
   border-top: none;
   border-right: none;
@@ -19590,8 +19590,8 @@ body {
   z-index: 10;
 }
 #prism-toolbar #widgeteditor-toolbar .widget-desc-edit .desc-edit-caption {
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProLight';
-  'SourceSansProRegular', Arial, san-serif-size: 14px;
+  font-family: 'SourceSansProLight';
+  font-size:: 14px;
   display: inline-block;
   vertical-align: middle;
   background-color: #f2f2f2;
@@ -19795,10 +19795,10 @@ body {
 }
 #prism-toolbar #widgeteditor-toolbar .tab-host .tab-action {
   color: #2c3342;
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProRegular', Arial, san-serif;
+  font-family: 'SourceSansProRegular', Arial, san-serif;
   text-transform: uppercase;
   letter-spacing: 0.3px;
-  'SourceSansProRegular', Arial, san-serif-size: 16px;
+  font-size:: 16px;
   display: inline-block;
   cursor: pointer;
   border-top: none;
@@ -19854,10 +19854,10 @@ body {
 }
 .widget-types-popup .wt-items-host .wt-type .wt-cap {
   color: #2c3342;
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProRegular', Arial, san-serif;
+  font-family: 'SourceSansProRegular', Arial, san-serif;
   text-transform: uppercase;
   letter-spacing: 0.3px;
-  'SourceSansProRegular', Arial, san-serif-size: 16px;
+  font-size:: 16px;
   line-height: 50px;
   display: inline-block;
   vertical-align: top;
@@ -19955,11 +19955,11 @@ body {
   transition: all 600ms ease;
   opacity: 1;
   color: #2c3342;
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProRegular', Arial, san-serif;
+  font-family: 'SourceSansProRegular', Arial, san-serif;
   text-transform: uppercase;
   letter-spacing: 0.3px;
-  'SourceSansProRegular', Arial, san-serif-size: 15px;
-  'SourceSansProRegular', Arial, san-serif-size: 16px;
+  font-size:: 15px;
+  font-size:: 16px;
   text-transform: none;
 }
 .new-widget-modal .stroy-data-holder .new-widget-header-holder {
@@ -19972,10 +19972,10 @@ body {
 .new-widget-modal .stroy-data-holder .new-widget-header-holder .header-holder .header-title {
   display: inline-block;
   color: #2c3342;
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProRegular', Arial, san-serif;
+  font-family: 'SourceSansProRegular', Arial, san-serif;
   text-transform: uppercase;
   letter-spacing: 0.3px;
-  'SourceSansProRegular', Arial, san-serif-size: 24px;
+  font-size:: 24px;
 }
 .new-widget-modal .stroy-data-holder .new-widget-header-holder .header-holder .datasource-holder {
   display: -moz-box;
@@ -19995,10 +19995,10 @@ body {
 .new-widget-modal .stroy-data-holder .new-widget-header-holder .header-holder .datasource-holder .datasource-from-text,
 .new-widget-modal .stroy-data-holder .new-widget-header-holder .header-holder .datasource-holder .datasource-name-text {
   display: inline-block;
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProLight';
+  font-family: 'SourceSansProLight';
   color: #272a34;
-  'SourceSansProRegular', Arial, san-serif-size: 13px;
-  'SourceSansProRegular', Arial, san-serif-size: 14px;
+  font-size:: 13px;
+  font-size:: 14px;
   text-transform: none;
   color: #56535B;
 }
@@ -20060,9 +20060,9 @@ body {
   position: relative;
 }
 .new-widget-modal .stroy-data-holder .new-widget-header-holder .data-strip-holder .data-picker-holder .widget-item .item-rename-mode .item-text {
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProLight';
+  font-family: 'SourceSansProLight';
   color: #272a34;
-  'SourceSansProRegular', Arial, san-serif-size: 12.5px;
+  font-size:: 12.5px;
   display: inline-block;
   vertical-align: middle;
   margin-top: 3px;
@@ -20089,9 +20089,9 @@ body {
   transition: width 400ms ease;
 }
 .new-widget-modal .stroy-data-holder .new-widget-header-holder .data-strip-holder .data-picker-holder .widget-item .item-edit-mode input {
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProLight';
+  font-family: 'SourceSansProLight';
   color: #272a34;
-  'SourceSansProRegular', Arial, san-serif-size: 12.5px;
+  font-size:: 12.5px;
   color: #ffffff;
   background: transparent;
   border: none;
@@ -20156,9 +20156,9 @@ body {
 }
 .new-widget-modal .stroy-data-holder .new-widget-header-holder .data-strip-holder .data-picker-holder .add-item-holder .add-data-text {
   display: inline-block;
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProLight';
+  font-family: 'SourceSansProLight';
   color: #272a34;
-  'SourceSansProRegular', Arial, san-serif-size: 12.5px;
+  font-size:: 12.5px;
   color: #ffffff;
   text-transform: none;
   margin-right: 7px;
@@ -20283,10 +20283,10 @@ body {
   padding: 0px 10px;
   outline: 0;
   color: #2c3342;
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProRegular', Arial, san-serif;
+  font-family: 'SourceSansProRegular', Arial, san-serif;
   text-transform: uppercase;
   letter-spacing: 0.3px;
-  'SourceSansProRegular', Arial, san-serif-size: 16px;
+  font-size:: 16px;
   text-transform: none;
 }
 .new-widget-modal .new-widget-main .widget-picker-holder .widget-holder .widget-title input::-ms-clear {
@@ -20329,11 +20329,11 @@ body {
 }
 .new-widget-modal .new-widget-main .new-widget-footer .control-freak {
   display: inline-block;
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProLight';
+  font-family: 'SourceSansProLight';
   color: #272a34;
-  'SourceSansProRegular', Arial, san-serif-size: 13px;
+  font-size:: 13px;
   color: #008db8;
-  'SourceSansProRegular', Arial, san-serif-size: 14px;
+  font-size:: 14px;
   cursor: pointer;
   margin-left: 10px;
   margin-top: 9px;
@@ -20364,10 +20364,10 @@ body {
 }
 .col-items-host .item-holder .item-text {
   color: #2c3342;
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProRegular', Arial, san-serif;
+  font-family: 'SourceSansProRegular', Arial, san-serif;
   text-transform: uppercase;
   letter-spacing: 0.3px;
-  'SourceSansProRegular', Arial, san-serif-size: 16px;
+  font-size:: 16px;
   line-height: 50px;
   display: inline-block;
   vertical-align: top;
@@ -20471,9 +20471,9 @@ body {
 }
 #prism-toolbar #dashboard-toolbar .dashboard-header .dashboard-title {
   color: #2c3342;
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProRegular', Arial, san-serif;
+  font-family: 'SourceSansProRegular', Arial, san-serif;
   letter-spacing: 0.3px;
-  'SourceSansProRegular', Arial, san-serif-size: 24px;
+  font-size:: 24px;
   /* OLD - iOS 6-, Safari 3.1-6 */
   /* OLD - Firefox 19- */
   /* Chrome */
@@ -20523,9 +20523,9 @@ body {
   background: #D2D2D2;
 }
 #prism-toolbar #dashboard-toolbar .dashboard-header .dashboard-datasource {
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProLight';
+  font-family: 'SourceSansProLight';
   color: #272a34;
-  'SourceSansProRegular', Arial, san-serif-size: 12px;
+  font-size:: 12px;
   /* OLD - iOS 6-, Safari 3.1-6 */
   /* OLD - Firefox 19- */
   /* Chrome */
@@ -20827,10 +20827,10 @@ body {
   vertical-align: middle;
   display: inline-block;
   color: #2c3342;
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProRegular', Arial, san-serif;
+  font-family: 'SourceSansProRegular', Arial, san-serif;
   text-transform: uppercase;
   letter-spacing: 0.3px;
-  'SourceSansProRegular', Arial, san-serif-size: 16px;
+  font-size:: 16px;
 }
 #prism-toolbar #dashboard-toolbar .actions-box .btn-action .action-caption.share-caption {
   margin: 2px 14px 0px 0px;
@@ -20942,10 +20942,10 @@ body {
   border-left: solid #ffffff;
   cursor: pointer;
   color: #2c3342;
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProRegular', Arial, san-serif;
+  font-family: 'SourceSansProRegular', Arial, san-serif;
   text-transform: uppercase;
   letter-spacing: 0.3px;
-  'SourceSansProRegular', Arial, san-serif-size: 16px;
+  font-size:: 16px;
 }
 #prism-toolbar #dashboard-toolbar .right-box:hover {
   background: #ffff9c;
@@ -20977,10 +20977,10 @@ body {
 }
 .import-dashboard-modal .modal-title {
   color: #2c3342;
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProRegular', Arial, san-serif;
+  font-family: 'SourceSansProRegular', Arial, san-serif;
   text-transform: uppercase;
   letter-spacing: 0.3px;
-  'SourceSansProRegular', Arial, san-serif-size: 24px;
+  font-size:: 24px;
   margin-left: 9px;
   margin-top: 8px;
 }
@@ -20988,9 +20988,9 @@ body {
   margin: 80px 0px 0px 180px;
 }
 .import-dashboard-modal .main-holder .file-error-msg {
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProLight';
+  font-family: 'SourceSansProLight';
   color: #272a34;
-  'SourceSansProRegular', Arial, san-serif-size: 12.5px;
+  font-size:: 12.5px;
   color: #fd9996;
   margin-top: 15px;
 }
@@ -21043,18 +21043,18 @@ body {
 .new-dashboard-modal .modal-title .title-big {
   display: inline;
   color: #2c3342;
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProRegular', Arial, san-serif;
+  font-family: 'SourceSansProRegular', Arial, san-serif;
   text-transform: uppercase;
   letter-spacing: 0.3px;
-  'SourceSansProRegular', Arial, san-serif-size: 24px;
+  font-size:: 24px;
 }
 .new-dashboard-modal .modal-title .title-small {
   margin-left: 3px;
   display: inline-block;
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProLight';
+  font-family: 'SourceSansProLight';
   color: #272a34;
-  'SourceSansProRegular', Arial, san-serif-size: 13px;
-  'SourceSansProRegular', Arial, san-serif-size: 14px;
+  font-size:: 13px;
+  font-size:: 14px;
   color: #56535b;
   text-transform: none;
 }
@@ -21087,10 +21087,10 @@ body {
 .new-dashboard-modal .main-holder .datasource-holder .datasource-selected-value {
   display: inline-block;
   color: #2c3342;
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProRegular', Arial, san-serif;
+  font-family: 'SourceSansProRegular', Arial, san-serif;
   text-transform: uppercase;
   letter-spacing: 0.3px;
-  'SourceSansProRegular', Arial, san-serif-size: 15px;
+  font-size:: 15px;
 }
 .new-dashboard-modal .main-holder .datasource-holder .datasource-selector {
   cursor: pointer;
@@ -21133,10 +21133,10 @@ body {
 .new-dashboard-modal .main-holder .dashboard-title-holder .title-selector {
   display: inline-block;
   color: #2c3342;
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProRegular', Arial, san-serif;
+  font-family: 'SourceSansProRegular', Arial, san-serif;
   text-transform: uppercase;
   letter-spacing: 0.3px;
-  'SourceSansProRegular', Arial, san-serif-size: 15px;
+  font-size:: 15px;
 }
 .new-dashboard-modal .main-holder .dashboard-title-holder .title-selector {
   cursor: pointer;
@@ -21165,10 +21165,10 @@ body {
   outline: 0;
   width: 5px;
   color: #2c3342;
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProRegular', Arial, san-serif;
+  font-family: 'SourceSansProRegular', Arial, san-serif;
   text-transform: uppercase;
   letter-spacing: 0.3px;
-  'SourceSansProRegular', Arial, san-serif-size: 16px;
+  font-size:: 16px;
   text-transform: none;
 }
 .new-dashboard-modal .main-holder .dashboard-title-holder .title-input-holder .title-input::-ms-clear {
@@ -21286,7 +21286,7 @@ body {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProRegular', Arial, san-serif;
+  font-family: 'SourceSansProRegular', Arial, san-serif;
   position: absolute;
   z-index: 900;
   left: 15px;
@@ -21485,7 +21485,7 @@ body {
   background-color: rgba(255, 255, 255, 0.15);
   display: block;
   cursor: pointer;
-  'SourceSansProRegular', Arial, san-serif-size: 15px;
+  font-size:: 15px;
   text-align: center;
   width: 96px;
   height: 24px;
@@ -21501,7 +21501,7 @@ body {
 .pb-container .pb-expander .pb-expander-text {
   color: #FFF;
   text-transform: uppercase;
-  'SourceSansProRegular', Arial, san-serif-size: 14px;
+  font-size:: 14px;
   margin: 0 10px 0 30px;
   line-height: 36px;
   display: inline-block;
@@ -21545,7 +21545,7 @@ body {
 }
 .pb-container .pb-expander .pb-running-set .pb-progress-text {
   color: #FFF;
-  'SourceSansProRegular', Arial, san-serif-size: 15px;
+  font-size:: 15px;
   line-height: 36px;
   float: left;
   margin: 0 4px 0 4px;
@@ -21586,10 +21586,10 @@ body {
   background: #6ed855;
   padding: 5px 28px;
   color: #2c3342;
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProRegular', Arial, san-serif;
+  font-family: 'SourceSansProRegular', Arial, san-serif;
   text-transform: uppercase;
   letter-spacing: 0.3px;
-  'SourceSansProRegular', Arial, san-serif-size: 14px;
+  font-size:: 14px;
   color: #ffffff;
   cursor: pointer;
 }
@@ -21601,9 +21601,9 @@ body {
 }
 .text-file-input-holder .filename-text {
   display: inline-block;
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProLight';
+  font-family: 'SourceSansProLight';
   color: #272a34;
-  'SourceSansProRegular', Arial, san-serif-size: 12.5px;
+  font-size:: 12.5px;
   margin: 5px 0px 0px 5px;
   max-width: calc(100% - 145px);
   word-wrap: normal;

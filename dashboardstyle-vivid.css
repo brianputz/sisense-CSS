@@ -7,16 +7,16 @@
 /* headers */
 .base-header {
   color: #2c3342;
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProRegular', Arial, san-serif;
+  font-family: 'SourceSansProRegular', Arial, san-serif;
   text-transform: uppercase;
   letter-spacing: 0.3px;
 }
 .subtitle {
   color: #b3b3b3;
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProRegular', Arial, san-serif;
+  font-family: 'SourceSansProRegular', Arial, san-serif;
   text-transform: capitalize;
   letter-spacing: 0.3px;
-  'SourceSansProRegular', Arial, san-serif-size: 15px;
+  font-size:: 15px;
 }
 .lomithalef-btn {
   cursor: default;
@@ -30,74 +30,74 @@
 }
 .header-xl {
   color: #2c3342;
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProRegular', Arial, san-serif;
+  font-family: 'SourceSansProRegular', Arial, san-serif;
   text-transform: uppercase;
   letter-spacing: 0.3px;
-  'SourceSansProRegular', Arial, san-serif-size: 24px;
+  font-size:: 24px;
 }
 .header-l {
   color: #2c3342;
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProRegular', Arial, san-serif;
+  font-family: 'SourceSansProRegular', Arial, san-serif;
   text-transform: uppercase;
   letter-spacing: 0.3px;
-  'SourceSansProRegular', Arial, san-serif-size: 16px;
+  font-size:: 16px;
 }
 .header-m {
   color: #2c3342;
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProRegular', Arial, san-serif;
+  font-family: 'SourceSansProRegular', Arial, san-serif;
   text-transform: uppercase;
   letter-spacing: 0.3px;
-  'SourceSansProRegular', Arial, san-serif-size: 15px;
+  font-size:: 15px;
 }
 .header-s {
   color: #2c3342;
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProRegular', Arial, san-serif;
+  font-family: 'SourceSansProRegular', Arial, san-serif;
   text-transform: uppercase;
   letter-spacing: 0.3px;
-  'SourceSansProRegular', Arial, san-serif-size: 13px;
+  font-size:: 13px;
 }
 .header-mn {
   color: #2c3342;
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProRegular', Arial, san-serif;
+  font-family: 'SourceSansProRegular', Arial, san-serif;
   text-transform: uppercase;
   letter-spacing: 0.3px;
-  'SourceSansProRegular', Arial, san-serif-size: 14px;
+  font-size:: 14px;
 }
 /* text */
 .base-txt {
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProLight';
+  font-family: 'SourceSansProLight';
   color: #272a34;
 }
 .text-xl {
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProLight';
+  font-family: 'SourceSansProLight';
   color: #272a34;
-  'SourceSansProRegular', Arial, san-serif-size: 16px;
+  font-size:: 16px;
 }
 .text-l {
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProLight';
+  font-family: 'SourceSansProLight';
   color: #272a34;
-  'SourceSansProRegular', Arial, san-serif-size: 13px;
+  font-size:: 13px;
 }
 .text-m {
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProLight';
+  font-family: 'SourceSansProLight';
   color: #272a34;
-  'SourceSansProRegular', Arial, san-serif-size: 12.5px;
+  font-size:: 12.5px;
 }
 .text-s {
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProLight';
+  font-family: 'SourceSansProLight';
   color: #272a34;
-  'SourceSansProRegular', Arial, san-serif-size: 12px;
+  font-size:: 12px;
 }
 .text-xs {
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProLight';
+  font-family: 'SourceSansProLight';
   color: #272a34;
-  'SourceSansProRegular', Arial, san-serif-size: 11px;
+  font-size:: 11px;
 }
 /* dom common */
 body {
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProLight';
+  font-family: 'SourceSansProLight';
   color: #272a34;
-  'SourceSansProRegular', Arial, san-serif-size: 12.5px;
+  font-size:: 12.5px;
   cursor: default;
 }
 ::-webkit-input-placeholder {
@@ -216,10 +216,10 @@ body {
 }
 .area-map-tip .geo-text {
   color: #2c3342;
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProRegular', Arial, san-serif;
+  font-family: 'SourceSansProRegular', Arial, san-serif;
   text-transform: uppercase;
   letter-spacing: 0.3px;
-  'SourceSansProRegular', Arial, san-serif-size: 15px;
+  font-size:: 15px;
   text-transform: none;
 }
 .area-map-tip .measure-holder {
@@ -234,20 +234,20 @@ body {
 .area-map-tip .measure-holder .measure-title {
   display: inline-block;
   color: #2c3342;
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProRegular', Arial, san-serif;
+  font-family: 'SourceSansProRegular', Arial, san-serif;
   text-transform: uppercase;
   letter-spacing: 0.3px;
-  'SourceSansProRegular', Arial, san-serif-size: 13px;
+  font-size:: 13px;
   text-transform: none;
   margin-right: 15px;
 }
 .area-map-tip .measure-holder .measure-value {
   display: inline-block;
   color: #2c3342;
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProRegular', Arial, san-serif;
+  font-family: 'SourceSansProRegular', Arial, san-serif;
   text-transform: uppercase;
   letter-spacing: 0.3px;
-  'SourceSansProRegular', Arial, san-serif-size: 13px;
+  font-size:: 13px;
   text-transform: none;
 }
 widget[family="basiccharts"] series labels {
@@ -334,7 +334,7 @@ widget[family="basiccharts"] tooltip {
 }
 .cartesian-tooltip-values {
   'SourceSansProRegular', Arial, san-serif: 16px 'SourceSansProRegular', Arial, san-serif, 'Abel', sans-serif;
-  'SourceSansProRegular', Arial, san-serif-size: 15px;
+  font-size:: 15px;
 }
 .cartesian-tooltip-seriesName {
   padding-bottom: 4px;
@@ -350,7 +350,7 @@ widget[family="basiccharts"] tooltip {
 }
 .cartesian-tooltip-xAxis {
   'SourceSansProRegular', Arial, san-serif: 13px 'SourceSansProLight', sans-serif;
-  'SourceSansProRegular', Arial, san-serif-size: 12px;
+  font-size:: 12px;
 }
 .cartesian-tooltip-plotBand {
   display: inline-block;
@@ -364,7 +364,7 @@ widget[family="basiccharts"] tooltip {
 }
 .pie-tooltip-headers {
   'SourceSansProRegular', Arial, san-serif: 16px 'SourceSansProRegular', Arial, san-serif, 'Abel', sans-serif;
-  'SourceSansProRegular', Arial, san-serif-size: 15px;
+  font-size:: 15px;
   line-height: 100%;
 }
 .pie-tooltip-seriesName {
@@ -377,7 +377,7 @@ widget[family="basiccharts"] tooltip {
 }
 .pie-tooltip-values {
   'SourceSansProRegular', Arial, san-serif: 16px 'SourceSansProRegular', Arial, san-serif, 'Abel', sans-serif;
-  'SourceSansProRegular', Arial, san-serif-size: 15px;
+  font-size:: 15px;
 }
 .pie-tooltip-value {
   display: inline-block;
@@ -387,7 +387,7 @@ widget[family="basiccharts"] tooltip {
 }
 .pie-tooltip-others {
   'SourceSansProRegular', Arial, san-serif: 13px 'SourceSansProLight', sans-serif;
-  'SourceSansProRegular', Arial, san-serif-size: 11px;
+  font-size:: 11px;
   line-height: 150%;
 }
 .pie-tooltip-moreInOthers {
@@ -399,43 +399,43 @@ widget[family="basiccharts"] tooltip {
 }
 .scatter-tooltip-xValue {
   'SourceSansProRegular', Arial, san-serif: 16px 'SourceSansProRegular', Arial, san-serif, 'Abel', sans-serif;
-  'SourceSansProRegular', Arial, san-serif-size: 15px;
+  font-size:: 15px;
 }
 .scatter-tooltip-xHeader {
   'SourceSansProRegular', Arial, san-serif: 13px 'SourceSansProLight', sans-serif;
-  'SourceSansProRegular', Arial, san-serif-size: 12px;
+  font-size:: 12px;
 }
 .scatter-tooltip-yValue {
   'SourceSansProRegular', Arial, san-serif: 16px 'SourceSansProRegular', Arial, san-serif, 'Abel', sans-serif;
-  'SourceSansProRegular', Arial, san-serif-size: 15px;
+  font-size:: 15px;
 }
 .scatter-tooltip-yHeader {
   'SourceSansProRegular', Arial, san-serif: 13px 'SourceSansProLight', sans-serif;
-  'SourceSansProRegular', Arial, san-serif-size: 12px;
+  font-size:: 12px;
 }
 .scatter-tooltip-pointValue {
   'SourceSansProRegular', Arial, san-serif: 16px 'SourceSansProRegular', Arial, san-serif, 'Abel', sans-serif;
-  'SourceSansProRegular', Arial, san-serif-size: 15px;
+  font-size:: 15px;
 }
 .scatter-tooltip-pointHeader {
   'SourceSansProRegular', Arial, san-serif: 13px 'SourceSansProLight', sans-serif;
-  'SourceSansProRegular', Arial, san-serif-size: 12px;
+  font-size:: 12px;
 }
 .scatter-tooltip-colorValue {
   'SourceSansProRegular', Arial, san-serif: 16px 'SourceSansProRegular', Arial, san-serif, 'Abel', sans-serif;
-  'SourceSansProRegular', Arial, san-serif-size: 15px;
+  font-size:: 15px;
 }
 .scatter-tooltip-colorHeader {
   'SourceSansProRegular', Arial, san-serif: 13px 'SourceSansProLight', sans-serif;
-  'SourceSansProRegular', Arial, san-serif-size: 12px;
+  font-size:: 12px;
 }
 .scatter-tooltip-sizeValue {
   'SourceSansProRegular', Arial, san-serif: 16px 'SourceSansProRegular', Arial, san-serif, 'Abel', sans-serif;
-  'SourceSansProRegular', Arial, san-serif-size: 15px;
+  font-size:: 15px;
 }
 .scatter-tooltip-sizeHeader {
   'SourceSansProRegular', Arial, san-serif: 13px 'SourceSansProLight', sans-serif;
-  'SourceSansProRegular', Arial, san-serif-size: 12px;
+  font-size:: 12px;
 }
 .tipper-host.charts {
   border: 1px solid #CCCCCC;
@@ -818,8 +818,8 @@ dashboard widget.columnar widget-toolbar .toolbar-btn .caption {
   display: inline-block;
   position: relative;
   top: -2px;
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProLight';
-  'SourceSansProRegular', Arial, san-serif-size: 13px;
+  font-family: 'SourceSansProLight';
+  font-size:: 13px;
   margin-right: 14px;
   margin-left: 6px;
   color: #d8d8d8;
@@ -1754,7 +1754,7 @@ indicator-secondarytitle {
 .indicator-number_base {
   display: block;
   text-align: center;
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProRegular', Arial, san-serif, 'Abel', sans-serif;
+  font-family: 'SourceSansProRegular', Arial, san-serif, 'Abel', sans-serif;
 }
 .indicator-number_base.indicator_big {
   letter-spacing: -0.2em;
@@ -1764,7 +1764,7 @@ indicator-secondarytitle {
   line-height: 70px;
 }
 .indicator-number_base.indicator_big span {
-  'SourceSansProRegular', Arial, san-serif-size: 45px;
+  font-size:: 45px;
 }
 .indicator-number_base.indicator_medium {
   letter-spacing: -0.1em;
@@ -1774,7 +1774,7 @@ indicator-secondarytitle {
   line-height: 49px;
 }
 .indicator-number_base.indicator_medium span {
-  'SourceSansProRegular', Arial, san-serif-size: 31px;
+  font-size:: 31px;
 }
 .indicator-number_base.indicator_small {
   letter-spacing: 0em;
@@ -1784,7 +1784,7 @@ indicator-secondarytitle {
   line-height: 34.3px;
 }
 .indicator-number_base.indicator_small span {
-  'SourceSansProRegular', Arial, san-serif-size: 22px;
+  font-size:: 22px;
 }
 .indicator-number_base.indicator_micro {
   letter-spacing: 0em;
@@ -1794,7 +1794,7 @@ indicator-secondarytitle {
   line-height: 24.01px;
 }
 .indicator-number_base.indicator_micro span {
-  'SourceSansProRegular', Arial, san-serif-size: 15px;
+  font-size:: 15px;
 }
 .indicator-number_base:not(.indicator_ticker) {
   max-width: 100%;
@@ -1813,7 +1813,7 @@ indicator-secondarytitle {
   color: #00cee6;
 }
 .indicator-number_base.indicator_ticker span {
-  'SourceSansProRegular', Arial, san-serif-size: 15px;
+  font-size:: 15px;
   'SourceSansProRegular', Arial, san-serif-weight: 800;
 }
 .indicator-number_base div {
@@ -1835,7 +1835,7 @@ indicator-secondarytitle {
 .gauge indicator-number {
   display: block;
   text-align: center;
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProRegular', Arial, san-serif, 'Abel', sans-serif;
+  font-family: 'SourceSansProRegular', Arial, san-serif, 'Abel', sans-serif;
   -webkit-justify-content: center;
   -moz-box-pack: center;
   -webkit-box-pack: center;
@@ -1851,7 +1851,7 @@ indicator-secondarytitle {
   line-height: 70px;
 }
 .gauge indicator-number.indicator_big span {
-  'SourceSansProRegular', Arial, san-serif-size: 45px;
+  font-size:: 45px;
 }
 .gauge indicator-number.indicator_medium {
   letter-spacing: -0.1em;
@@ -1861,7 +1861,7 @@ indicator-secondarytitle {
   line-height: 49px;
 }
 .gauge indicator-number.indicator_medium span {
-  'SourceSansProRegular', Arial, san-serif-size: 31px;
+  font-size:: 31px;
 }
 .gauge indicator-number.indicator_small {
   letter-spacing: 0em;
@@ -1871,7 +1871,7 @@ indicator-secondarytitle {
   line-height: 34.3px;
 }
 .gauge indicator-number.indicator_small span {
-  'SourceSansProRegular', Arial, san-serif-size: 22px;
+  font-size:: 22px;
 }
 .gauge indicator-number.indicator_micro {
   letter-spacing: 0em;
@@ -1881,7 +1881,7 @@ indicator-secondarytitle {
   line-height: 24.01px;
 }
 .gauge indicator-number.indicator_micro span {
-  'SourceSansProRegular', Arial, san-serif-size: 15px;
+  font-size:: 15px;
 }
 .gauge indicator-number:not(.indicator_ticker) {
   max-width: 100%;
@@ -1900,7 +1900,7 @@ indicator-secondarytitle {
   color: #00cee6;
 }
 .gauge indicator-number.indicator_ticker span {
-  'SourceSansProRegular', Arial, san-serif-size: 15px;
+  font-size:: 15px;
   'SourceSansProRegular', Arial, san-serif-weight: 800;
 }
 .gauge indicator-number div {
@@ -1918,7 +1918,7 @@ indicator-secondarytitle {
 .numeric_bar indicator-number {
   display: block;
   text-align: center;
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProRegular', Arial, san-serif, 'Abel', sans-serif;
+  font-family: 'SourceSansProRegular', Arial, san-serif, 'Abel', sans-serif;
 }
 .numeric_bar indicator-number.indicator_big {
   letter-spacing: -0.2em;
@@ -1928,7 +1928,7 @@ indicator-secondarytitle {
   line-height: 70px;
 }
 .numeric_bar indicator-number.indicator_big span {
-  'SourceSansProRegular', Arial, san-serif-size: 45px;
+  font-size:: 45px;
 }
 .numeric_bar indicator-number.indicator_medium {
   letter-spacing: -0.1em;
@@ -1938,7 +1938,7 @@ indicator-secondarytitle {
   line-height: 49px;
 }
 .numeric_bar indicator-number.indicator_medium span {
-  'SourceSansProRegular', Arial, san-serif-size: 31px;
+  font-size:: 31px;
 }
 .numeric_bar indicator-number.indicator_small {
   letter-spacing: 0em;
@@ -1948,7 +1948,7 @@ indicator-secondarytitle {
   line-height: 34.3px;
 }
 .numeric_bar indicator-number.indicator_small span {
-  'SourceSansProRegular', Arial, san-serif-size: 22px;
+  font-size:: 22px;
 }
 .numeric_bar indicator-number.indicator_micro {
   letter-spacing: 0em;
@@ -1958,7 +1958,7 @@ indicator-secondarytitle {
   line-height: 24.01px;
 }
 .numeric_bar indicator-number.indicator_micro span {
-  'SourceSansProRegular', Arial, san-serif-size: 15px;
+  font-size:: 15px;
 }
 .numeric_bar indicator-number:not(.indicator_ticker) {
   max-width: 100%;
@@ -1977,7 +1977,7 @@ indicator-secondarytitle {
   color: #00cee6;
 }
 .numeric_bar indicator-number.indicator_ticker span {
-  'SourceSansProRegular', Arial, san-serif-size: 15px;
+  font-size:: 15px;
   'SourceSansProRegular', Arial, san-serif-weight: 800;
 }
 .numeric_bar indicator-number div {
@@ -1995,7 +1995,7 @@ indicator-secondarytitle {
 .numeric_simple_vertical indicator-number {
   display: block;
   text-align: center;
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProRegular', Arial, san-serif, 'Abel', sans-serif;
+  font-family: 'SourceSansProRegular', Arial, san-serif, 'Abel', sans-serif;
   width: 100%;
 }
 .numeric_simple_vertical indicator-number.indicator_big {
@@ -2006,7 +2006,7 @@ indicator-secondarytitle {
   line-height: 70px;
 }
 .numeric_simple_vertical indicator-number.indicator_big span {
-  'SourceSansProRegular', Arial, san-serif-size: 45px;
+  font-size:: 45px;
 }
 .numeric_simple_vertical indicator-number.indicator_medium {
   letter-spacing: -0.1em;
@@ -2016,7 +2016,7 @@ indicator-secondarytitle {
   line-height: 49px;
 }
 .numeric_simple_vertical indicator-number.indicator_medium span {
-  'SourceSansProRegular', Arial, san-serif-size: 31px;
+  font-size:: 31px;
 }
 .numeric_simple_vertical indicator-number.indicator_small {
   letter-spacing: 0em;
@@ -2026,7 +2026,7 @@ indicator-secondarytitle {
   line-height: 34.3px;
 }
 .numeric_simple_vertical indicator-number.indicator_small span {
-  'SourceSansProRegular', Arial, san-serif-size: 22px;
+  font-size:: 22px;
 }
 .numeric_simple_vertical indicator-number.indicator_micro {
   letter-spacing: 0em;
@@ -2036,7 +2036,7 @@ indicator-secondarytitle {
   line-height: 24.01px;
 }
 .numeric_simple_vertical indicator-number.indicator_micro span {
-  'SourceSansProRegular', Arial, san-serif-size: 15px;
+  font-size:: 15px;
 }
 .numeric_simple_vertical indicator-number:not(.indicator_ticker) {
   max-width: 100%;
@@ -2055,7 +2055,7 @@ indicator-secondarytitle {
   color: #00cee6;
 }
 .numeric_simple_vertical indicator-number.indicator_ticker span {
-  'SourceSansProRegular', Arial, san-serif-size: 15px;
+  font-size:: 15px;
   'SourceSansProRegular', Arial, san-serif-weight: 800;
 }
 .numeric_simple_vertical indicator-number div {
@@ -2071,16 +2071,16 @@ indicator-secondarytitle {
   vertical-align: top;
 }
 .numeric_simple_vertical indicator-number.indicator_big span {
-  'SourceSansProRegular', Arial, san-serif-size: 66px;
+  font-size:: 66px;
 }
 .numeric_simple_vertical indicator-number.indicator_medium span {
-  'SourceSansProRegular', Arial, san-serif-size: 46px;
+  font-size:: 46px;
 }
 .numeric_simple_vertical indicator-number.indicator_small span {
-  'SourceSansProRegular', Arial, san-serif-size: 32px;
+  font-size:: 32px;
 }
 .numeric_simple_vertical indicator-number.indicator_micro span {
-  'SourceSansProRegular', Arial, san-serif-size: 23px;
+  font-size:: 23px;
 }
 .numeric_simple_vertical indicator-number span {
   color: #00cee6;
@@ -2104,28 +2104,28 @@ indicator-secondarytitle {
   display: box;
   display: -ms-flexbox;
   text-transform: uppercase;
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProRegular', Arial, san-serif, 'Abel', sans-serif;
+  font-family: 'SourceSansProRegular', Arial, san-serif, 'Abel', sans-serif;
   color: #445166;
 }
 .indicator_title_base.indicator_big {
-  'SourceSansProRegular', Arial, san-serif-size: 22px;
+  font-size:: 22px;
 }
 .indicator_title_base.indicator_medium {
-  'SourceSansProRegular', Arial, san-serif-size: 18px;
+  font-size:: 18px;
 }
 .indicator_title_base.indicator_small {
-  'SourceSansProRegular', Arial, san-serif-size: 15px;
+  font-size:: 15px;
 }
 .indicator_title_base.indicator_micro {
-  'SourceSansProRegular', Arial, san-serif-size: 12px;
+  font-size:: 12px;
 }
 .indicator_title_base.indicator_ticker {
   height: 20px;
   display: block;
   margin-right: 5px;
   margin-left: 5px;
-  'SourceSansProRegular', Arial, san-serif-size: 15px;
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProRegular', Arial, san-serif, 'Abel', sans-serif;
+  font-size:: 15px;
+  font-family: 'SourceSansProRegular', Arial, san-serif, 'Abel', sans-serif;
 }
 .indicator_title_base div {
   text-align: center;
@@ -2142,24 +2142,24 @@ indicator-secondarytitle {
   display: box;
   display: -ms-flexbox;
   text-transform: uppercase;
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProRegular', Arial, san-serif, 'Abel', sans-serif;
+  font-family: 'SourceSansProRegular', Arial, san-serif, 'Abel', sans-serif;
   color: #445166;
 }
 .numeric_bar indicator-title.indicator_big,
 .numeric_simple_vertical indicator-title.indicator_big {
-  'SourceSansProRegular', Arial, san-serif-size: 22px;
+  font-size:: 22px;
 }
 .numeric_bar indicator-title.indicator_medium,
 .numeric_simple_vertical indicator-title.indicator_medium {
-  'SourceSansProRegular', Arial, san-serif-size: 18px;
+  font-size:: 18px;
 }
 .numeric_bar indicator-title.indicator_small,
 .numeric_simple_vertical indicator-title.indicator_small {
-  'SourceSansProRegular', Arial, san-serif-size: 15px;
+  font-size:: 15px;
 }
 .numeric_bar indicator-title.indicator_micro,
 .numeric_simple_vertical indicator-title.indicator_micro {
-  'SourceSansProRegular', Arial, san-serif-size: 12px;
+  font-size:: 12px;
 }
 .numeric_bar indicator-title.indicator_ticker,
 .numeric_simple_vertical indicator-title.indicator_ticker {
@@ -2167,8 +2167,8 @@ indicator-secondarytitle {
   display: block;
   margin-right: 5px;
   margin-left: 5px;
-  'SourceSansProRegular', Arial, san-serif-size: 15px;
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProRegular', Arial, san-serif, 'Abel', sans-serif;
+  font-size:: 15px;
+  font-family: 'SourceSansProRegular', Arial, san-serif, 'Abel', sans-serif;
 }
 .numeric_bar indicator-title div,
 .numeric_simple_vertical indicator-title div {
@@ -2225,7 +2225,7 @@ indicator-secondarytitle {
   display: box;
   display: -ms-flexbox;
   text-transform: uppercase;
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProRegular', Arial, san-serif, 'Abel', sans-serif;
+  font-family: 'SourceSansProRegular', Arial, san-serif, 'Abel', sans-serif;
   color: #445166;
   -webkit-justify-content: center;
   -moz-box-pack: center;
@@ -2242,24 +2242,24 @@ indicator-secondarytitle {
   height: 100%;
 }
 .gauge indicator-title.indicator_big {
-  'SourceSansProRegular', Arial, san-serif-size: 22px;
+  font-size:: 22px;
 }
 .gauge indicator-title.indicator_medium {
-  'SourceSansProRegular', Arial, san-serif-size: 18px;
+  font-size:: 18px;
 }
 .gauge indicator-title.indicator_small {
-  'SourceSansProRegular', Arial, san-serif-size: 15px;
+  font-size:: 15px;
 }
 .gauge indicator-title.indicator_micro {
-  'SourceSansProRegular', Arial, san-serif-size: 12px;
+  font-size:: 12px;
 }
 .gauge indicator-title.indicator_ticker {
   height: 20px;
   display: block;
   margin-right: 5px;
   margin-left: 5px;
-  'SourceSansProRegular', Arial, san-serif-size: 15px;
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProRegular', Arial, san-serif, 'Abel', sans-serif;
+  font-size:: 15px;
+  font-family: 'SourceSansProRegular', Arial, san-serif, 'Abel', sans-serif;
 }
 .gauge indicator-title div {
   text-align: center;
@@ -2310,20 +2310,20 @@ indicator-secondarytitle {
 /* --------------------------------*/
 .indicator_secondarytitle_base {
   display: block;
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProLight', sans-serif;
+  font-family: 'SourceSansProLight', sans-serif;
   color: #a3a3a3;
 }
 .indicator_secondarytitle_base.indicator_big {
-  'SourceSansProRegular', Arial, san-serif-size: 20px;
+  font-size:: 20px;
 }
 .indicator_secondarytitle_base.indicator_medium {
-  'SourceSansProRegular', Arial, san-serif-size: 14px;
+  font-size:: 14px;
 }
 .indicator_secondarytitle_base.indicator_small {
-  'SourceSansProRegular', Arial, san-serif-size: 9.8px;
+  font-size:: 9.8px;
 }
 .indicator_secondarytitle_base.indicator_micro {
-  'SourceSansProRegular', Arial, san-serif-size: 9.8px;
+  font-size:: 9.8px;
 }
 .indicator_secondarytitle_base.indicator_ticker {
   -webkit-box-flex: 1;
@@ -2338,8 +2338,8 @@ indicator-secondarytitle {
   margin-left: 0;
   margin-top: 0;
   margin-bottom: 0;
-  'SourceSansProRegular', Arial, san-serif-size: 15px;
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProRegular', Arial, san-serif, 'Abel', sans-serif;
+  font-size:: 15px;
+  font-family: 'SourceSansProRegular', Arial, san-serif, 'Abel', sans-serif;
 }
 .indicator_secondarytitle_base div span {
   text-overflow: ellipsis;
@@ -2361,7 +2361,7 @@ indicator-secondarytitle {
 .gauge indicator-secondarytitle,
 .numeric_bar indicator-secondarytitle {
   display: block;
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProLight', sans-serif;
+  font-family: 'SourceSansProLight', sans-serif;
   color: #a3a3a3;
   width: calc(100% - 2px);
   -webkit-box-flex: 1;
@@ -2375,19 +2375,19 @@ indicator-secondarytitle {
 }
 .gauge indicator-secondarytitle.indicator_big,
 .numeric_bar indicator-secondarytitle.indicator_big {
-  'SourceSansProRegular', Arial, san-serif-size: 20px;
+  font-size:: 20px;
 }
 .gauge indicator-secondarytitle.indicator_medium,
 .numeric_bar indicator-secondarytitle.indicator_medium {
-  'SourceSansProRegular', Arial, san-serif-size: 14px;
+  font-size:: 14px;
 }
 .gauge indicator-secondarytitle.indicator_small,
 .numeric_bar indicator-secondarytitle.indicator_small {
-  'SourceSansProRegular', Arial, san-serif-size: 9.8px;
+  font-size:: 9.8px;
 }
 .gauge indicator-secondarytitle.indicator_micro,
 .numeric_bar indicator-secondarytitle.indicator_micro {
-  'SourceSansProRegular', Arial, san-serif-size: 9.8px;
+  font-size:: 9.8px;
 }
 .gauge indicator-secondarytitle.indicator_ticker,
 .numeric_bar indicator-secondarytitle.indicator_ticker {
@@ -2403,8 +2403,8 @@ indicator-secondarytitle {
   margin-left: 0;
   margin-top: 0;
   margin-bottom: 0;
-  'SourceSansProRegular', Arial, san-serif-size: 15px;
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProRegular', Arial, san-serif, 'Abel', sans-serif;
+  font-size:: 15px;
+  font-family: 'SourceSansProRegular', Arial, san-serif, 'Abel', sans-serif;
 }
 .gauge indicator-secondarytitle div span,
 .numeric_bar indicator-secondarytitle div span {
@@ -2433,7 +2433,7 @@ indicator-secondarytitle {
 }
 .numeric_simple_vertical indicator-secondarytitle {
   display: block;
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProLight', sans-serif;
+  font-family: 'SourceSansProLight', sans-serif;
   color: #a3a3a3;
   margin-left: 0;
   vertical-align: top;
@@ -2448,16 +2448,16 @@ indicator-secondarytitle {
   width: calc(100% - 2px);
 }
 .numeric_simple_vertical indicator-secondarytitle.indicator_big {
-  'SourceSansProRegular', Arial, san-serif-size: 20px;
+  font-size:: 20px;
 }
 .numeric_simple_vertical indicator-secondarytitle.indicator_medium {
-  'SourceSansProRegular', Arial, san-serif-size: 14px;
+  font-size:: 14px;
 }
 .numeric_simple_vertical indicator-secondarytitle.indicator_small {
-  'SourceSansProRegular', Arial, san-serif-size: 9.8px;
+  font-size:: 9.8px;
 }
 .numeric_simple_vertical indicator-secondarytitle.indicator_micro {
-  'SourceSansProRegular', Arial, san-serif-size: 9.8px;
+  font-size:: 9.8px;
 }
 .numeric_simple_vertical indicator-secondarytitle.indicator_ticker {
   -webkit-box-flex: 1;
@@ -2472,8 +2472,8 @@ indicator-secondarytitle {
   margin-left: 0;
   margin-top: 0;
   margin-bottom: 0;
-  'SourceSansProRegular', Arial, san-serif-size: 15px;
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProRegular', Arial, san-serif, 'Abel', sans-serif;
+  font-size:: 15px;
+  font-family: 'SourceSansProRegular', Arial, san-serif, 'Abel', sans-serif;
 }
 .numeric_simple_vertical indicator-secondarytitle div span {
   text-overflow: ellipsis;
@@ -2494,20 +2494,20 @@ indicator-secondarytitle {
   text-align: -webkit-center;
   text-align: center;
   color: #a3a3a3;
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProLight', sans-serif;
+  font-family: 'SourceSansProLight', sans-serif;
   max-width: 90%;
 }
 .indicator_secondary_base.indicator_big {
-  'SourceSansProRegular', Arial, san-serif-size: 20px;
+  font-size:: 20px;
 }
 .indicator_secondary_base.indicator_medium {
-  'SourceSansProRegular', Arial, san-serif-size: 14px;
+  font-size:: 14px;
 }
 .indicator_secondary_base.indicator_small {
-  'SourceSansProRegular', Arial, san-serif-size: 10px;
+  font-size:: 10px;
 }
 .indicator_secondary_base.indicator_micro {
-  'SourceSansProRegular', Arial, san-serif-size: 10px;
+  font-size:: 10px;
 }
 .indicator_secondary_base:not(.indicator_ticker) {
   'SourceSansProRegular', Arial, san-serif-weight: 800;
@@ -2522,8 +2522,8 @@ indicator-secondarytitle {
 .indicator_secondary_base.indicator_ticker {
   margin-right: 0;
   margin-left: 0;
-  'SourceSansProRegular', Arial, san-serif-size: 15px;
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProRegular', Arial, san-serif, 'Abel', sans-serif;
+  font-size:: 15px;
+  font-family: 'SourceSansProRegular', Arial, san-serif, 'Abel', sans-serif;
   -webkit-box-flex: 0;
   -webkit-box-flex-shrink: 0;
   -moz-box-flex-shrink: 0;
@@ -2546,24 +2546,24 @@ indicator-secondarytitle {
   text-align: -webkit-center;
   text-align: center;
   color: #a3a3a3;
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProLight', sans-serif;
+  font-family: 'SourceSansProLight', sans-serif;
   max-width: 90%;
 }
 .gauge indicator-secondary.indicator_big,
 .numeric_bar indicator-secondary.indicator_big {
-  'SourceSansProRegular', Arial, san-serif-size: 20px;
+  font-size:: 20px;
 }
 .gauge indicator-secondary.indicator_medium,
 .numeric_bar indicator-secondary.indicator_medium {
-  'SourceSansProRegular', Arial, san-serif-size: 14px;
+  font-size:: 14px;
 }
 .gauge indicator-secondary.indicator_small,
 .numeric_bar indicator-secondary.indicator_small {
-  'SourceSansProRegular', Arial, san-serif-size: 10px;
+  font-size:: 10px;
 }
 .gauge indicator-secondary.indicator_micro,
 .numeric_bar indicator-secondary.indicator_micro {
-  'SourceSansProRegular', Arial, san-serif-size: 10px;
+  font-size:: 10px;
 }
 .gauge indicator-secondary:not(.indicator_ticker),
 .numeric_bar indicator-secondary:not(.indicator_ticker) {
@@ -2580,8 +2580,8 @@ indicator-secondarytitle {
 .numeric_bar indicator-secondary.indicator_ticker {
   margin-right: 0;
   margin-left: 0;
-  'SourceSansProRegular', Arial, san-serif-size: 15px;
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProRegular', Arial, san-serif, 'Abel', sans-serif;
+  font-size:: 15px;
+  font-family: 'SourceSansProRegular', Arial, san-serif, 'Abel', sans-serif;
   -webkit-box-flex: 0;
   -webkit-box-flex-shrink: 0;
   -moz-box-flex-shrink: 0;
@@ -2648,22 +2648,22 @@ indicator-secondarytitle {
   text-align: -webkit-center;
   text-align: center;
   color: #a3a3a3;
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProLight', sans-serif;
+  font-family: 'SourceSansProLight', sans-serif;
   max-width: 90%;
   vertical-align: top;
   margin-right: 0;
 }
 .numeric_simple_vertical indicator-secondary.indicator_big {
-  'SourceSansProRegular', Arial, san-serif-size: 20px;
+  font-size:: 20px;
 }
 .numeric_simple_vertical indicator-secondary.indicator_medium {
-  'SourceSansProRegular', Arial, san-serif-size: 14px;
+  font-size:: 14px;
 }
 .numeric_simple_vertical indicator-secondary.indicator_small {
-  'SourceSansProRegular', Arial, san-serif-size: 10px;
+  font-size:: 10px;
 }
 .numeric_simple_vertical indicator-secondary.indicator_micro {
-  'SourceSansProRegular', Arial, san-serif-size: 10px;
+  font-size:: 10px;
 }
 .numeric_simple_vertical indicator-secondary:not(.indicator_ticker) {
   'SourceSansProRegular', Arial, san-serif-weight: 800;
@@ -2678,8 +2678,8 @@ indicator-secondarytitle {
 .numeric_simple_vertical indicator-secondary.indicator_ticker {
   margin-right: 0;
   margin-left: 0;
-  'SourceSansProRegular', Arial, san-serif-size: 15px;
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProRegular', Arial, san-serif, 'Abel', sans-serif;
+  font-size:: 15px;
+  font-family: 'SourceSansProRegular', Arial, san-serif, 'Abel', sans-serif;
   -webkit-box-flex: 0;
   -webkit-box-flex-shrink: 0;
   -moz-box-flex-shrink: 0;
@@ -2875,7 +2875,7 @@ indicator-gauge svg text {
   word-wrap: normal;
   word-break: keep-all;
   white-space: nowrap;
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProRegular', Arial, san-serif, 'Abel', sans-serif;
+  font-family: 'SourceSansProRegular', Arial, san-serif, 'Abel', sans-serif;
 }
 indicator-gauge svg .hidden {
   display: none;
@@ -3016,14 +3016,14 @@ indicator-gauge svg .hidden {
   max-width: 100%;
   height: 100%;
   margin-right: 2px;
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProRegular', Arial, san-serif, 'Abel', sans-serif;
+  font-family: 'SourceSansProRegular', Arial, san-serif, 'Abel', sans-serif;
 }
 .indicator_container_div.numeric_simple_horizontal indicator-number.indicator_big {
   line-height: 70px;
   position: relative;
 }
 .indicator_container_div.numeric_simple_horizontal indicator-number.indicator_big span {
-  'SourceSansProRegular', Arial, san-serif-size: 66px;
+  font-size:: 66px;
   letter-spacing: -0.04em;
 }
 .indicator_container_div.numeric_simple_horizontal indicator-number.indicator_medium {
@@ -3031,7 +3031,7 @@ indicator-gauge svg .hidden {
   position: relative;
 }
 .indicator_container_div.numeric_simple_horizontal indicator-number.indicator_medium span {
-  'SourceSansProRegular', Arial, san-serif-size: 46px;
+  font-size:: 46px;
   letter-spacing: -0.04em;
 }
 .indicator_container_div.numeric_simple_horizontal indicator-number.indicator_small {
@@ -3039,7 +3039,7 @@ indicator-gauge svg .hidden {
   position: relative;
 }
 .indicator_container_div.numeric_simple_horizontal indicator-number.indicator_small span {
-  'SourceSansProRegular', Arial, san-serif-size: 32px;
+  font-size:: 32px;
   letter-spacing: -0.04em;
 }
 .indicator_container_div.numeric_simple_horizontal indicator-number.indicator_micro {
@@ -3047,7 +3047,7 @@ indicator-gauge svg .hidden {
   position: relative;
 }
 .indicator_container_div.numeric_simple_horizontal indicator-number.indicator_micro span {
-  'SourceSansProRegular', Arial, san-serif-size: 23px;
+  font-size:: 23px;
   letter-spacing: 0em;
 }
 .indicator_container_div.numeric_simple_horizontal indicator-number div {
@@ -3079,7 +3079,7 @@ indicator-gauge svg .hidden {
   float: left;
   height: 100%;
   text-transform: uppercase;
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProRegular', Arial, san-serif, 'Abel', sans-serif;
+  font-family: 'SourceSansProRegular', Arial, san-serif, 'Abel', sans-serif;
   color: #445166;
   width: 100%;
   position: relative;
@@ -3088,7 +3088,7 @@ indicator-gauge svg .hidden {
   line-height: 26px;
   padding-top: 9px;
   padding-bottom: 9px;
-  'SourceSansProRegular', Arial, san-serif-size: 22px;
+  font-size:: 22px;
   -webkit-box-flex: 1;
   -webkit-box-flex-shrink: 1;
   -moz-box-flex-shrink: 1;
@@ -3101,7 +3101,7 @@ indicator-gauge svg .hidden {
   line-height: 18.2px;
   padding-top: 6.3px;
   padding-bottom: 6.3px;
-  'SourceSansProRegular', Arial, san-serif-size: 15px;
+  font-size:: 15px;
   -webkit-box-flex: 1;
   -webkit-box-flex-shrink: 1;
   -moz-box-flex-shrink: 1;
@@ -3114,7 +3114,7 @@ indicator-gauge svg .hidden {
   line-height: 12.74px;
   padding-top: 4.41px;
   padding-bottom: 4.41px;
-  'SourceSansProRegular', Arial, san-serif-size: 11px;
+  font-size:: 11px;
   -webkit-box-flex: 1;
   -webkit-box-flex-shrink: 1;
   -moz-box-flex-shrink: 1;
@@ -3125,7 +3125,7 @@ indicator-gauge svg .hidden {
 }
 .indicator_container_div.numeric_simple_horizontal indicator-title.indicator_micro {
   line-height: 24.01px;
-  'SourceSansProRegular', Arial, san-serif-size: 22px;
+  font-size:: 22px;
   -webkit-box-flex: 1;
   -webkit-box-flex-shrink: 1;
   -moz-box-flex-shrink: 1;
@@ -3150,11 +3150,11 @@ indicator-gauge svg .hidden {
 .indicator_container_div.numeric_simple_horizontal indicator-secondarytitle {
   float: left;
   height: 100%;
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProLight', sans-serif;
+  font-family: 'SourceSansProLight', sans-serif;
   color: #a3a3a3;
 }
 .indicator_container_div.numeric_simple_horizontal indicator-secondarytitle.indicator_big {
-  'SourceSansProRegular', Arial, san-serif-size: 20px;
+  font-size:: 20px;
   -webkit-box-flex: 1;
   -webkit-box-flex-shrink: 1;
   -moz-box-flex-shrink: 1;
@@ -3165,7 +3165,7 @@ indicator-gauge svg .hidden {
   width: calc(100% - 2px);
 }
 .indicator_container_div.numeric_simple_horizontal indicator-secondarytitle.indicator_medium {
-  'SourceSansProRegular', Arial, san-serif-size: 14px;
+  font-size:: 14px;
   -webkit-box-flex: 1;
   -webkit-box-flex-shrink: 1;
   -moz-box-flex-shrink: 1;
@@ -3176,7 +3176,7 @@ indicator-gauge svg .hidden {
   width: calc(100% - 2px);
 }
 .indicator_container_div.numeric_simple_horizontal indicator-secondarytitle.indicator_small {
-  'SourceSansProRegular', Arial, san-serif-size: 10px;
+  font-size:: 10px;
   -webkit-box-flex: 1;
   -webkit-box-flex-shrink: 1;
   -moz-box-flex-shrink: 1;
@@ -3187,7 +3187,7 @@ indicator-gauge svg .hidden {
   width: calc(100% - 2px);
 }
 .indicator_container_div.numeric_simple_horizontal indicator-secondarytitle.indicator_micro {
-  'SourceSansProRegular', Arial, san-serif-size: 7px;
+  font-size:: 7px;
   -webkit-box-flex: 1;
   -webkit-box-flex-shrink: 1;
   -moz-box-flex-shrink: 1;
@@ -3210,21 +3210,21 @@ indicator-gauge svg .hidden {
 }
 .indicator_container_div.numeric_simple_horizontal indicator-secondary {
   height: 100%;
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProLight', sans-serif;
+  font-family: 'SourceSansProLight', sans-serif;
   color: #a3a3a3;
   'SourceSansProRegular', Arial, san-serif-weight: 800;
 }
 .indicator_container_div.numeric_simple_horizontal indicator-secondary.indicator_big {
-  'SourceSansProRegular', Arial, san-serif-size: 20px;
+  font-size:: 20px;
 }
 .indicator_container_div.numeric_simple_horizontal indicator-secondary.indicator_medium {
-  'SourceSansProRegular', Arial, san-serif-size: 14px;
+  font-size:: 14px;
 }
 .indicator_container_div.numeric_simple_horizontal indicator-secondary.indicator_small {
-  'SourceSansProRegular', Arial, san-serif-size: 10px;
+  font-size:: 10px;
 }
 .indicator_container_div.numeric_simple_horizontal indicator-secondary.indicator_micro {
-  'SourceSansProRegular', Arial, san-serif-size: 7px;
+  font-size:: 7px;
 }
 .indicator_container_div.numeric_simple_horizontal indicator-secondary div {
   height: 100%;
@@ -3263,7 +3263,7 @@ indicator-gauge svg .hidden {
   margin-left: 0px !important;
 }
 .phone td {
-  'SourceSansProRegular', Arial, san-serif-size: 10px !important;
+  font-size:: 10px !important;
   height: 15px !important;
 }
 .phone .p-container .p-mid {
@@ -3343,14 +3343,14 @@ indicator-gauge svg .hidden {
   white-space: nowrap;
 }
 .p-container table tr td {
-  'SourceSansProRegular', Arial, san-serif-size: 11px;
+  font-size:: 11px;
   color: #272a34;
   overflow: hidden;
   padding: 0 0 0 0;
   vertical-align: top;
   min-height: 25px;
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProLight';
-  'SourceSansProRegular', Arial, san-serif-size: 13px;
+  font-family: 'SourceSansProLight';
+  font-size:: 13px;
   border-left: 1px solid #cccccc;
 }
 .p-container table tr td div {
@@ -3546,8 +3546,8 @@ indicator-gauge svg .hidden {
 }
 .pager-container div {
   margin: 4px 10px 4px 10px;
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProLight';
-  'SourceSansProRegular', Arial, san-serif-size: 13px;
+  font-family: 'SourceSansProLight';
+  font-size:: 13px;
 }
 .pager-container ul {
   margin: 4px 10px 4px 10px;
@@ -3563,8 +3563,8 @@ indicator-gauge svg .hidden {
   vertical-align: middle;
 }
 .pager-container ul li a {
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProLight';
-  'SourceSansProRegular', Arial, san-serif-size: 13px;
+  font-family: 'SourceSansProLight';
+  font-size:: 13px;
 }
 .pager-container ul li.pager-link,
 .pager-container ul li .pager-link {
@@ -3768,10 +3768,10 @@ indicator-gauge svg .hidden {
 }
 .scatter-map-tip .geo-text {
   color: #2c3342;
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProRegular', Arial, san-serif;
+  font-family: 'SourceSansProRegular', Arial, san-serif;
   text-transform: uppercase;
   letter-spacing: 0.3px;
-  'SourceSansProRegular', Arial, san-serif-size: 15px;
+  font-size:: 15px;
   text-transform: none;
 }
 .scatter-map-tip .measure-holder {
@@ -3789,10 +3789,10 @@ indicator-gauge svg .hidden {
 .scatter-map-tip .measure-holder .measure-title {
   display: inline-block;
   color: #2c3342;
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProRegular', Arial, san-serif;
+  font-family: 'SourceSansProRegular', Arial, san-serif;
   text-transform: uppercase;
   letter-spacing: 0.3px;
-  'SourceSansProRegular', Arial, san-serif-size: 13px;
+  font-size:: 13px;
   text-transform: none;
   margin-right: 15px;
   color: #808080;
@@ -3801,24 +3801,24 @@ indicator-gauge svg .hidden {
   display: inline-block;
   float: right;
   color: #2c3342;
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProRegular', Arial, san-serif;
+  font-family: 'SourceSansProRegular', Arial, san-serif;
   text-transform: uppercase;
   letter-spacing: 0.3px;
-  'SourceSansProRegular', Arial, san-serif-size: 13px;
+  font-size:: 13px;
   text-transform: none;
 }
 .scatter-map-tip .measure-holder .details-value {
   color: #2c3342;
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProRegular', Arial, san-serif;
+  font-family: 'SourceSansProRegular', Arial, san-serif;
   text-transform: uppercase;
   letter-spacing: 0.3px;
-  'SourceSansProRegular', Arial, san-serif-size: 13px;
+  font-size:: 13px;
   text-transform: none;
 }
 .scatter-map-tip .measure-holder .details-counter {
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProLight';
+  font-family: 'SourceSansProLight';
   color: #272a34;
-  'SourceSansProRegular', Arial, san-serif-size: 12px;
+  font-size:: 12px;
 }
 .scatter-map-tip .measure-holder .details-wait {
   display: inline-block;
@@ -3835,10 +3835,10 @@ indicator-gauge svg .hidden {
   display: inline-block;
   margin: 2px 0px 0px 6px;
   color: #2c3342;
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProRegular', Arial, san-serif;
+  font-family: 'SourceSansProRegular', Arial, san-serif;
   text-transform: uppercase;
   letter-spacing: 0.3px;
-  'SourceSansProRegular', Arial, san-serif-size: 15px;
+  font-size:: 15px;
 }
 .markers-fill-host .markers-options-holder {
   margin-top: 5px;
@@ -3919,9 +3919,9 @@ indicator-gauge svg .hidden {
   background: #ffffff;
 }
 .markers-fill-host .markers-options-holder .selected-marker-caption .caption-text {
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProLight';
+  font-family: 'SourceSansProLight';
   color: #272a34;
-  'SourceSansProRegular', Arial, san-serif-size: 12px;
+  font-size:: 12px;
   padding-top: 7px;
   text-align: center;
 }

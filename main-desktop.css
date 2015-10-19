@@ -5,13 +5,59 @@
 /* 'SourceSansProRegular', Arial, san-serifs */
 /* scrollbars */
 /* cursors */
+
+/* FONTS */
+@font-face {
+	font-family: 'SourceSansProRegular';
+	font-style: normal;
+	font-weight: normal;
+	src: url('../../Resources/fonts/SourceSansPro-Regular-webfont.eot');
+	src: url('../../Resources/fonts/SourceSansPro-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+		url('../../Resources/fonts/SourceSansPro-Regular-webfont.woff') format('woff'),
+		url('../../Resources/fonts/SourceSansPro-Regular-webfont.ttf') format('truetype'),
+		url('../../Resources/fonts/SourceSansPro-Regular-webfont.svg#SourceSansProRegular') format('svg');
+}
+
+@font-face {
+	font-family: 'SourceSansProBold';
+	font-style: normal;
+	font-weight: normal;
+	src: url('../../Resources/fonts/SourceSansPro-Bold-webfont.eot');
+	src: url('../../Resources/fonts/SourceSansPro-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+		url('../../Resources/fonts/SourceSansPro-Bold-webfont.woff') format('woff'),
+		url('../../Resources/fonts/SourceSansPro-Bold-webfont.ttf') format('truetype'),
+		url('../../Resources/fonts/SourceSansPro-Bold-webfont.svg#SourceSansProBold') format('svg');
+}
+
+@font-face {
+	font-family: 'SourceSansProLight';
+	font-style: normal;
+	font-weight: normal;
+	src: url('../../Resources/fonts/SourceSansPro-Light-webfont.eot');
+	src: url('../../Resources/fonts/framework/font_sourcesans-proSource/SansPro-Light-webfont.eot?#iefix') format('embedded-opentype'),
+		url('../../Resources/fonts/SourceSansPro-Light-webfont.woff') format('woff'),
+		url('../../Resources/fonts/SourceSansPro-Light-webfont.ttf') format('truetype'),
+		url('../../Resources/fonts/framework/font_sourcesans-proSource/SansPro-Light-webfont.svg#SourceSansProLight') format('svg');
+}
+
+@font-face {
+	font-family: 'SourceSansProSemibold';
+	font-style: normal;
+	font-weight: normal;
+	src: url('../../Resources/fonts/SourceSansPro-Semibold-webfont.eot');
+	src: url('../../Resources/fonts/SourceSansPro-Semibold-webfont.eot?#iefix') format('embedded-opentype'),
+		url('../../Resources/fonts/SourceSansPro-Semibold-webfont.woff') format('woff'),
+		url('../../Resources/fonts/SourceSansPro-Semibold-webfont.ttf') format('truetype'),
+		url('../../Resources/fonts/SourceSansPro-Semibold-webfont.svg#SourceSansProSemibold') format('svg');
+}
+
 .drag-select-cursor {
   cursor: url('/resources/base-styles/cursors/select_move.cur'), move;
 }
 /* headers */
 .base-header {
   color: #2c3342;
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProRegular', Arial, san-serif;
+  font-family: 'SourceSansProRegular', Arial, san-serif;
   text-transform: uppercase;
   letter-spacing: 0.3px;
 }
@@ -27,74 +73,74 @@
 }
 .header-xl {
   color: #2c3342;
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProRegular', Arial, san-serif;
+  font-family: 'SourceSansProRegular', Arial, san-serif;
   text-transform: uppercase;
   letter-spacing: 0.3px;
-  'SourceSansProRegular', Arial, san-serif-size: 24px;
+  font-size: 24px;
 }
 .header-l {
   color: #2c3342;
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProRegular', Arial, san-serif;
+  font-family: 'SourceSansProRegular', Arial, san-serif;
   text-transform: uppercase;
   letter-spacing: 0.3px;
-  'SourceSansProRegular', Arial, san-serif-size: 16px;
+  font-size: 16px;
 }
 .header-m {
   color: #2c3342;
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProRegular', Arial, san-serif;
+  font-family: 'SourceSansProRegular', Arial, san-serif;
   text-transform: uppercase;
   letter-spacing: 0.3px;
-  'SourceSansProRegular', Arial, san-serif-size: 15px;
+  font-size: 15px;
 }
 .header-s {
   color: #2c3342;
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProRegular', Arial, san-serif;
+  font-family: 'SourceSansProRegular', Arial, san-serif;
   text-transform: uppercase;
   letter-spacing: 0.3px;
-  'SourceSansProRegular', Arial, san-serif-size: 13px;
+  font-size: 13px;
 }
 .header-mn {
   color: #2c3342;
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProRegular', Arial, san-serif;
+  font-family: 'SourceSansProRegular', Arial, san-serif;
   text-transform: uppercase;
   letter-spacing: 0.3px;
-  'SourceSansProRegular', Arial, san-serif-size: 14px;
+  font-size: 14px;
 }
 /* text */
 .base-txt {
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProLight';
+  font-family: 'SourceSansProRegular';
   color: #272a34;
 }
 .text-xl {
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProLight';
+  font-family: 'SourceSansProRegular';
   color: #272a34;
-  'SourceSansProRegular', Arial, san-serif-size: 16px;
+  font-size: 16px;
 }
 .text-l {
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProLight';
+  font-family: 'SourceSansProRegular';
   color: #272a34;
-  'SourceSansProRegular', Arial, san-serif-size: 13px;
+  font-size: 13px;
 }
 .text-m {
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProLight';
+  font-family: 'SourceSansProRegular';
   color: #272a34;
-  'SourceSansProRegular', Arial, san-serif-size: 12.5px;
+  font-size: 12.5px;
 }
 .text-s {
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProLight';
+  font-family: 'SourceSansProRegular';
   color: #272a34;
-  'SourceSansProRegular', Arial, san-serif-size: 12px;
+  font-size: 12px;
 }
 .text-xs {
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProLight';
+  font-family: 'SourceSansProRegular';
   color: #272a34;
-  'SourceSansProRegular', Arial, san-serif-size: 11px;
+  font-size: 11px;
 }
 /* dom common */
 body {
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProLight';
+  font-family: 'SourceSansProRegular';
   color: #272a34;
-  'SourceSansProRegular', Arial, san-serif-size: 12.5px;
+  font-size: 12.5px;
   cursor: default;
 }
 /* behavior */
@@ -165,28 +211,7 @@ body {
   word-break: keep-all;
   white-space: nowrap;
 }
-/* 'SourceSansProRegular', Arial, san-serifs */
-@'SourceSansProRegular', Arial, san-serif-face {
-  'SourceSansProRegular', Arial, san-serif-family: ''SourceSansProRegular', Arial, san-serif';
-  src: url('/resources/base/'SourceSansProRegular', Arial, san-serifs/abel-regular-web'SourceSansProRegular', Arial, san-serif.eot');
-  src: url('/resources/base/'SourceSansProRegular', Arial, san-serifs/abel-regular-web'SourceSansProRegular', Arial, san-serif.eot?#iefix') format('embedded-opentype'), url('/resources/base/'SourceSansProRegular', Arial, san-serifs/abel-regular-web'SourceSansProRegular', Arial, san-serif.woff') format('woff'), url('/resources/base/'SourceSansProRegular', Arial, san-serifs/abel-regular-web'SourceSansProRegular', Arial, san-serif.ttf') format('truetype'), url('/resources/base/'SourceSansProRegular', Arial, san-serifs/abel-regular-web'SourceSansProRegular', Arial, san-serif.svg#'SourceSansProRegular', Arial, san-serif') format('svg');
-  'SourceSansProRegular', Arial, san-serif-weight: normal;
-  'SourceSansProRegular', Arial, san-serif-style: normal;
-}
-/*@'SourceSansProRegular', Arial, san-serif-face {
-  'SourceSansProRegular', Arial, san-serif-family: 'opensansregular';
-  src: url('/resources/base/'SourceSansProRegular', Arial, san-serifs/opensans-regular-web'SourceSansProRegular', Arial, san-serif.eot');
-  src: url('/resources/base/'SourceSansProRegular', Arial, san-serifs/opensans-regular-web'SourceSansProRegular', Arial, san-serif.eot?#iefix') format('embedded-opentype'), url('/resources/base/'SourceSansProRegular', Arial, san-serifs/opensans-regular-web'SourceSansProRegular', Arial, san-serif.woff') format('woff'), url('/resources/base/'SourceSansProRegular', Arial, san-serifs/opensans-regular-web'SourceSansProRegular', Arial, san-serif.ttf') format('truetype'), url('/resources/base/'SourceSansProRegular', Arial, san-serifs/opensans-regular-web'SourceSansProRegular', Arial, san-serif.svg#opensansregular') format('svg');
-  'SourceSansProRegular', Arial, san-serif-weight: normal;
-  'SourceSansProRegular', Arial, san-serif-style: normal;
-}*/
-@'SourceSansProRegular', Arial, san-serif-face {
-  'SourceSansProRegular', Arial, san-serif-family: ''SourceSansProLight'';
-  src: url('/resources/base/'SourceSansProRegular', Arial, san-serifs/ubuntu-light-web'SourceSansProRegular', Arial, san-serif.eot');
-  src: url('/resources/base/'SourceSansProRegular', Arial, san-serifs/ubuntu-light-web'SourceSansProRegular', Arial, san-serif.eot?#iefix') format('embedded-opentype'), url('/resources/base/'SourceSansProRegular', Arial, san-serifs/ubuntu-light-web'SourceSansProRegular', Arial, san-serif.woff') format('woff'), url('/resources/base/'SourceSansProRegular', Arial, san-serifs/ubuntu-light-web'SourceSansProRegular', Arial, san-serif.ttf') format('truetype'), url('/resources/base/'SourceSansProRegular', Arial, san-serifs/ubuntu-light-web'SourceSansProRegular', Arial, san-serif.svg#opensansregular') format('svg');
-  'SourceSansProRegular', Arial, san-serif-weight: normal;
-  'SourceSansProRegular', Arial, san-serif-style: normal;
-}
+
 .update-ball {
   right: 48px;
   top: 48px;
@@ -639,10 +664,10 @@ body {
 }
 #prism-header #main-nav .nav-item a {
   color: #2c3342;
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProRegular', Arial, san-serif;
+  font-family: 'SourceSansProRegular', Arial, san-serif;
   text-decoration: none;
   text-transform: uppercase;
-  'SourceSansProRegular', Arial, san-serif-size: 14px;
+  font-size: 14px;
 }
 #prism-header #main-nav .nav-item a[disabled=disabled] {
   cursor: default;
@@ -665,11 +690,11 @@ body {
 #prism-header .user-control-holder .user-fullname {
   display: inline-block;
   color: #2c3342;
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProRegular', Arial, san-serif;
+  font-family: 'SourceSansProRegular', Arial, san-serif;
   text-transform: uppercase;
   letter-spacing: 0.3px;
-  'SourceSansProRegular', Arial, san-serif-size: 13px;
-  'SourceSansProRegular', Arial, san-serif-size: 14px;
+  font-size: 13px;
+  font-size: 14px;
   text-transform: none;
 }
 #prism-header .user-control-holder .signout-link-holder {
@@ -679,12 +704,12 @@ body {
 }
 #prism-header .user-control-holder .signout-link-holder .signout-text {
   color: #2c3342;
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProRegular', Arial, san-serif;
+  font-family: 'SourceSansProRegular', Arial, san-serif;
   text-transform: uppercase;
   letter-spacing: 0.3px;
-  'SourceSansProRegular', Arial, san-serif-size: 13px;
+  font-size: 13px;
   color: #008db8;
-  'SourceSansProRegular', Arial, san-serif-size: 14px;
+  font-size: 14px;
   text-transform: none;
 }
 #prism-header .user-control-holder .signout-link-holder .line {
@@ -833,10 +858,10 @@ body {
 }
 .navver-host .new-dash-holder .new-dash-text {
   color: #2c3342;
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProRegular', Arial, san-serif;
+  font-family: 'SourceSansProRegular', Arial, san-serif;
   text-transform: uppercase;
   letter-spacing: 0.3px;
-  'SourceSansProRegular', Arial, san-serif-size: 16px;
+  font-size: 16px;
   float: left;
   margin: 7px 0px 0px 7px;
 }
@@ -906,10 +931,10 @@ body {
 }
 .navver-host .navver-main-box .navver-main-item .mi-title {
   color: #2c3342;
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProRegular', Arial, san-serif;
+  font-family: 'SourceSansProRegular', Arial, san-serif;
   text-transform: uppercase;
   letter-spacing: 0.3px;
-  'SourceSansProRegular', Arial, san-serif-size: 16px;
+  font-size: 16px;
   float: left;
   margin: 7px 0px 0px 7px;
 }
@@ -954,10 +979,10 @@ body {
 }
 .navver-host .navver-main-box .tags-container .tags-inner-container .loading-navver .loading-text {
   color: #2c3342;
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProRegular', Arial, san-serif;
+  font-family: 'SourceSansProRegular', Arial, san-serif;
   text-transform: uppercase;
   letter-spacing: 0.3px;
-  'SourceSansProRegular', Arial, san-serif-size: 15px;
+  font-size: 15px;
   padding-top: 12px;
   text-transform: none;
   text-align: center;
@@ -1044,9 +1069,9 @@ body {
 .navver-host .navver-main-box .tags-container .tags-inner-container .list-item-holder .list-item.dashboard-item .title-holder .li-title {
   display: inline-block;
   margin: 4px 0px;
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProLight';
+  font-family: 'SourceSansProLight';
   color: #272a34;
-  'SourceSansProRegular', Arial, san-serif-size: 12px;
+  font-size: 12px;
   color: #56535b;
   max-width: 100%;
   word-wrap: normal;
@@ -1062,9 +1087,9 @@ body {
 }
 .navver-host .navver-main-box .tags-container .tags-inner-container .list-item-holder .list-item.dashboard-item .title-holder .title-input-holder input {
   margin: 4px 0px;
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProLight';
+  font-family: 'SourceSansProLight';
   color: #272a34;
-  'SourceSansProRegular', Arial, san-serif-size: 12px;
+  font-size: 12px;
   color: #56535b;
   border: none;
   background: transparent;
@@ -1129,9 +1154,9 @@ body {
   display: inline-block;
   margin: 6px -3px 6px 0px;
   padding-left: 3px;
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProLight';
+  font-family: 'SourceSansProLight';
   color: #272a34;
-  'SourceSansProRegular', Arial, san-serif-size: 12px;
+  font-size: 12px;
   max-width: 100%;
   word-wrap: normal;
   text-overflow: ellipsis;
@@ -1146,9 +1171,9 @@ body {
 .navver-host .navver-main-box .tags-container .tags-inner-container .list-item-holder .list-item.tag-item .title-holder .title-input-holder input {
   margin: 6px -3px 6px 0px;
   padding-left: 3px;
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProLight';
+  font-family: 'SourceSansProLight';
   color: #272a34;
-  'SourceSansProRegular', Arial, san-serif-size: 12px;
+  font-size: 12px;
   color: #56535b;
   border: none;
   background: transparent;
@@ -1207,17 +1232,17 @@ body {
   word-wrap: normal;
   word-break: keep-all;
   white-space: nowrap;
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProRegular', Arial, san-serif, 'Abel', sans-serif;
+  font-family: 'SourceSansProRegular', Arial, san-serif, 'Abel', sans-serif;
   margin-top: 9px;
   margin-left: 13px;
-  'SourceSansProRegular', Arial, san-serif-size: 24px;
+  font-size: 24px;
   letter-spacing: 0.3px;
   text-transform: capitalize;
 }
 #new-home-main-desktop {
   height: 100%;
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProRegular', Arial, san-serif, 'Abel', sans-serif;
-  'SourceSansProRegular', Arial, san-serif-size: 16px;
+  font-family: 'SourceSansProRegular', Arial, san-serif, 'Abel', sans-serif;
+  font-size: 16px;
   color: #2b3342;
   overflow: auto;
 }
@@ -1233,8 +1258,8 @@ body {
   /* blue colors for links too */
   text-decoration: inherit;
   /* no underline */
-  'SourceSansProRegular', Arial, san-serif-family: inherit;
-  'SourceSansProRegular', Arial, san-serif-size: inherit;
+  font-family: inherit;
+  font-size: inherit;
 }
 #new-home-main-desktop .new-home-container-iframe {
   width: 100%;
@@ -1256,7 +1281,7 @@ body {
   }
 }
 #new-home-main-desktop .new-home-container .home-welcome-bar {
-  'SourceSansProRegular', Arial, san-serif-size: 26px;
+  font-size: 26px;
   height: 43px;
   width: inherit;
   line-height: 45px;
@@ -1289,7 +1314,7 @@ body {
 #new-home-main-desktop .new-home-container .home-welcome-bar .home-trial {
   display: inline-block;
   float: right;
-  'SourceSansProRegular', Arial, san-serif-size: 20px;
+  font-size: 20px;
   margin-right: 21px;
 }
 #new-home-main-desktop .new-home-container .home-content {
@@ -1309,11 +1334,11 @@ body {
 }
 #new-home-main-desktop .new-home-container .home-content .home-title {
   margin: 15px 0 12px 0;
-  'SourceSansProRegular', Arial, san-serif-size: 22px;
+  font-size: 22px;
 }
 #new-home-main-desktop .new-home-container .home-content .home-title .home-text {
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProLight', sans-serif;
-  'SourceSansProRegular', Arial, san-serif-size: 14px;
+  font-family: 'SourceSansProLight', sans-serif;
+  font-size: 14px;
   margin-left: 5px;
 }
 #new-home-main-desktop .new-home-container .home-content .home-explore .home-explore-link-block {
@@ -1517,7 +1542,7 @@ body {
 }
 #new-home-main-desktop .new-home-container .home-content .home-explore .home-explore-links .home-explore-left-panel .home-explore-video-link .explore-video-overlay-text .video-text {
   display: inline-block;
-  'SourceSansProRegular', Arial, san-serif-size: 20px;
+  font-size: 20px;
   line-height: 36px;
   margin-left: 5px;
 }
@@ -1755,8 +1780,8 @@ body {
   -webkit-align-self: strech;
 }
 #new-home-main-desktop .new-home-container .home-content .home-examples .home-examples-links .home-example-block .example-block-overlay-content .example-overlay-text {
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProLight', sans-serif;
-  'SourceSansProRegular', Arial, san-serif-size: 14px;
+  font-family: 'SourceSansProLight', sans-serif;
+  font-size: 14px;
   line-height: 19px;
   margin-left: 14px;
   display: inline-block;
@@ -1766,13 +1791,13 @@ body {
   position: absolute;
   bottom: 6px;
   left: 11px;
-  'SourceSansProRegular', Arial, san-serif-size: 20px;
+  font-size: 20px;
 }
 #new-home-main-desktop .new-home-version {
-  'SourceSansProRegular', Arial, san-serif-size: 14px;
+  font-size: 14px;
   text-align: right;
   display: block;
-  'SourceSansProRegular', Arial, san-serif-family: 'SourceSansProLight', sans-serif;
+  font-family: 'SourceSansProLight', sans-serif;
   position: absolute;
   bottom: 4px;
   right: 8px;
@@ -1790,8 +1815,8 @@ body {
     -webkit-animation: load7 1.8s infinite ease-in-out;
     animation: load7 1.8s infinite ease-in-out;
 }
-.widget-loader {        
-    'SourceSansProRegular', Arial, san-serif-size: 5px;
+.widget-loader {
+    font-size: 5px;
     margin-left: auto;
     margin-right: auto;
     position: relative;
