@@ -195,10 +195,10 @@ body {
 	font-style: normal;
 	font-weight: normal;
 	src: url('../../Resources/fonts/SourceSansPro-Light-webfont.eot');
-	src: url('../../Resources/fonts/framework/font_sourcesans-proSource/SansPro-Light-webfont.eot?#iefix') format('embedded-opentype'),
+	src: url('../../Resources/fonts/SansPro-Light-webfont.eot?#iefix') format('embedded-opentype'),
 		url('../../Resources/fonts/SourceSansPro-Light-webfont.woff') format('woff'),
 		url('../../Resources/fonts/SourceSansPro-Light-webfont.ttf') format('truetype'),
-		url('../../Resources/fonts/framework/font_sourcesans-proSource/SansPro-Light-webfont.svg#SourceSansProLight') format('svg');
+		url('../../Resources/fonts/SansPro-Light-webfont.svg#SourceSansProLight') format('svg');
 }
 
 @font-face {

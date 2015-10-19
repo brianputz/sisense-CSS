@@ -485,7 +485,8 @@ dashboard widget.columnar widget-header {
   box-align: stretch;
 }
 dashboard widget.columnar widget-title {
-  font: 16px 'SourceSansProRegular', Arial, san-serif, 'Abel', sans-serif;
+  font-family: 'SourceSansProRegular';
+  font-size: 16px;
   color: #39424e;
   /* OLD - iOS 6-, Safari 3.1-6 */
   /* OLD - Firefox 19- */
