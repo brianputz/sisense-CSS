@@ -9004,9 +9004,9 @@ dashboard widget.columnar widget-title {
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
-  font-size: 20px;
-  font-family: 'SourceSansProSemiBold', Arial, sans-serif;
-  margin-top: 7px;
+  font-size: 20px !important;
+  font-family: 'SourceSansProSemiBold', Arial, sans-serif !important;
+  margin-top: 7px !important;
 }
 dashboard widget.columnar widget-overlay {
   /*opacity: 0;*/
