@@ -251,7 +251,7 @@ body {
   text-transform: none;
 }
 widget[family="basiccharts"] series labels {
-  font-family: 'SourceSansProLight', sans-serif;
+  font-family: 'SourceSansProRegular', sans-serif;
   color: #56535b;
 }
 widget[family="basiccharts"] axes {
@@ -265,7 +265,7 @@ widget[family="basiccharts"] axes ticks.minor {
   border-color: #c5c5c5;
 }
 widget[family="basiccharts"] axes labels {
-  font-family: 'SourceSansProLight', sans-serif;
+  font-family: 'SourceSansProRegular', sans-serif;
   color: #56535b;
 }
 widget[family="basiccharts"] axes gridlines {
@@ -273,18 +273,18 @@ widget[family="basiccharts"] axes gridlines {
   border-style: dotted;
 }
 widget[family="basiccharts"] axes titles {
-  font-family: 'SourceSansProLight', sans-serif;
+  font-family: 'SourceSansProRegular', sans-serif;
   color: #2c3342;
 }
 widget[family="basiccharts"] legend {
   background-color: transparent;
   border-width: 0px;
   border-color: transparent;
-  font-family: 'SourceSansProLight', sans-serif;
+  font-family: 'SourceSansProRegular', sans-serif;
   color: #56535b;
 }
 widget[family="basiccharts"] tooltip {
-  font-family: 'SourceSansProLight', sans-serif;
+  font-family: 'SourceSansProRegular', sans-serif;
   color: #56535b;
 }
 .highchart-resize-xAxis-height {
@@ -329,7 +329,7 @@ widget[family="basiccharts"] tooltip {
   border-bottom: 1px solid #e6e6e6;
 }
 .cartesian-tooltip {
-  font-family: 'SourceSansProLight', sans-serif;
+  font-family: 'SourceSansProRegular', sans-serif;
   color: #56535b;
 }
 .cartesian-tooltip-values {
@@ -349,7 +349,7 @@ widget[family="basiccharts"] tooltip {
   display: inline-block;
 }
 .cartesian-tooltip-xAxis {
-  font-family: 'SourceSansProLight', sans-serif;
+  font-family: 'SourceSansProRegular', sans-serif;
   font-size:: 12px;
 }
 .cartesian-tooltip-plotBand {
@@ -359,7 +359,7 @@ widget[family="basiccharts"] tooltip {
   display: inline-block;
 }
 .pie-tooltip {
-  font-family: 'SourceSansProLight', sans-serif;
+  font-family: 'SourceSansProRegular', sans-serif;
   color: #56535b;
 }
 .pie-tooltip-headers {
@@ -386,7 +386,7 @@ widget[family="basiccharts"] tooltip {
   display: inline-block;
 }
 .pie-tooltip-others {
-  font-family: 'SourceSansProLight', sans-serif;
+  font-family: 'SourceSansProRegular', sans-serif;
   font-size:: 11px;
   line-height: 150%;
 }
@@ -394,7 +394,7 @@ widget[family="basiccharts"] tooltip {
   padding-top: 6px;
 }
 .scatter-tooltip {
-  font-family: 'SourceSansProLight', sans-serif;
+  font-family: 'SourceSansProRegular', sans-serif;
   color: #56535b;
 }
 .scatter-tooltip-xValue {
@@ -402,7 +402,7 @@ widget[family="basiccharts"] tooltip {
   font-size:: 15px;
 }
 .scatter-tooltip-xHeader {
-  font-family: 'SourceSansProLight', sans-serif;
+  font-family: 'SourceSansProRegular', sans-serif;
   font-size:: 12px;
 }
 .scatter-tooltip-yValue {
@@ -410,7 +410,7 @@ widget[family="basiccharts"] tooltip {
   font-size:: 15px;
 }
 .scatter-tooltip-yHeader {
-  font-family: 'SourceSansProLight', sans-serif;
+  font-family: 'SourceSansProRegular', sans-serif;
   font-size:: 12px;
 }
 .scatter-tooltip-pointValue {
@@ -418,7 +418,7 @@ widget[family="basiccharts"] tooltip {
   font-size:: 15px;
 }
 .scatter-tooltip-pointHeader {
-  font-family: 'SourceSansProLight', sans-serif;
+  font-family: 'SourceSansProRegular', sans-serif;
   font-size:: 12px;
 }
 .scatter-tooltip-colorValue {
@@ -426,7 +426,7 @@ widget[family="basiccharts"] tooltip {
   font-size:: 15px;
 }
 .scatter-tooltip-colorHeader {
-  font-family: 'SourceSansProLight', sans-serif;
+  font-family: 'SourceSansProRegular', sans-serif;
   font-size:: 12px;
 }
 .scatter-tooltip-sizeValue {
@@ -434,7 +434,7 @@ widget[family="basiccharts"] tooltip {
   font-size:: 15px;
 }
 .scatter-tooltip-sizeHeader {
-  font-family: 'SourceSansProLight', sans-serif;
+  font-family: 'SourceSansProRegular', sans-serif;
   font-size:: 12px;
 }
 .tipper-host.charts {
@@ -485,7 +485,7 @@ dashboard widget.columnar widget-header {
   box-align: stretch;
 }
 dashboard widget.columnar widget-title {
-  font-family: 'SourceSansProRegular', Arial !important;
+  font-family: 'SourceSansProSemiBold', Arial !important;
   font-size: 20px;
   color: #39424e;
   /* OLD - iOS 6-, Safari 3.1-6 */
@@ -2312,7 +2312,7 @@ indicator-secondarytitle {
 /* --------------------------------*/
 .indicator_secondarytitle_base {
   display: block;
-  font-family: 'SourceSansProLight', sans-serif;
+  font-family: 'SourceSansProRegular', sans-serif;
   color: #a3a3a3;
 }
 .indicator_secondarytitle_base.indicator_big {
@@ -2363,7 +2363,7 @@ indicator-secondarytitle {
 .gauge indicator-secondarytitle,
 .numeric_bar indicator-secondarytitle {
   display: block;
-  font-family: 'SourceSansProLight', sans-serif;
+  font-family: 'SourceSansProRegular', sans-serif;
   color: #a3a3a3;
   width: calc(100% - 2px);
   -webkit-box-flex: 1;
@@ -2435,7 +2435,7 @@ indicator-secondarytitle {
 }
 .numeric_simple_vertical indicator-secondarytitle {
   display: block;
-  font-family: 'SourceSansProLight', sans-serif;
+  font-family: 'SourceSansProRegular', sans-serif;
   color: #a3a3a3;
   margin-left: 0;
   vertical-align: top;
@@ -2496,7 +2496,7 @@ indicator-secondarytitle {
   text-align: -webkit-center;
   text-align: center;
   color: #a3a3a3;
-  font-family: 'SourceSansProLight', sans-serif;
+  font-family: 'SourceSansProRegular', sans-serif;
   max-width: 90%;
 }
 .indicator_secondary_base.indicator_big {
@@ -2548,7 +2548,7 @@ indicator-secondarytitle {
   text-align: -webkit-center;
   text-align: center;
   color: #a3a3a3;
-  font-family: 'SourceSansProLight', sans-serif;
+  font-family: 'SourceSansProRegular', sans-serif;
   max-width: 90%;
 }
 .gauge indicator-secondary.indicator_big,
@@ -2650,7 +2650,7 @@ indicator-secondarytitle {
   text-align: -webkit-center;
   text-align: center;
   color: #a3a3a3;
-  font-family: 'SourceSansProLight', sans-serif;
+  font-family: 'SourceSansProRegular', sans-serif;
   max-width: 90%;
   vertical-align: top;
   margin-right: 0;
@@ -3152,7 +3152,7 @@ indicator-gauge svg .hidden {
 .indicator_container_div.numeric_simple_horizontal indicator-secondarytitle {
   float: left;
   height: 100%;
-  font-family: 'SourceSansProLight', sans-serif;
+  font-family: 'SourceSansProRegular', sans-serif;
   color: #a3a3a3;
 }
 .indicator_container_div.numeric_simple_horizontal indicator-secondarytitle.indicator_big {
@@ -3212,7 +3212,7 @@ indicator-gauge svg .hidden {
 }
 .indicator_container_div.numeric_simple_horizontal indicator-secondary {
   height: 100%;
-  font-family: 'SourceSansProLight', sans-serif;
+  font-family: 'SourceSansProRegular', sans-serif;
   color: #a3a3a3;
   font-weight: 800;
 }

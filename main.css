@@ -219,7 +219,7 @@ body {
   font-style: normal;
 }*/
 @font-face {
-  font-family: ''SourceSansProLight'';
+  font-family: 'SourceSansProLight';
   src: url('/resources/base/fonts/ubuntu-light-webfont.eot');
   src: url('/resources/base/fonts/ubuntu-light-webfont.eot?#iefix') format('embedded-opentype'), url('/resources/base/fonts/ubuntu-light-webfont.woff') format('woff'), url('/resources/base/fonts/ubuntu-light-webfont.ttf') format('truetype'), url('/resources/base/fonts/ubuntu-light-webfont.svg#opensansregular') format('svg');
   font-weight: normal;
@@ -8143,7 +8143,7 @@ body {
 .dashboard-export-dialog-content .loader-content .show-details {
   display: block;
   text-align: center;
-  font-family: 'SourceSansProLight', sans-serif;
+  font-family: 'SourceSansProRegular', sans-serif;
   color: #158db5;
   text-decoration: none;
 }
@@ -8186,7 +8186,7 @@ body {
   border-top: none;
 }
 .dashboard-export-dialog-content dl dt {
-  font-family: 'SourceSansProLight', sans-serif;
+  font-family: 'SourceSansProRegular', sans-serif;
   font-size: 13px;
   color: #808080;
   padding-left: 7px;
@@ -8232,13 +8232,13 @@ body {
 }
 .dashboard-export-dialog-content p.message {
   margin-top: 36px;
-  font-family: 'SourceSansProLight', sans-serif;
+  font-family: 'SourceSansProRegular', sans-serif;
   font-size: 13px;
   color: #808080;
 }
 .dashboard-export-dialog-content p.filename {
   word-wrap: break-word;
-  font-family: 'SourceSansProLight', sans-serif;
+  font-family: 'SourceSansProRegular', sans-serif;
   font-size: 13px;
   color: #2c3342;
 }
@@ -8269,7 +8269,7 @@ body {
 .orientation-item .layout-caption,
 .layout-item .layout-caption {
   text-align: center;
-  font-family: 'SourceSansProLight', sans-serif;
+  font-family: 'SourceSansProRegular', sans-serif;
   font-size: 13px;
   color: #2c3342;
 }
@@ -16117,7 +16117,7 @@ button.uc-db-fx:focus {
   text-transform: uppercase;
 }
 .filters-global-header button:not(.filters-reset-button) {
-  font-family: 'SourceSansProLight', sans-serif;
+  font-family: 'SourceSansProRegular', sans-serif;
   font-size: 12px;
   line-height: 12px;
   padding: 6px 3px 3px;
@@ -16177,7 +16177,7 @@ button.uc-db-fx:focus {
 }
 .filter-global-add-button-container .filter-global-add-button-caption {
   margin: 10px 70px;
-  font-family: 'SourceSansProLight', sans-serif;
+  font-family: 'SourceSansProRegular', sans-serif;
   font-size: 17px;
   color: #cdcdcd;
   top: 50%;
@@ -24482,7 +24482,7 @@ body {
   display: table-cell;
   /* Content styles */
   color: #2c3342;
-  font-family: 'SourceSansProLight', sans-serif;
+  font-family: 'SourceSansProRegular', sans-serif;
   font-size: 13px;
 }
 .richtext-box .richtext-container .richtext-editor:focus {
@@ -24770,7 +24770,7 @@ body {
 .link-dialog .checker .checker-content {
   color: #808080;
   font-size: 13px;
-  font-family: 'SourceSansProLight', sans-serif;
+  font-family: 'SourceSansProRegular', sans-serif;
   letter-spacing: normal;
 }
 .link-dialog .checker:hover {
@@ -24803,7 +24803,7 @@ body {
 .link-dialog dl dt {
   float: left;
   width: 119px;
-  font-family: 'SourceSansProLight', sans-serif;
+  font-family: 'SourceSansProRegular', sans-serif;
   font-size: 13px;
   color: #808080;
   padding-top: 5px;
@@ -24814,7 +24814,7 @@ body {
 .link-dialog dl dd input {
   width: 100%;
   border: 1px solid #e5e5e5;
-  font-family: 'SourceSansProLight', sans-serif;
+  font-family: 'SourceSansProRegular', sans-serif;
   font-size: 13px;
   color: #56535b;
   padding: 5px 11px;
@@ -24859,7 +24859,7 @@ body {
   box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.25) !important;
 }
 .link-editor * {
-  font-family: 'SourceSansProLight', sans-serif;
+  font-family: 'SourceSansProRegular', sans-serif;
   font-size: 13px;
 }
 .link-editor:focus {
@@ -24902,7 +24902,7 @@ body {
   border: 0;
   height: 28px;
   line-height: 28px;
-  font-family: 'SourceSansProLight', sans-serif;
+  font-family: 'SourceSansProRegular', sans-serif;
   font-size: 13px;
   color: #2c3342;
   margin-top: 0;
@@ -24972,7 +24972,7 @@ body {
   position: relative;
   cursor: pointer;
   cursor: hand;
-  font-family: 'SourceSansProLight', sans-serif;
+  font-family: 'SourceSansProRegular', sans-serif;
   font-size: 13px;
   padding-left: 37px !important;
 }
@@ -25073,7 +25073,7 @@ body {
 .cke_splitbutton__sitextcolor .cke_button_icon {
   background: transparent !important;
   color: #2c3342;
-  font-family: 'SourceSansProLight', sans-serif;
+  font-family: 'SourceSansProRegular', sans-serif;
   font-size: 17px;
   font-weight: bold;
   top: -2px;
@@ -25503,7 +25503,7 @@ widget[type="richtexteditor"].widget-on-reporting-mode richtexteditor * {
 .sunburst-widget-content .sb-contr-total {
   font-size: 13px;
   line-height: 13px;
-  font-family: 'SourceSansProLight', sans-serif;
+  font-family: 'SourceSansProRegular', sans-serif;
   color: #000000;
 }
 .sunburst-widget-content .sb-root-value {
@@ -25540,7 +25540,7 @@ widget[type="richtexteditor"].widget-on-reporting-mode richtexteditor * {
   stroke-width: 1px;
 }
 .sunburst-widget-content .sb-no-data {
-  font-family: 'SourceSansProLight', sans-serif;
+  font-family: 'SourceSansProRegular', sans-serif;
   font-size: 20px;
   fill: #56535b;
 }
@@ -25624,7 +25624,7 @@ widget[type="richtexteditor"].widget-on-reporting-mode richtexteditor * {
   color: #56535b;
   cursor: default;
   display: inline;
-  font-family: 'SourceSansProLight', sans-serif;
+  font-family: 'SourceSansProRegular', sans-serif;
   font-size: 13px;
   font-style: normal;
   font-variant: normal;
@@ -25758,7 +25758,7 @@ widget[type="richtexteditor"].widget-on-reporting-mode richtexteditor * {
 .sunburst-tooltip .tooltip-bottom {
   font-size: 12px;
   line-height: 12px;
-  font-family: 'SourceSansProLight', sans-serif;
+  font-family: 'SourceSansProRegular', sans-serif;
   background: #f2f2f2;
   color: #999999;
 }
@@ -25893,7 +25893,7 @@ widget[type="richtexteditor"].widget-on-reporting-mode richtexteditor * {
   height: 100%;
   padding: 8px 0 8px 8px;
   background: #ffffff;
-  font-family: 'SourceSansProLight', sans-serif;
+  font-family: 'SourceSansProRegular', sans-serif;
 }
 .tablewidget-widget-content .dataTables_wrapper {
   position: relative;
@@ -26066,7 +26066,7 @@ widget[type="richtexteditor"].widget-on-reporting-mode richtexteditor * {
   z-index: 4;
 }
 .tablewidget-widget-content .tw-no-data {
-  font-family: 'SourceSansProLight', sans-serif;
+  font-family: 'SourceSansProRegular', sans-serif;
   font-size: 20px;
   color: #565656;
   width: 143px;
@@ -26326,7 +26326,7 @@ widget[type="richtexteditor"].widget-on-reporting-mode richtexteditor * {
 }
 .tablewidget-widget-content table tr.child td ul li span,
 .tablewidget-widget-content table.dataTable tr.child td ul li span {
-  font-family: 'SourceSansProLight', sans-serif;
+  font-family: 'SourceSansProRegular', sans-serif;
   position: relative;
   display: inline-block;
   text-overflow: ellipsis;
@@ -26391,7 +26391,7 @@ widget[type="richtexteditor"].widget-on-reporting-mode richtexteditor * {
   white-space: nowrap;
   overflow: hidden;
   padding: 5px 8px 0 8px;
-  font-family: 'SourceSansProLight', sans-serif;
+  font-family: 'SourceSansProRegular', sans-serif;
   font-size: 13px;
   height: 26px;
   border-bottom: 1px solid #e6e6e6;
@@ -26425,7 +26425,7 @@ widget[type="richtexteditor"].widget-on-reporting-mode richtexteditor * {
   background-color: #FFFFFF;
 }
 .tablewidget-widget-content .dataTables_info {
-  font-family: 'SourceSansProLight', sans-serif;
+  font-family: 'SourceSansProRegular', sans-serif;
   z-index: 3;
   font-size: 13px;
   margin: 4px 15px 0 10px;
@@ -26497,7 +26497,7 @@ widget[type="richtexteditor"].widget-on-reporting-mode richtexteditor * {
   margin-right: 6px;
   line-height: 16px;
   vertical-align: middle;
-  font-family: 'SourceSansProLight', sans-serif;
+  font-family: 'SourceSansProRegular', sans-serif;
   font-size: 13px;
 }
 .tablewidget-widget-content .dataTables_wrapper .dataTables_paginate .paginate_button.current,
@@ -26679,7 +26679,7 @@ widget[type="richtexteditor"].widget-on-reporting-mode richtexteditor * {
   position: absolute;
   visibility: hidden;
   white-space: nowrap;
-  font-family: 'SourceSansProLight', sans-serif;
+  font-family: 'SourceSansProRegular', sans-serif;
   font-size: 13px !important;
 }
 .ruler-legend {
@@ -26689,7 +26689,7 @@ widget[type="richtexteditor"].widget-on-reporting-mode richtexteditor * {
   visibility: hidden;
   box-sizing: border-box;
   cursor: default;
-  font-family: 'SourceSansProLight', sans-serif;
+  font-family: 'SourceSansProRegular', sans-serif;
   font-size: 13px;
   font-style: normal;
   font-variant: normal;
@@ -26868,7 +26868,7 @@ widget[type="richtexteditor"].widget-on-reporting-mode richtexteditor * {
   color: #56535b;
   cursor: default;
   display: inline;
-  font-family: 'SourceSansProLight', sans-serif;
+  font-family: 'SourceSansProRegular', sans-serif;
   font-size: 13px;
   font-style: normal;
   font-variant: normal;
@@ -26993,7 +26993,7 @@ widget[type="richtexteditor"].widget-on-reporting-mode richtexteditor * {
 .treemap-tooltip-content .tooltip-bottom {
   font-size: 12px;
   line-height: 12px;
-  font-family: 'SourceSansProLight', sans-serif;
+  font-family: 'SourceSansProRegular', sans-serif;
   color: #999999;
   background: #f2f2f2;
   -webkit-border-radius: 0 0 5px 5px;
@@ -27141,7 +27141,7 @@ widget[type="richtexteditor"].widget-on-reporting-mode richtexteditor * {
 }
 .hmw-horizontal.hmw-monthly.hmw-month.hmw-min-width-150 .hmw-month-label {
   font-size: 13px;
-  font-family: 'SourceSansProLight', sans-serif;
+  font-family: 'SourceSansProRegular', sans-serif;
   margin-bottom: 10px;
   /* hack! we store month label view type in content property to get access to it outside */
   content: "short";
@@ -27182,7 +27182,7 @@ widget[type="richtexteditor"].widget-on-reporting-mode richtexteditor * {
 }
 .hmw-horizontal.hmw-monthly.hmw-month.hmw-min-width-210 .hmw-month-label {
   font-size: 13px;
-  font-family: 'SourceSansProLight', sans-serif;
+  font-family: 'SourceSansProRegular', sans-serif;
   margin-bottom: 7px;
   padding-bottom: 11px;
   /* hack! we store month label view type in content property to get access to it outside */
@@ -27200,11 +27200,11 @@ widget[type="richtexteditor"].widget-on-reporting-mode richtexteditor * {
 }
 .hmw-horizontal.hmw-monthly.hmw-month.hmw-min-width-210 .hmw-day-label {
   font-size: 11px;
-  font-family: 'SourceSansProLight', sans-serif;
+  font-family: 'SourceSansProRegular', sans-serif;
 }
 .hmw-horizontal.hmw-monthly.hmw-month.hmw-min-width-210 .hmw-weekday {
   font-size: 13px;
-  font-family: 'SourceSansProLight', sans-serif;
+  font-family: 'SourceSansProRegular', sans-serif;
   margin-bottom: 11px;
   fill: #2c3342;
 }
@@ -27232,7 +27232,7 @@ widget[type="richtexteditor"].widget-on-reporting-mode richtexteditor * {
 }
 .hmw-horizontal.hmw-monthly.hmw-month.hmw-min-width-320 .hmw-month-label {
   font-size: 13px;
-  font-family: 'SourceSansProLight', sans-serif;
+  font-family: 'SourceSansProRegular', sans-serif;
   margin-bottom: 13px;
   padding-bottom: 15px;
   /* hack! we store month label view type in content property to get access to it outside */
@@ -27250,11 +27250,11 @@ widget[type="richtexteditor"].widget-on-reporting-mode richtexteditor * {
 }
 .hmw-horizontal.hmw-monthly.hmw-month.hmw-min-width-320 .hmw-day-label {
   font-size: 13px;
-  font-family: 'SourceSansProLight', sans-serif;
+  font-family: 'SourceSansProRegular', sans-serif;
 }
 .hmw-horizontal.hmw-monthly.hmw-month.hmw-min-width-320 .hmw-weekday {
   font-size: 13px;
-  font-family: 'SourceSansProLight', sans-serif;
+  font-family: 'SourceSansProRegular', sans-serif;
   margin-bottom: 13px;
   fill: #2c3342;
 }
@@ -27290,11 +27290,11 @@ widget[type="richtexteditor"].widget-on-reporting-mode richtexteditor * {
 }
 .hmw-horizontal.hmw-monthly.hmw-month.hmw-min-width-430 .hmw-day-label {
   font-size: 13px;
-  font-family: 'SourceSansProLight', sans-serif;
+  font-family: 'SourceSansProRegular', sans-serif;
 }
 .hmw-horizontal.hmw-monthly.hmw-month.hmw-min-width-430 .hmw-weekday {
   font-size: 13px;
-  font-family: 'SourceSansProLight', sans-serif;
+  font-family: 'SourceSansProRegular', sans-serif;
   margin-bottom: 22px;
   fill: #2c3342;
 }
@@ -27330,12 +27330,12 @@ widget[type="richtexteditor"].widget-on-reporting-mode richtexteditor * {
 }
 .hmw-horizontal.hmw-monthly.hmw-month.hmw-min-width-600 .hmw-day-label {
   font-size: 13px;
-  font-family: 'SourceSansProLight', sans-serif;
+  font-family: 'SourceSansProRegular', sans-serif;
   bottom: 9px;
 }
 .hmw-horizontal.hmw-monthly.hmw-month.hmw-min-width-600 .hmw-weekday {
   font-size: 13px;
-  font-family: 'SourceSansProLight', sans-serif;
+  font-family: 'SourceSansProRegular', sans-serif;
   margin-bottom: 30px;
   fill: #2c3342;
 }
@@ -27371,12 +27371,12 @@ widget[type="richtexteditor"].widget-on-reporting-mode richtexteditor * {
 }
 .hmw-horizontal.hmw-monthly.hmw-month.hmw-min-width-820 .hmw-day-label {
   font-size: 13px;
-  font-family: 'SourceSansProLight', sans-serif;
+  font-family: 'SourceSansProRegular', sans-serif;
   bottom: 14px;
 }
 .hmw-horizontal.hmw-monthly.hmw-month.hmw-min-width-820 .hmw-weekday {
   font-size: 13px;
-  font-family: 'SourceSansProLight', sans-serif;
+  font-family: 'SourceSansProRegular', sans-serif;
   margin-bottom: 50px;
   fill: #2c3342;
 }
@@ -27404,7 +27404,7 @@ widget[type="richtexteditor"].widget-on-reporting-mode richtexteditor * {
 }
 .hmw-horizontal.hmw-monthly.hmw-quarter.hmw-min-width-150 .hmw-month-label {
   font-size: 13px;
-  font-family: 'SourceSansProLight', sans-serif;
+  font-family: 'SourceSansProRegular', sans-serif;
   margin-bottom: 6px;
   /* hack! we store month label view type in content property to get access to it outside */
   content: "short";
@@ -27442,7 +27442,7 @@ widget[type="richtexteditor"].widget-on-reporting-mode richtexteditor * {
 }
 .hmw-horizontal.hmw-monthly.hmw-quarter.hmw-min-width-230 .hmw-month-label {
   font-size: 13px;
-  font-family: 'SourceSansProLight', sans-serif;
+  font-family: 'SourceSansProRegular', sans-serif;
   margin-bottom: 8px;
   /* hack! we store month label view type in content property to get access to it outside */
   content: "short";
@@ -27480,7 +27480,7 @@ widget[type="richtexteditor"].widget-on-reporting-mode richtexteditor * {
 }
 .hmw-horizontal.hmw-monthly.hmw-quarter.hmw-min-width-320 .hmw-month-label {
   font-size: 13px;
-  font-family: 'SourceSansProLight', sans-serif;
+  font-family: 'SourceSansProRegular', sans-serif;
   margin-bottom: 10px;
   /* hack! we store month label view type in content property to get access to it outside */
   content: "short";
@@ -27518,7 +27518,7 @@ widget[type="richtexteditor"].widget-on-reporting-mode richtexteditor * {
 }
 .hmw-horizontal.hmw-monthly.hmw-quarter.hmw-min-width-440 .hmw-month-label {
   font-size: 13px;
-  font-family: 'SourceSansProLight', sans-serif;
+  font-family: 'SourceSansProRegular', sans-serif;
   margin-bottom: 8px;
   padding-bottom: 6px;
   /* hack! we store month label view type in content property to get access to it outside */
@@ -27539,7 +27539,7 @@ widget[type="richtexteditor"].widget-on-reporting-mode richtexteditor * {
 }
 .hmw-horizontal.hmw-monthly.hmw-quarter.hmw-min-width-440 .hmw-weekday {
   font-size: 13px;
-  font-family: 'SourceSansProLight', sans-serif;
+  font-family: 'SourceSansProRegular', sans-serif;
   margin-bottom: 8px;
   fill: #2c3342;
 }
@@ -27564,7 +27564,7 @@ widget[type="richtexteditor"].widget-on-reporting-mode richtexteditor * {
 }
 .hmw-horizontal.hmw-monthly.hmw-quarter.hmw-min-width-650 .hmw-month-label {
   font-size: 13px;
-  font-family: 'SourceSansProLight', sans-serif;
+  font-family: 'SourceSansProRegular', sans-serif;
   margin-bottom: 7px;
   padding-bottom: 11px;
   /* hack! we store month label view type in content property to get access to it outside */
@@ -27582,11 +27582,11 @@ widget[type="richtexteditor"].widget-on-reporting-mode richtexteditor * {
 }
 .hmw-horizontal.hmw-monthly.hmw-quarter.hmw-min-width-650 .hmw-day-label {
   font-size: 11px;
-  font-family: 'SourceSansProLight', sans-serif;
+  font-family: 'SourceSansProRegular', sans-serif;
 }
 .hmw-horizontal.hmw-monthly.hmw-quarter.hmw-min-width-650 .hmw-weekday {
   font-size: 13px;
-  font-family: 'SourceSansProLight', sans-serif;
+  font-family: 'SourceSansProRegular', sans-serif;
   margin-bottom: 11px;
   fill: #2c3342;
 }
@@ -27611,7 +27611,7 @@ widget[type="richtexteditor"].widget-on-reporting-mode richtexteditor * {
 }
 .hmw-horizontal.hmw-monthly.hmw-quarter.hmw-min-width-880 .hmw-month-label {
   font-size: 13px;
-  font-family: 'SourceSansProLight', sans-serif;
+  font-family: 'SourceSansProRegular', sans-serif;
   margin-bottom: 13px;
   padding-bottom: 15px;
   /* hack! we store month label view type in content property to get access to it outside */
@@ -27629,11 +27629,11 @@ widget[type="richtexteditor"].widget-on-reporting-mode richtexteditor * {
 }
 .hmw-horizontal.hmw-monthly.hmw-quarter.hmw-min-width-880 .hmw-day-label {
   font-size: 13px;
-  font-family: 'SourceSansProLight', sans-serif;
+  font-family: 'SourceSansProRegular', sans-serif;
 }
 .hmw-horizontal.hmw-monthly.hmw-quarter.hmw-min-width-880 .hmw-weekday {
   font-size: 13px;
-  font-family: 'SourceSansProLight', sans-serif;
+  font-family: 'SourceSansProRegular', sans-serif;
   margin-bottom: 13px;
   fill: #2c3342;
 }
@@ -27658,7 +27658,7 @@ widget[type="richtexteditor"].widget-on-reporting-mode richtexteditor * {
 }
 .hmw-horizontal.hmw-monthly.hmw-half-year.hmw-min-width-150 .hmw-month-label {
   font-size: 13px;
-  font-family: 'SourceSansProLight', sans-serif;
+  font-family: 'SourceSansProRegular', sans-serif;
   margin-bottom: 6px;
   /* hack! we store month label view type in content property to get access to it outside */
   content: "short";
@@ -27697,7 +27697,7 @@ widget[type="richtexteditor"].widget-on-reporting-mode richtexteditor * {
 }
 .hmw-horizontal.hmw-monthly.hmw-half-year.hmw-min-width-230 .hmw-month-label {
   font-size: 13px;
-  font-family: 'SourceSansProLight', sans-serif;
+  font-family: 'SourceSansProRegular', sans-serif;
   margin-bottom: 8px;
   /* hack! we store month label view type in content property to get access to it outside */
   content: "short";
@@ -27736,7 +27736,7 @@ widget[type="richtexteditor"].widget-on-reporting-mode richtexteditor * {
 }
 .hmw-horizontal.hmw-monthly.hmw-half-year.hmw-min-width-320 .hmw-month-label {
   font-size: 13px;
-  font-family: 'SourceSansProLight', sans-serif;
+  font-family: 'SourceSansProRegular', sans-serif;
   margin-bottom: 10px;
   /* hack! we store month label view type in content property to get access to it outside */
   content: "short";
@@ -27775,7 +27775,7 @@ widget[type="richtexteditor"].widget-on-reporting-mode richtexteditor * {
 }
 .hmw-horizontal.hmw-monthly.hmw-half-year.hmw-min-width-440 .hmw-month-label {
   font-size: 13px;
-  font-family: 'SourceSansProLight', sans-serif;
+  font-family: 'SourceSansProRegular', sans-serif;
   margin-bottom: 8px;
   padding-bottom: 6px;
   /* hack! we store month label view type in content property to get access to it outside */
@@ -27796,7 +27796,7 @@ widget[type="richtexteditor"].widget-on-reporting-mode richtexteditor * {
 }
 .hmw-horizontal.hmw-monthly.hmw-half-year.hmw-min-width-440 .hmw-weekday {
   font-size: 13px;
-  font-family: 'SourceSansProLight', sans-serif;
+  font-family: 'SourceSansProRegular', sans-serif;
   margin-bottom: 8px;
   fill: #2c3342;
 }
@@ -27822,7 +27822,7 @@ widget[type="richtexteditor"].widget-on-reporting-mode richtexteditor * {
 }
 .hmw-horizontal.hmw-monthly.hmw-half-year.hmw-min-width-650 .hmw-month-label {
   font-size: 13px;
-  font-family: 'SourceSansProLight', sans-serif;
+  font-family: 'SourceSansProRegular', sans-serif;
   margin-bottom: 7px;
   padding-bottom: 11px;
   /* hack! we store month label view type in content property to get access to it outside */
@@ -27840,11 +27840,11 @@ widget[type="richtexteditor"].widget-on-reporting-mode richtexteditor * {
 }
 .hmw-horizontal.hmw-monthly.hmw-half-year.hmw-min-width-650 .hmw-day-label {
   font-size: 11px;
-  font-family: 'SourceSansProLight', sans-serif;
+  font-family: 'SourceSansProRegular', sans-serif;
 }
 .hmw-horizontal.hmw-monthly.hmw-half-year.hmw-min-width-650 .hmw-weekday {
   font-size: 13px;
-  font-family: 'SourceSansProLight', sans-serif;
+  font-family: 'SourceSansProRegular', sans-serif;
   margin-bottom: 11px;
   fill: #2c3342;
 }
@@ -27870,7 +27870,7 @@ widget[type="richtexteditor"].widget-on-reporting-mode richtexteditor * {
 }
 .hmw-horizontal.hmw-monthly.hmw-half-year.hmw-min-width-880 .hmw-month-label {
   font-size: 13px;
-  font-family: 'SourceSansProLight', sans-serif;
+  font-family: 'SourceSansProRegular', sans-serif;
   margin-bottom: 13px;
   padding-bottom: 15px;
   /* hack! we store month label view type in content property to get access to it outside */
@@ -27888,11 +27888,11 @@ widget[type="richtexteditor"].widget-on-reporting-mode richtexteditor * {
 }
 .hmw-horizontal.hmw-monthly.hmw-half-year.hmw-min-width-880 .hmw-day-label {
   font-size: 13px;
-  font-family: 'SourceSansProLight', sans-serif;
+  font-family: 'SourceSansProRegular', sans-serif;
 }
 .hmw-horizontal.hmw-monthly.hmw-half-year.hmw-min-width-880 .hmw-weekday {
   font-size: 13px;
-  font-family: 'SourceSansProLight', sans-serif;
+  font-family: 'SourceSansProRegular', sans-serif;
   margin-bottom: 13px;
   fill: #2c3342;
 }
@@ -27918,7 +27918,7 @@ widget[type="richtexteditor"].widget-on-reporting-mode richtexteditor * {
 }
 .hmw-horizontal.hmw-monthly.hmw-year.hmw-min-width-230 .hmw-month-label {
   font-size: 13px;
-  font-family: 'SourceSansProLight', sans-serif;
+  font-family: 'SourceSansProRegular', sans-serif;
   margin-bottom: 5px;
   /* hack! we store month label view type in content property to get access to it outside */
   content: "short";
@@ -27957,7 +27957,7 @@ widget[type="richtexteditor"].widget-on-reporting-mode richtexteditor * {
 }
 .hmw-horizontal.hmw-monthly.hmw-year.hmw-min-width-360 .hmw-month-label {
   font-size: 13px;
-  font-family: 'SourceSansProLight', sans-serif;
+  font-family: 'SourceSansProRegular', sans-serif;
   margin-bottom: 7px;
   /* hack! we store month label view type in content property to get access to it outside */
   content: "short";
@@ -27996,7 +27996,7 @@ widget[type="richtexteditor"].widget-on-reporting-mode richtexteditor * {
 }
 .hmw-horizontal.hmw-monthly.hmw-year.hmw-min-width-480 .hmw-month-label {
   font-size: 13px;
-  font-family: 'SourceSansProLight', sans-serif;
+  font-family: 'SourceSansProRegular', sans-serif;
   margin-bottom: 8px;
   /* hack! we store month label view type in content property to get access to it outside */
   content: "short";
@@ -28035,7 +28035,7 @@ widget[type="richtexteditor"].widget-on-reporting-mode richtexteditor * {
 }
 .hmw-horizontal.hmw-monthly.hmw-year.hmw-min-width-650 .hmw-month-label {
   font-size: 13px;
-  font-family: 'SourceSansProLight', sans-serif;
+  font-family: 'SourceSansProRegular', sans-serif;
   margin-bottom: 10px;
   /* hack! we store month label view type in content property to get access to it outside */
   content: "short";
@@ -28074,7 +28074,7 @@ widget[type="richtexteditor"].widget-on-reporting-mode richtexteditor * {
 }
 .hmw-horizontal.hmw-monthly.hmw-year.hmw-min-width-880 .hmw-month-label {
   font-size: 13px;
-  font-family: 'SourceSansProLight', sans-serif;
+  font-family: 'SourceSansProRegular', sans-serif;
   margin-bottom: 8px;
   padding-bottom: 6px;
   /* hack! we store month label view type in content property to get access to it outside */
@@ -28095,7 +28095,7 @@ widget[type="richtexteditor"].widget-on-reporting-mode richtexteditor * {
 }
 .hmw-horizontal.hmw-monthly.hmw-year.hmw-min-width-880 .hmw-weekday {
   font-size: 13px;
-  font-family: 'SourceSansProLight', sans-serif;
+  font-family: 'SourceSansProRegular', sans-serif;
   margin-bottom: 8px;
   fill: #2c3342;
 }
@@ -28127,7 +28127,7 @@ widget[type="richtexteditor"].widget-on-reporting-mode richtexteditor * {
 }
 .hmw-horizontal.hmw-weekly.hmw-month.hmw-min-width-150 .hmw-month-label {
   font-size: 13px;
-  font-family: 'SourceSansProLight', sans-serif;
+  font-family: 'SourceSansProRegular', sans-serif;
   margin-bottom: 9px;
   /* hack! we store month label view type in content property to get access to it outside */
   content: "short";
@@ -28168,7 +28168,7 @@ widget[type="richtexteditor"].widget-on-reporting-mode richtexteditor * {
 }
 .hmw-horizontal.hmw-weekly.hmw-month.hmw-min-width-210 .hmw-month-label {
   font-size: 13px;
-  font-family: 'SourceSansProLight', sans-serif;
+  font-family: 'SourceSansProRegular', sans-serif;
   margin-bottom: 9px;
   /* hack! we store month label view type in content property to get access to it outside */
   content: "short";
@@ -28188,7 +28188,7 @@ widget[type="richtexteditor"].widget-on-reporting-mode richtexteditor * {
 }
 .hmw-horizontal.hmw-weekly.hmw-month.hmw-min-width-210 .hmw-weekday {
   font-size: 13px;
-  font-family: 'SourceSansProLight', sans-serif;
+  font-family: 'SourceSansProRegular', sans-serif;
   width: 42px;
   fill: #2c3342;
 }
@@ -28216,7 +28216,7 @@ widget[type="richtexteditor"].widget-on-reporting-mode richtexteditor * {
 }
 .hmw-horizontal.hmw-weekly.hmw-month.hmw-min-width-320 .hmw-month-label {
   font-size: 13px;
-  font-family: 'SourceSansProLight', sans-serif;
+  font-family: 'SourceSansProRegular', sans-serif;
   margin-bottom: 15px;
   /* hack! we store month label view type in content property to get access to it outside */
   content: "short";
@@ -28233,11 +28233,11 @@ widget[type="richtexteditor"].widget-on-reporting-mode richtexteditor * {
 }
 .hmw-horizontal.hmw-weekly.hmw-month.hmw-min-width-320 .hmw-day-label {
   font-size: 11px;
-  font-family: 'SourceSansProLight', sans-serif;
+  font-family: 'SourceSansProRegular', sans-serif;
 }
 .hmw-horizontal.hmw-weekly.hmw-month.hmw-min-width-320 .hmw-weekday {
   font-size: 13px;
-  font-family: 'SourceSansProLight', sans-serif;
+  font-family: 'SourceSansProRegular', sans-serif;
   width: 47px;
   fill: #2c3342;
 }
@@ -28265,7 +28265,7 @@ widget[type="richtexteditor"].widget-on-reporting-mode richtexteditor * {
 }
 .hmw-horizontal.hmw-weekly.hmw-month.hmw-min-width-430 .hmw-month-label {
   font-size: 13px;
-  font-family: 'SourceSansProLight', sans-serif;
+  font-family: 'SourceSansProRegular', sans-serif;
   margin-bottom: 19px;
   /* hack! we store month label view type in content property to get access to it outside */
   content: "full";
@@ -28282,11 +28282,11 @@ widget[type="richtexteditor"].widget-on-reporting-mode richtexteditor * {
 }
 .hmw-horizontal.hmw-weekly.hmw-month.hmw-min-width-430 .hmw-day-label {
   font-size: 11px;
-  font-family: 'SourceSansProLight', sans-serif;
+  font-family: 'SourceSansProRegular', sans-serif;
 }
 .hmw-horizontal.hmw-weekly.hmw-month.hmw-min-width-430 .hmw-weekday {
   font-size: 13px;
-  font-family: 'SourceSansProLight', sans-serif;
+  font-family: 'SourceSansProRegular', sans-serif;
   width: 54px;
   fill: #2c3342;
 }
@@ -28314,7 +28314,7 @@ widget[type="richtexteditor"].widget-on-reporting-mode richtexteditor * {
 }
 .hmw-horizontal.hmw-weekly.hmw-month.hmw-min-width-600 .hmw-month-label {
   font-size: 13px;
-  font-family: 'SourceSansProLight', sans-serif;
+  font-family: 'SourceSansProRegular', sans-serif;
   margin-bottom: 22px;
   /* hack! we store month label view type in content property to get access to it outside */
   content: "full";
@@ -28331,11 +28331,11 @@ widget[type="richtexteditor"].widget-on-reporting-mode richtexteditor * {
 }
 .hmw-horizontal.hmw-weekly.hmw-month.hmw-min-width-600 .hmw-day-label {
   font-size: 13px;
-  font-family: 'SourceSansProLight', sans-serif;
+  font-family: 'SourceSansProRegular', sans-serif;
 }
 .hmw-horizontal.hmw-weekly.hmw-month.hmw-min-width-600 .hmw-weekday {
   font-size: 13px;
-  font-family: 'SourceSansProLight', sans-serif;
+  font-family: 'SourceSansProRegular', sans-serif;
   width: 54px;
   fill: #2c3342;
 }
@@ -28363,7 +28363,7 @@ widget[type="richtexteditor"].widget-on-reporting-mode richtexteditor * {
 }
 .hmw-horizontal.hmw-weekly.hmw-month.hmw-min-width-820 .hmw-month-label {
   font-size: 13px;
-  font-family: 'SourceSansProLight', sans-serif;
+  font-family: 'SourceSansProRegular', sans-serif;
   margin-bottom: 35px;
   /* hack! we store month label view type in content property to get access to it outside */
   content: "full";
@@ -28380,11 +28380,11 @@ widget[type="richtexteditor"].widget-on-reporting-mode richtexteditor * {
 }
 .hmw-horizontal.hmw-weekly.hmw-month.hmw-min-width-820 .hmw-day-label {
   font-size: 13px;
-  font-family: 'SourceSansProLight', sans-serif;
+  font-family: 'SourceSansProRegular', sans-serif;
 }
 .hmw-horizontal.hmw-weekly.hmw-month.hmw-min-width-820 .hmw-weekday {
   font-size: 13px;
-  font-family: 'SourceSansProLight', sans-serif;
+  font-family: 'SourceSansProRegular', sans-serif;
   width: 62px;
   fill: #2c3342;
 }
@@ -28412,7 +28412,7 @@ widget[type="richtexteditor"].widget-on-reporting-mode richtexteditor * {
 }
 .hmw-horizontal.hmw-weekly.hmw-quarter.hmw-min-width-150 .hmw-month-label {
   font-size: 13px;
-  font-family: 'SourceSansProLight', sans-serif;
+  font-family: 'SourceSansProRegular', sans-serif;
   margin-bottom: 7px;
   /* hack! we store month label view type in content property to get access to it outside */
   content: "short";
@@ -28450,7 +28450,7 @@ widget[type="richtexteditor"].widget-on-reporting-mode richtexteditor * {
 }
 .hmw-horizontal.hmw-weekly.hmw-quarter.hmw-min-width-190 .hmw-month-label {
   font-size: 13px;
-  font-family: 'SourceSansProLight', sans-serif;
+  font-family: 'SourceSansProRegular', sans-serif;
   margin-bottom: 9px;
   /* hack! we store month label view type in content property to get access to it outside */
   content: "short";
@@ -28488,7 +28488,7 @@ widget[type="richtexteditor"].widget-on-reporting-mode richtexteditor * {
 }
 .hmw-horizontal.hmw-weekly.hmw-quarter.hmw-min-width-320 .hmw-month-label {
   font-size: 13px;
-  font-family: 'SourceSansProLight', sans-serif;
+  font-family: 'SourceSansProRegular', sans-serif;
   margin-bottom: 15px;
   /* hack! we store month label view type in content property to get access to it outside */
   content: "short";
@@ -28505,11 +28505,11 @@ widget[type="richtexteditor"].widget-on-reporting-mode richtexteditor * {
 }
 .hmw-horizontal.hmw-weekly.hmw-quarter.hmw-min-width-320 .hmw-day-label {
   font-size: 11px;
-  font-family: 'SourceSansProLight', sans-serif;
+  font-family: 'SourceSansProRegular', sans-serif;
 }
 .hmw-horizontal.hmw-weekly.hmw-quarter.hmw-min-width-320 .hmw-weekday {
   font-size: 13px;
-  font-family: 'SourceSansProLight', sans-serif;
+  font-family: 'SourceSansProRegular', sans-serif;
   width: 47px;
   fill: #2c3342;
 }
@@ -28534,7 +28534,7 @@ widget[type="richtexteditor"].widget-on-reporting-mode richtexteditor * {
 }
 .hmw-horizontal.hmw-weekly.hmw-quarter.hmw-min-width-450 .hmw-month-label {
   font-size: 13px;
-  font-family: 'SourceSansProLight', sans-serif;
+  font-family: 'SourceSansProRegular', sans-serif;
   margin-bottom: 19px;
   /* hack! we store month label view type in content property to get access to it outside */
   content: "full";
@@ -28551,11 +28551,11 @@ widget[type="richtexteditor"].widget-on-reporting-mode richtexteditor * {
 }
 .hmw-horizontal.hmw-weekly.hmw-quarter.hmw-min-width-450 .hmw-day-label {
   font-size: 11px;
-  font-family: 'SourceSansProLight', sans-serif;
+  font-family: 'SourceSansProRegular', sans-serif;
 }
 .hmw-horizontal.hmw-weekly.hmw-quarter.hmw-min-width-450 .hmw-weekday {
   font-size: 13px;
-  font-family: 'SourceSansProLight', sans-serif;
+  font-family: 'SourceSansProRegular', sans-serif;
   width: 54px;
   fill: #2c3342;
 }
@@ -28580,7 +28580,7 @@ widget[type="richtexteditor"].widget-on-reporting-mode richtexteditor * {
 }
 .hmw-horizontal.hmw-weekly.hmw-quarter.hmw-min-width-530 .hmw-month-label {
   font-size: 13px;
-  font-family: 'SourceSansProLight', sans-serif;
+  font-family: 'SourceSansProRegular', sans-serif;
   margin-bottom: 22px;
   /* hack! we store month label view type in content property to get access to it outside */
   content: "full";
@@ -28597,11 +28597,11 @@ widget[type="richtexteditor"].widget-on-reporting-mode richtexteditor * {
 }
 .hmw-horizontal.hmw-weekly.hmw-quarter.hmw-min-width-530 .hmw-day-label {
   font-size: 13px;
-  font-family: 'SourceSansProLight', sans-serif;
+  font-family: 'SourceSansProRegular', sans-serif;
 }
 .hmw-horizontal.hmw-weekly.hmw-quarter.hmw-min-width-530 .hmw-weekday {
   font-size: 13px;
-  font-family: 'SourceSansProLight', sans-serif;
+  font-family: 'SourceSansProRegular', sans-serif;
   width: 54px;
   fill: #2c3342;
 }
@@ -28626,7 +28626,7 @@ widget[type="richtexteditor"].widget-on-reporting-mode richtexteditor * {
 }
 .hmw-horizontal.hmw-weekly.hmw-quarter.hmw-min-width-760 .hmw-month-label {
   font-size: 13px;
-  font-family: 'SourceSansProLight', sans-serif;
+  font-family: 'SourceSansProRegular', sans-serif;
   margin-bottom: 35px;
   /* hack! we store month label view type in content property to get access to it outside */
   content: "full";
@@ -28643,11 +28643,11 @@ widget[type="richtexteditor"].widget-on-reporting-mode richtexteditor * {
 }
 .hmw-horizontal.hmw-weekly.hmw-quarter.hmw-min-width-760 .hmw-day-label {
   font-size: 13px;
-  font-family: 'SourceSansProLight', sans-serif;
+  font-family: 'SourceSansProRegular', sans-serif;
 }
 .hmw-horizontal.hmw-weekly.hmw-quarter.hmw-min-width-760 .hmw-weekday {
   font-size: 13px;
-  font-family: 'SourceSansProLight', sans-serif;
+  font-family: 'SourceSansProRegular', sans-serif;
   width: 62px;
   fill: #2c3342;
 }
@@ -28672,7 +28672,7 @@ widget[type="richtexteditor"].widget-on-reporting-mode richtexteditor * {
 }
 .hmw-horizontal.hmw-weekly.hmw-half-year.hmw-min-width-150 .hmw-month-label {
   font-size: 13px;
-  font-family: 'SourceSansProLight', sans-serif;
+  font-family: 'SourceSansProRegular', sans-serif;
   margin-bottom: 5px;
   /* hack! we store month label view type in content property to get access to it outside */
   content: "dec";
@@ -28710,7 +28710,7 @@ widget[type="richtexteditor"].widget-on-reporting-mode richtexteditor * {
 }
 .hmw-horizontal.hmw-weekly.hmw-half-year.hmw-min-width-210 .hmw-month-label {
   font-size: 13px;
-  font-family: 'SourceSansProLight', sans-serif;
+  font-family: 'SourceSansProRegular', sans-serif;
   margin-bottom: 7px;
   /* hack! we store month label view type in content property to get access to it outside */
   content: "short";
@@ -28748,7 +28748,7 @@ widget[type="richtexteditor"].widget-on-reporting-mode richtexteditor * {
 }
 .hmw-horizontal.hmw-weekly.hmw-half-year.hmw-min-width-310 .hmw-month-label {
   font-size: 13px;
-  font-family: 'SourceSansProLight', sans-serif;
+  font-family: 'SourceSansProRegular', sans-serif;
   margin-bottom: 9px;
   /* hack! we store month label view type in content property to get access to it outside */
   content: "short";
@@ -28786,7 +28786,7 @@ widget[type="richtexteditor"].widget-on-reporting-mode richtexteditor * {
 }
 .hmw-horizontal.hmw-weekly.hmw-half-year.hmw-min-width-440 .hmw-month-label {
   font-size: 13px;
-  font-family: 'SourceSansProLight', sans-serif;
+  font-family: 'SourceSansProRegular', sans-serif;
   margin-bottom: 9px;
   /* hack! we store month label view type in content property to get access to it outside */
   content: "short";
@@ -28806,7 +28806,7 @@ widget[type="richtexteditor"].widget-on-reporting-mode richtexteditor * {
 }
 .hmw-horizontal.hmw-weekly.hmw-half-year.hmw-min-width-440 .hmw-weekday {
   font-size: 13px;
-  font-family: 'SourceSansProLight', sans-serif;
+  font-family: 'SourceSansProRegular', sans-serif;
   width: 42px;
   fill: #2c3342;
 }
@@ -28831,7 +28831,7 @@ widget[type="richtexteditor"].widget-on-reporting-mode richtexteditor * {
 }
 .hmw-horizontal.hmw-weekly.hmw-half-year.hmw-min-width-550 .hmw-month-label {
   font-size: 13px;
-  font-family: 'SourceSansProLight', sans-serif;
+  font-family: 'SourceSansProRegular', sans-serif;
   margin-bottom: 15px;
   /* hack! we store month label view type in content property to get access to it outside */
   content: "short";
@@ -28848,11 +28848,11 @@ widget[type="richtexteditor"].widget-on-reporting-mode richtexteditor * {
 }
 .hmw-horizontal.hmw-weekly.hmw-half-year.hmw-min-width-550 .hmw-day-label {
   font-size: 11px;
-  font-family: 'SourceSansProLight', sans-serif;
+  font-family: 'SourceSansProRegular', sans-serif;
 }
 .hmw-horizontal.hmw-weekly.hmw-half-year.hmw-min-width-550 .hmw-weekday {
   font-size: 13px;
-  font-family: 'SourceSansProLight', sans-serif;
+  font-family: 'SourceSansProRegular', sans-serif;
   width: 47px;
   fill: #2c3342;
 }
@@ -28877,7 +28877,7 @@ widget[type="richtexteditor"].widget-on-reporting-mode richtexteditor * {
 }
 .hmw-horizontal.hmw-weekly.hmw-half-year.hmw-min-width-770 .hmw-month-label {
   font-size: 13px;
-  font-family: 'SourceSansProLight', sans-serif;
+  font-family: 'SourceSansProRegular', sans-serif;
   margin-bottom: 19px;
   /* hack! we store month label view type in content property to get access to it outside */
   content: "full";
@@ -28894,11 +28894,11 @@ widget[type="richtexteditor"].widget-on-reporting-mode richtexteditor * {
 }
 .hmw-horizontal.hmw-weekly.hmw-half-year.hmw-min-width-770 .hmw-day-label {
   font-size: 11px;
-  font-family: 'SourceSansProLight', sans-serif;
+  font-family: 'SourceSansProRegular', sans-serif;
 }
 .hmw-horizontal.hmw-weekly.hmw-half-year.hmw-min-width-770 .hmw-weekday {
   font-size: 13px;
-  font-family: 'SourceSansProLight', sans-serif;
+  font-family: 'SourceSansProRegular', sans-serif;
   width: 54px;
   fill: #2c3342;
 }
@@ -28923,7 +28923,7 @@ widget[type="richtexteditor"].widget-on-reporting-mode richtexteditor * {
 }
 .hmw-horizontal.hmw-weekly.hmw-year.hmw-min-width-150 .hmw-month-label {
   font-size: 13px;
-  font-family: 'SourceSansProLight', sans-serif;
+  font-family: 'SourceSansProRegular', sans-serif;
   margin-bottom: 5px;
   /* hack! we store month label view type in content property to get access to it outside */
   content: "dec";
@@ -28961,7 +28961,7 @@ widget[type="richtexteditor"].widget-on-reporting-mode richtexteditor * {
 }
 .hmw-horizontal.hmw-weekly.hmw-year.hmw-min-width-220 .hmw-month-label {
   font-size: 13px;
-  font-family: 'SourceSansProLight', sans-serif;
+  font-family: 'SourceSansProRegular', sans-serif;
   margin-bottom: 7px;
   /* hack! we store month label view type in content property to get access to it outside */
   content: "short";
@@ -28999,7 +28999,7 @@ widget[type="richtexteditor"].widget-on-reporting-mode richtexteditor * {
 }
 .hmw-horizontal.hmw-weekly.hmw-year.hmw-min-width-330 .hmw-month-label {
   font-size: 13px;
-  font-family: 'SourceSansProLight', sans-serif;
+  font-family: 'SourceSansProRegular', sans-serif;
   margin-bottom: 9px;
   /* hack! we store month label view type in content property to get access to it outside */
   content: "short";
@@ -29037,7 +29037,7 @@ widget[type="richtexteditor"].widget-on-reporting-mode richtexteditor * {
 }
 .hmw-horizontal.hmw-weekly.hmw-year.hmw-min-width-460 .hmw-month-label {
   font-size: 13px;
-  font-family: 'SourceSansProLight', sans-serif;
+  font-family: 'SourceSansProRegular', sans-serif;
   margin-bottom: 9px;
   /* hack! we store month label view type in content property to get access to it outside */
   content: "short";
@@ -29057,7 +29057,7 @@ widget[type="richtexteditor"].widget-on-reporting-mode richtexteditor * {
 }
 .hmw-horizontal.hmw-weekly.hmw-year.hmw-min-width-460 .hmw-weekday {
   font-size: 13px;
-  font-family: 'SourceSansProLight', sans-serif;
+  font-family: 'SourceSansProRegular', sans-serif;
   width: 42px;
   fill: #2c3342;
 }
@@ -29082,7 +29082,7 @@ widget[type="richtexteditor"].widget-on-reporting-mode richtexteditor * {
 }
 .hmw-horizontal.hmw-weekly.hmw-year.hmw-min-width-560 .hmw-month-label {
   font-size: 13px;
-  font-family: 'SourceSansProLight', sans-serif;
+  font-family: 'SourceSansProRegular', sans-serif;
   margin-bottom: 15px;
   /* hack! we store month label view type in content property to get access to it outside */
   content: "short";
@@ -29099,11 +29099,11 @@ widget[type="richtexteditor"].widget-on-reporting-mode richtexteditor * {
 }
 .hmw-horizontal.hmw-weekly.hmw-year.hmw-min-width-560 .hmw-day-label {
   font-size: 11px;
-  font-family: 'SourceSansProLight', sans-serif;
+  font-family: 'SourceSansProRegular', sans-serif;
 }
 .hmw-horizontal.hmw-weekly.hmw-year.hmw-min-width-560 .hmw-weekday {
   font-size: 13px;
-  font-family: 'SourceSansProLight', sans-serif;
+  font-family: 'SourceSansProRegular', sans-serif;
   width: 47px;
   fill: #2c3342;
 }
@@ -29128,7 +29128,7 @@ widget[type="richtexteditor"].widget-on-reporting-mode richtexteditor * {
 }
 .hmw-horizontal.hmw-weekly.hmw-year.hmw-min-width-780 .hmw-month-label {
   font-size: 13px;
-  font-family: 'SourceSansProLight', sans-serif;
+  font-family: 'SourceSansProRegular', sans-serif;
   margin-bottom: 19px;
   /* hack! we store month label view type in content property to get access to it outside */
   content: "full";
@@ -29145,11 +29145,11 @@ widget[type="richtexteditor"].widget-on-reporting-mode richtexteditor * {
 }
 .hmw-horizontal.hmw-weekly.hmw-year.hmw-min-width-780 .hmw-day-label {
   font-size: 11px;
-  font-family: 'SourceSansProLight', sans-serif;
+  font-family: 'SourceSansProRegular', sans-serif;
 }
 .hmw-horizontal.hmw-weekly.hmw-year.hmw-min-width-780 .hmw-weekday {
   font-size: 13px;
-  font-family: 'SourceSansProLight', sans-serif;
+  font-family: 'SourceSansProRegular', sans-serif;
   width: 54px;
   fill: #2c3342;
 }
@@ -29184,7 +29184,7 @@ widget[type="richtexteditor"].widget-on-reporting-mode richtexteditor * {
 }
 .hmw-vertical.hmw-monthly.hmw-quarter.hmw-min-height-151 .hmw-month-label {
   font-size: 13px;
-  font-family: 'SourceSansProLight', sans-serif;
+  font-family: 'SourceSansProRegular', sans-serif;
   margin-bottom: 6px;
   /* hack! we store month label view type in content property to get access to it outside */
   content: "short";
@@ -29209,7 +29209,7 @@ widget[type="richtexteditor"].widget-on-reporting-mode richtexteditor * {
   content: "short";
   font-size: 13px;
   width: 28px;
-  font-family: 'SourceSansProLight', sans-serif;
+  font-family: 'SourceSansProRegular', sans-serif;
   color: #2c3342;
 }
 .hmw-vertical.hmw-monthly.hmw-quarter.hmw-min-height-151 .hmw-month {
@@ -29229,7 +29229,7 @@ widget[type="richtexteditor"].widget-on-reporting-mode richtexteditor * {
 }
 .hmw-vertical.hmw-monthly.hmw-quarter.hmw-min-height-220 .hmw-month-label {
   font-size: 13px;
-  font-family: 'SourceSansProLight', sans-serif;
+  font-family: 'SourceSansProRegular', sans-serif;
   margin-bottom: 8px;
   /* hack! we store month label view type in content property to get access to it outside */
   content: "short";
@@ -29254,7 +29254,7 @@ widget[type="richtexteditor"].widget-on-reporting-mode richtexteditor * {
   content: "short";
   font-size: 13px;
   width: 35px;
-  font-family: 'SourceSansProLight', sans-serif;
+  font-family: 'SourceSansProRegular', sans-serif;
   color: #2c3342;
 }
 .hmw-vertical.hmw-monthly.hmw-quarter.hmw-min-height-220 .hmw-month {
@@ -29274,7 +29274,7 @@ widget[type="richtexteditor"].widget-on-reporting-mode richtexteditor * {
 }
 .hmw-vertical.hmw-monthly.hmw-quarter.hmw-min-height-340 .hmw-month-label {
   font-size: 13px;
-  font-family: 'SourceSansProLight', sans-serif;
+  font-family: 'SourceSansProRegular', sans-serif;
   margin-bottom: 10px;
   /* hack! we store month label view type in content property to get access to it outside */
   content: "short";
@@ -29312,7 +29312,7 @@ widget[type="richtexteditor"].widget-on-reporting-mode richtexteditor * {
 }
 .hmw-vertical.hmw-monthly.hmw-quarter.hmw-min-height-490 .hmw-month-label {
   font-size: 13px;
-  font-family: 'SourceSansProLight', sans-serif;
+  font-family: 'SourceSansProRegular', sans-serif;
   margin-bottom: 8px;
   padding-bottom: 6px;
   /* hack! we store month label view type in content property to get access to it outside */
@@ -29333,7 +29333,7 @@ widget[type="richtexteditor"].widget-on-reporting-mode richtexteditor * {
 }
 .hmw-vertical.hmw-monthly.hmw-quarter.hmw-min-height-490 .hmw-weekday {
   font-size: 13px;
-  font-family: 'SourceSansProLight', sans-serif;
+  font-family: 'SourceSansProRegular', sans-serif;
   margin-bottom: 8px;
   fill: #2c3342;
 }
@@ -29358,7 +29358,7 @@ widget[type="richtexteditor"].widget-on-reporting-mode richtexteditor * {
 }
 .hmw-vertical.hmw-monthly.hmw-quarter.hmw-min-height-650 .hmw-month-label {
   font-size: 13px;
-  font-family: 'SourceSansProLight', sans-serif;
+  font-family: 'SourceSansProRegular', sans-serif;
   margin-bottom: 7px;
   padding-bottom: 11px;
   /* hack! we store month label view type in content property to get access to it outside */
@@ -29376,11 +29376,11 @@ widget[type="richtexteditor"].widget-on-reporting-mode richtexteditor * {
 }
 .hmw-vertical.hmw-monthly.hmw-quarter.hmw-min-height-650 .hmw-day-label {
   font-size: 11px;
-  font-family: 'SourceSansProLight', sans-serif;
+  font-family: 'SourceSansProRegular', sans-serif;
 }
 .hmw-vertical.hmw-monthly.hmw-quarter.hmw-min-height-650 .hmw-weekday {
   font-size: 13px;
-  font-family: 'SourceSansProLight', sans-serif;
+  font-family: 'SourceSansProRegular', sans-serif;
   margin-bottom: 11px;
   fill: #2c3342;
 }
@@ -29405,7 +29405,7 @@ widget[type="richtexteditor"].widget-on-reporting-mode richtexteditor * {
 }
 .hmw-vertical.hmw-monthly.hmw-quarter.hmw-min-height-870 .hmw-month-label {
   font-size: 13px;
-  font-family: 'SourceSansProLight', sans-serif;
+  font-family: 'SourceSansProRegular', sans-serif;
   margin-bottom: 13px;
   padding-bottom: 15px;
   /* hack! we store month label view type in content property to get access to it outside */
@@ -29423,11 +29423,11 @@ widget[type="richtexteditor"].widget-on-reporting-mode richtexteditor * {
 }
 .hmw-vertical.hmw-monthly.hmw-quarter.hmw-min-height-870 .hmw-day-label {
   font-size: 13px;
-  font-family: 'SourceSansProLight', sans-serif;
+  font-family: 'SourceSansProRegular', sans-serif;
 }
 .hmw-vertical.hmw-monthly.hmw-quarter.hmw-min-height-870 .hmw-weekday {
   font-size: 13px;
-  font-family: 'SourceSansProLight', sans-serif;
+  font-family: 'SourceSansProRegular', sans-serif;
   margin-bottom: 13px;
   fill: #2c3342;
 }
@@ -29452,7 +29452,7 @@ widget[type="richtexteditor"].widget-on-reporting-mode richtexteditor * {
 }
 .hmw-vertical.hmw-monthly.hmw-half-year.hmw-min-height-151 .hmw-month-label {
   font-size: 13px;
-  font-family: 'SourceSansProLight', sans-serif;
+  font-family: 'SourceSansProRegular', sans-serif;
   margin-bottom: 6px;
   /* hack! we store month label view type in content property to get access to it outside */
   content: "short";
@@ -29477,7 +29477,7 @@ widget[type="richtexteditor"].widget-on-reporting-mode richtexteditor * {
   content: "short";
   font-size: 13px;
   width: 28px;
-  font-family: 'SourceSansProLight', sans-serif;
+  font-family: 'SourceSansProRegular', sans-serif;
   color: #2c3342;
 }
 .hmw-vertical.hmw-monthly.hmw-half-year.hmw-min-height-151 .hmw-month {
@@ -29498,7 +29498,7 @@ widget[type="richtexteditor"].widget-on-reporting-mode richtexteditor * {
 }
 .hmw-vertical.hmw-monthly.hmw-half-year.hmw-min-height-220 .hmw-month-label {
   font-size: 13px;
-  font-family: 'SourceSansProLight', sans-serif;
+  font-family: 'SourceSansProRegular', sans-serif;
   margin-bottom: 8px;
   /* hack! we store month label view type in content property to get access to it outside */
   content: "short";
@@ -29523,7 +29523,7 @@ widget[type="richtexteditor"].widget-on-reporting-mode richtexteditor * {
   content: "short";
   font-size: 13px;
   width: 35px;
-  font-family: 'SourceSansProLight', sans-serif;
+  font-family: 'SourceSansProRegular', sans-serif;
   color: #2c3342;
 }
 .hmw-vertical.hmw-monthly.hmw-half-year.hmw-min-height-220 .hmw-month {
@@ -29544,7 +29544,7 @@ widget[type="richtexteditor"].widget-on-reporting-mode richtexteditor * {
 }
 .hmw-vertical.hmw-monthly.hmw-half-year.hmw-min-height-340 .hmw-month-label {
   font-size: 13px;
-  font-family: 'SourceSansProLight', sans-serif;
+  font-family: 'SourceSansProRegular', sans-serif;
   margin-bottom: 10px;
   /* hack! we store month label view type in content property to get access to it outside */
   content: "short";
@@ -29583,7 +29583,7 @@ widget[type="richtexteditor"].widget-on-reporting-mode richtexteditor * {
 }
 .hmw-vertical.hmw-monthly.hmw-half-year.hmw-min-height-490 .hmw-month-label {
   font-size: 13px;
-  font-family: 'SourceSansProLight', sans-serif;
+  font-family: 'SourceSansProRegular', sans-serif;
   margin-bottom: 8px;
   padding-bottom: 6px;
   /* hack! we store month label view type in content property to get access to it outside */
@@ -29604,7 +29604,7 @@ widget[type="richtexteditor"].widget-on-reporting-mode richtexteditor * {
 }
 .hmw-vertical.hmw-monthly.hmw-half-year.hmw-min-height-490 .hmw-weekday {
   font-size: 13px;
-  font-family: 'SourceSansProLight', sans-serif;
+  font-family: 'SourceSansProRegular', sans-serif;
   margin-bottom: 8px;
   fill: #2c3342;
 }
@@ -29630,7 +29630,7 @@ widget[type="richtexteditor"].widget-on-reporting-mode richtexteditor * {
 }
 .hmw-vertical.hmw-monthly.hmw-half-year.hmw-min-height-650 .hmw-month-label {
   font-size: 13px;
-  font-family: 'SourceSansProLight', sans-serif;
+  font-family: 'SourceSansProRegular', sans-serif;
   margin-bottom: 7px;
   padding-bottom: 11px;
   /* hack! we store month label view type in content property to get access to it outside */
@@ -29648,11 +29648,11 @@ widget[type="richtexteditor"].widget-on-reporting-mode richtexteditor * {
 }
 .hmw-vertical.hmw-monthly.hmw-half-year.hmw-min-height-650 .hmw-day-label {
   font-size: 11px;
-  font-family: 'SourceSansProLight', sans-serif;
+  font-family: 'SourceSansProRegular', sans-serif;
 }
 .hmw-vertical.hmw-monthly.hmw-half-year.hmw-min-height-650 .hmw-weekday {
   font-size: 13px;
-  font-family: 'SourceSansProLight', sans-serif;
+  font-family: 'SourceSansProRegular', sans-serif;
   margin-bottom: 11px;
   fill: #2c3342;
 }
@@ -29678,7 +29678,7 @@ widget[type="richtexteditor"].widget-on-reporting-mode richtexteditor * {
 }
 .hmw-vertical.hmw-monthly.hmw-half-year.hmw-min-height-870 .hmw-month-label {
   font-size: 13px;
-  font-family: 'SourceSansProLight', sans-serif;
+  font-family: 'SourceSansProRegular', sans-serif;
   margin-bottom: 13px;
   padding-bottom: 15px;
   /* hack! we store month label view type in content property to get access to it outside */
@@ -29696,11 +29696,11 @@ widget[type="richtexteditor"].widget-on-reporting-mode richtexteditor * {
 }
 .hmw-vertical.hmw-monthly.hmw-half-year.hmw-min-height-870 .hmw-day-label {
   font-size: 13px;
-  font-family: 'SourceSansProLight', sans-serif;
+  font-family: 'SourceSansProRegular', sans-serif;
 }
 .hmw-vertical.hmw-monthly.hmw-half-year.hmw-min-height-870 .hmw-weekday {
   font-size: 13px;
-  font-family: 'SourceSansProLight', sans-serif;
+  font-family: 'SourceSansProRegular', sans-serif;
   margin-bottom: 13px;
   fill: #2c3342;
 }
@@ -29726,7 +29726,7 @@ widget[type="richtexteditor"].widget-on-reporting-mode richtexteditor * {
 }
 .hmw-vertical.hmw-monthly.hmw-year.hmw-min-height-150 .hmw-month-label {
   font-size: 13px;
-  font-family: 'SourceSansProLight', sans-serif;
+  font-family: 'SourceSansProRegular', sans-serif;
   margin-bottom: 4px;
   /* hack! we store month label view type in content property to get access to it outside */
   content: "dec";
@@ -29751,7 +29751,7 @@ widget[type="richtexteditor"].widget-on-reporting-mode richtexteditor * {
   content: "dec";
   font-size: 13px;
   width: 17px;
-  font-family: 'SourceSansProLight', sans-serif;
+  font-family: 'SourceSansProRegular', sans-serif;
   color: #2c3342;
 }
 .hmw-vertical.hmw-monthly.hmw-year.hmw-min-height-150 .hmw-month {
@@ -29772,7 +29772,7 @@ widget[type="richtexteditor"].widget-on-reporting-mode richtexteditor * {
 }
 .hmw-vertical.hmw-monthly.hmw-year.hmw-min-height-260 .hmw-month-label {
   font-size: 13px;
-  font-family: 'SourceSansProLight', sans-serif;
+  font-family: 'SourceSansProRegular', sans-serif;
   margin-bottom: 6px;
   /* hack! we store month label view type in content property to get access to it outside */
   content: "short";
@@ -29811,7 +29811,7 @@ widget[type="richtexteditor"].widget-on-reporting-mode richtexteditor * {
 }
 .hmw-vertical.hmw-monthly.hmw-year.hmw-min-height-380 .hmw-month-label {
   font-size: 13px;
-  font-family: 'SourceSansProLight', sans-serif;
+  font-family: 'SourceSansProRegular', sans-serif;
   margin-bottom: 8px;
   /* hack! we store month label view type in content property to get access to it outside */
   content: "short";
@@ -29850,7 +29850,7 @@ widget[type="richtexteditor"].widget-on-reporting-mode richtexteditor * {
 }
 .hmw-vertical.hmw-monthly.hmw-year.hmw-min-height-480 .hmw-month-label {
   font-size: 13px;
-  font-family: 'SourceSansProLight', sans-serif;
+  font-family: 'SourceSansProRegular', sans-serif;
   margin-bottom: 10px;
   /* hack! we store month label view type in content property to get access to it outside */
   content: "short";
@@ -29889,7 +29889,7 @@ widget[type="richtexteditor"].widget-on-reporting-mode richtexteditor * {
 }
 .hmw-vertical.hmw-monthly.hmw-year.hmw-min-height-690 .hmw-month-label {
   font-size: 13px;
-  font-family: 'SourceSansProLight', sans-serif;
+  font-family: 'SourceSansProRegular', sans-serif;
   margin-bottom: 8px;
   padding-bottom: 6px;
   /* hack! we store month label view type in content property to get access to it outside */
@@ -29910,7 +29910,7 @@ widget[type="richtexteditor"].widget-on-reporting-mode richtexteditor * {
 }
 .hmw-vertical.hmw-monthly.hmw-year.hmw-min-height-690 .hmw-weekday {
   font-size: 13px;
-  font-family: 'SourceSansProLight', sans-serif;
+  font-family: 'SourceSansProRegular', sans-serif;
   margin-bottom: 8px;
   fill: #2c3342;
 }
@@ -29936,7 +29936,7 @@ widget[type="richtexteditor"].widget-on-reporting-mode richtexteditor * {
 }
 .hmw-vertical.hmw-monthly.hmw-year.hmw-min-height-940 .hmw-month-label {
   font-size: 13px;
-  font-family: 'SourceSansProLight', sans-serif;
+  font-family: 'SourceSansProRegular', sans-serif;
   margin-bottom: 7px;
   padding-bottom: 11px;
   /* hack! we store month label view type in content property to get access to it outside */
@@ -29954,11 +29954,11 @@ widget[type="richtexteditor"].widget-on-reporting-mode richtexteditor * {
 }
 .hmw-vertical.hmw-monthly.hmw-year.hmw-min-height-940 .hmw-day-label {
   font-size: 11px;
-  font-family: 'SourceSansProLight', sans-serif;
+  font-family: 'SourceSansProRegular', sans-serif;
 }
 .hmw-vertical.hmw-monthly.hmw-year.hmw-min-height-940 .hmw-weekday {
   font-size: 13px;
-  font-family: 'SourceSansProLight', sans-serif;
+  font-family: 'SourceSansProRegular', sans-serif;
   margin-bottom: 11px;
   fill: #2c3342;
 }
@@ -30016,7 +30016,7 @@ widget[type="richtexteditor"].widget-on-reporting-mode richtexteditor * {
 }
 .hmw-vertical.hmw-weekly.hmw-year.hmw-min-height-230 .hmw-month-label {
   font-size: 13px;
-  font-family: 'SourceSansProLight', sans-serif;
+  font-family: 'SourceSansProRegular', sans-serif;
   margin-bottom: 5px;
   /* hack! we store month label view type in content property to get access to it outside */
   content: "dec";
@@ -30054,7 +30054,7 @@ widget[type="richtexteditor"].widget-on-reporting-mode richtexteditor * {
 }
 .hmw-vertical.hmw-weekly.hmw-year.hmw-min-height-350 .hmw-month-label {
   font-size: 13px;
-  font-family: 'SourceSansProLight', sans-serif;
+  font-family: 'SourceSansProRegular', sans-serif;
   margin-bottom: 9px;
   /* hack! we store month label view type in content property to get access to it outside */
   content: "short";
@@ -30092,7 +30092,7 @@ widget[type="richtexteditor"].widget-on-reporting-mode richtexteditor * {
 }
 .hmw-vertical.hmw-weekly.hmw-year.hmw-min-height-470 .hmw-month-label {
   font-size: 13px;
-  font-family: 'SourceSansProLight', sans-serif;
+  font-family: 'SourceSansProRegular', sans-serif;
   margin-bottom: 9px;
   /* hack! we store month label view type in content property to get access to it outside */
   content: "short";
@@ -30112,7 +30112,7 @@ widget[type="richtexteditor"].widget-on-reporting-mode richtexteditor * {
 }
 .hmw-vertical.hmw-weekly.hmw-year.hmw-min-height-470 .hmw-weekday {
   font-size: 13px;
-  font-family: 'SourceSansProLight', sans-serif;
+  font-family: 'SourceSansProRegular', sans-serif;
   width: 42px;
   fill: #2c3342;
 }
@@ -30137,7 +30137,7 @@ widget[type="richtexteditor"].widget-on-reporting-mode richtexteditor * {
 }
 .hmw-vertical.hmw-weekly.hmw-year.hmw-min-height-610 .hmw-month-label {
   font-size: 13px;
-  font-family: 'SourceSansProLight', sans-serif;
+  font-family: 'SourceSansProRegular', sans-serif;
   margin-bottom: 15px;
   /* hack! we store month label view type in content property to get access to it outside */
   content: "short";
@@ -30154,11 +30154,11 @@ widget[type="richtexteditor"].widget-on-reporting-mode richtexteditor * {
 }
 .hmw-vertical.hmw-weekly.hmw-year.hmw-min-height-610 .hmw-day-label {
   font-size: 11px;
-  font-family: 'SourceSansProLight', sans-serif;
+  font-family: 'SourceSansProRegular', sans-serif;
 }
 .hmw-vertical.hmw-weekly.hmw-year.hmw-min-height-610 .hmw-weekday {
   font-size: 13px;
-  font-family: 'SourceSansProLight', sans-serif;
+  font-family: 'SourceSansProRegular', sans-serif;
   width: 47px;
   fill: #2c3342;
 }
@@ -30183,7 +30183,7 @@ widget[type="richtexteditor"].widget-on-reporting-mode richtexteditor * {
 }
 .hmw-vertical.hmw-weekly.hmw-year.hmw-min-height-820 .hmw-month-label {
   font-size: 13px;
-  font-family: 'SourceSansProLight', sans-serif;
+  font-family: 'SourceSansProRegular', sans-serif;
   margin-bottom: 19px;
   /* hack! we store month label view type in content property to get access to it outside */
   content: "full";
@@ -30200,11 +30200,11 @@ widget[type="richtexteditor"].widget-on-reporting-mode richtexteditor * {
 }
 .hmw-vertical.hmw-weekly.hmw-year.hmw-min-height-820 .hmw-day-label {
   font-size: 11px;
-  font-family: 'SourceSansProLight', sans-serif;
+  font-family: 'SourceSansProRegular', sans-serif;
 }
 .hmw-vertical.hmw-weekly.hmw-year.hmw-min-height-820 .hmw-weekday {
   font-size: 13px;
-  font-family: 'SourceSansProLight', sans-serif;
+  font-family: 'SourceSansProRegular', sans-serif;
   width: 54px;
   fill: #2c3342;
 }
@@ -30233,7 +30233,7 @@ widget[type="richtexteditor"].widget-on-reporting-mode richtexteditor * {
 }
 .heatmap-month-label {
   fill: #2c3342;
-  font-family: 'SourceSansProLight', sans-serif;
+  font-family: 'SourceSansProRegular', sans-serif;
 }
 .heatmap-empty-cell {
   fill: #f8f8f8;
@@ -30256,7 +30256,7 @@ widget[type="richtexteditor"].widget-on-reporting-mode richtexteditor * {
   padding-top: 8px;
   margin-top: 5px;
   border-top: 1px solid #e6e6e6;
-  font-family: 'SourceSansProLight', sans-serif;
+  font-family: 'SourceSansProRegular', sans-serif;
   font-size: 12px;
 }
 .heatmap-pagination {

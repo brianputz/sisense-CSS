@@ -220,7 +220,7 @@ body {
   font-style: normal;
 }*/
 @font-face {
-  font-family: ''SourceSansProLight'';
+  font-family: 'SourceSansProLight';
   src: url('/resources/base/fonts/ubuntu-light-webfont.eot');
   src: url('/resources/base/fonts/ubuntu-light-webfont.eot?#iefix') format('embedded-opentype'), url('/resources/base/fonts/ubuntu-light-webfont.woff') format('woff'), url('/resources/base/fonts/ubuntu-light-webfont.ttf') format('truetype'), url('/resources/base/fonts/ubuntu-light-webfont.svg#opensansregular') format('svg');
   font-weight: normal;
@@ -8167,7 +8167,7 @@ body {
 .dashboard-export-dialog-content .loader-content .show-details {
   display: block;
   text-align: center;
-  font-family: 'SourceSansProLight', sans-serif;
+  font-family: 'SourceSansProRegular', sans-serif;
   color: #158db5;
   text-decoration: none;
 }
@@ -8210,7 +8210,7 @@ body {
   border-top: none;
 }
 .dashboard-export-dialog-content dl dt {
-  font-family: 'SourceSansProLight', sans-serif;
+  font-family: 'SourceSansProRegular', sans-serif;
   font-size: 13px;
   color: #808080;
   padding-left: 7px;
@@ -8256,13 +8256,13 @@ body {
 }
 .dashboard-export-dialog-content p.message {
   margin-top: 36px;
-  font-family: 'SourceSansProLight', sans-serif;
+  font-family: 'SourceSansProRegular', sans-serif;
   font-size: 13px;
   color: #808080;
 }
 .dashboard-export-dialog-content p.filename {
   word-wrap: break-word;
-  font-family: 'SourceSansProLight', sans-serif;
+  font-family: 'SourceSansProRegular', sans-serif;
   font-size: 13px;
   color: #2c3342;
 }
@@ -8293,7 +8293,7 @@ body {
 .orientation-item .layout-caption,
 .layout-item .layout-caption {
   text-align: center;
-  font-family: 'SourceSansProLight', sans-serif;
+  font-family: 'SourceSansProRegular', sans-serif;
   font-size: 13px;
   color: #2c3342;
 }
@@ -13817,7 +13817,7 @@ button.uc-db-fx:focus {
   text-transform: uppercase;
 }
 .filters-global-header button:not(.filters-reset-button) {
-  font-family: 'SourceSansProLight', sans-serif;
+  font-family: 'SourceSansProRegular', sans-serif;
   font-size: 12px;
   line-height: 12px;
   padding: 6px 3px 3px;
@@ -13877,7 +13877,7 @@ button.uc-db-fx:focus {
 }
 .filter-global-add-button-container .filter-global-add-button-caption {
   margin: 10px 70px;
-  font-family: 'SourceSansProLight', sans-serif;
+  font-family: 'SourceSansProRegular', sans-serif;
   font-size: 17px;
   color: #cdcdcd;
   top: 50%;
@@ -18995,7 +18995,7 @@ body {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  font: 'SourceSansProLight';
+  font: 'SourceSansProRegular';
   font-size: 12.5px;
   background: #f2f2f2;
   position: relative;
@@ -24889,7 +24889,6 @@ span.action-link:hover {
   height: 36px;
   line-height: 36px;
   margin-right: 28px;
-  font-family: 'SourceSansProLight' !important;
   text-transform: none !important;
   color: #2c3342;
   font-family: 'SourceSansProSemibold', Arial, Helvetica, sans-serif;
