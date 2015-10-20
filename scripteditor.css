@@ -65,37 +65,37 @@
 }
 /* text */
 .base-txt {
-  font-family: 'SourceSansProLight';
+  font-family: 'SourceSansProRegular';
   color: #272a34;
 }
 .text-xl {
-  font-family: 'SourceSansProLight';
+  font-family: 'SourceSansProRegular';
   color: #272a34;
   font-size:: 16px;
 }
 .text-l {
-  font-family: 'SourceSansProLight';
+  font-family: 'SourceSansProRegular';
   color: #272a34;
   font-size:: 13px;
 }
 .text-m {
-  font-family: 'SourceSansProLight';
+  font-family: 'SourceSansProRegular';
   color: #272a34;
   font-size:: 12.5px;
 }
 .text-s {
-  font-family: 'SourceSansProLight';
+  font-family: 'SourceSansProRegular';
   color: #272a34;
   font-size:: 12px;
 }
 .text-xs {
-  font-family: 'SourceSansProLight';
+  font-family: 'SourceSansProRegular';
   color: #272a34;
   font-size:: 11px;
 }
 /* dom common */
 body {
-  font-family: 'SourceSansProLight';
+  font-family: 'SourceSansProRegular';
   color: #272a34;
   font-size:: 12.5px;
   cursor: default;
@@ -227,7 +227,7 @@ body {
 }
 
 @font-face {
-	font-family: 'SourceSansProLight';
+	font-family: 'SourceSansProRegular';
 	font-style: normal;
 	font-weight: normal;
 	src: url('../../Resources/fonts/SourceSansPro-Light-webfont.eot');
@@ -2378,7 +2378,7 @@ body .ui-tooltip {
 }
 .autocomplete-host .autocomplete-input.bigInput {
   width: 100%;
-  font-family: 'SourceSansProLight';
+  font-family: 'SourceSansProRegular';
   color: #272a34;
   font-size:: 13px;
 }
@@ -2477,7 +2477,7 @@ body .ui-tooltip {
 }
 .autocomplete-host .autocomplete-float-box .autocomplete-item .floating-disabled-msg {
   display: none;
-  font-family: 'SourceSansProLight';
+  font-family: 'SourceSansProRegular';
   color: #272a34;
   font-size:: 13px;
   color: #b3b3b3;
@@ -2536,7 +2536,7 @@ body .ui-tooltip {
   width: calc(100% - 86px);
 }
 .autocomplete-host .autocomplete-float-box .autocomplete-item .item-details .title-text {
-  font-family: 'SourceSansProLight';
+  font-family: 'SourceSansProRegular';
   color: #272a34;
   font-size:: 13px;
   text-transform: capitalize;
@@ -2555,7 +2555,7 @@ body .ui-tooltip {
   text-transform: none;
 }
 .autocomplete-host .autocomplete-float-box .autocomplete-item .item-details .sub-title-text {
-  font-family: 'SourceSansProLight';
+  font-family: 'SourceSansProRegular';
   color: #272a34;
   font-size:: 13px;
   color: #999999;
@@ -2641,7 +2641,7 @@ body .ui-tooltip {
 }
 .autocomplete-host .no-parties .autocomplete-item .floating-disabled-msg {
   display: none;
-  font-family: 'SourceSansProLight';
+  font-family: 'SourceSansProRegular';
   color: #272a34;
   font-size:: 13px;
   color: #b3b3b3;
@@ -2700,7 +2700,7 @@ body .ui-tooltip {
   width: calc(100% - 86px);
 }
 .autocomplete-host .no-parties .autocomplete-item .item-details .title-text {
-  font-family: 'SourceSansProLight';
+  font-family: 'SourceSansProRegular';
   color: #272a34;
   font-size:: 13px;
   text-transform: capitalize;
@@ -2719,7 +2719,7 @@ body .ui-tooltip {
   text-transform: none;
 }
 .autocomplete-host .no-parties .autocomplete-item .item-details .sub-title-text {
-  font-family: 'SourceSansProLight';
+  font-family: 'SourceSansProRegular';
   color: #272a34;
   font-size:: 13px;
   color: #999999;
@@ -2909,7 +2909,7 @@ body .ui-tooltip {
   outline: none;
   background: transparent;
   color: #979797;
-  font-family: 'SourceSansProLight';
+  font-family: 'SourceSansProRegular';
   font-size:: 13px;
 }
 .bc-rename-container .bc-rename-actions {
@@ -3152,7 +3152,7 @@ body .ui-tooltip {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-  font-family: 'SourceSansProLight';
+  font-family: 'SourceSansProRegular';
   color: #272a34;
   font-size:: 13px;
   color: #979797;
@@ -3469,7 +3469,7 @@ body .ui-tooltip {
   margin-left: 4px;
   margin-top: 3px;
   font-size:: 15px;
-  font-family: 'SourceSansProLight';
+  font-family: 'SourceSansProRegular';
   text-transform: lowercase;
 }
 .prism-btn-round-reset:hover:not(.disabled) {
@@ -4038,7 +4038,7 @@ body .ui-tooltip {
   transition: opacity 400ms ease-out;
 }
 .confirm-host .conf-message {
-  font-family: 'SourceSansProLight';
+  font-family: 'SourceSansProRegular';
   color: #272a34;
   font-size:: 12.5px;
   color: #2c3342;
@@ -4741,7 +4741,7 @@ body .ui-tooltip {
   position: relative;
 }
 .search-box-holder .search-box-input {
-  font-family: 'SourceSansProLight';
+  font-family: 'SourceSansProRegular';
   color: #272a34;
   font-size:: 13px;
   border: none;
@@ -4794,7 +4794,7 @@ body .ui-tooltip {
 .cbox-pane-row .pane-caption {
   float: left;
   margin: 4px 0px 0px 4px;
-  font-family: 'SourceSansProLight';
+  font-family: 'SourceSansProRegular';
   color: #272a34;
   font-size:: 12.5px;
   color: #56535b;
@@ -4853,7 +4853,7 @@ body .ui-tooltip {
   display: inline-block;
   /*  border: 1px solid #BDBDC2;
   border-radius: 5px;*/
-  font-family: 'SourceSansProLight';
+  font-family: 'SourceSansProRegular';
   font-size:: 12px;
   position: relative;
   -webkit-touch-callout: none;
@@ -5195,7 +5195,7 @@ body .ui-tooltip {
   border: none;
   outline: none;
   background: transparent;
-  font-family: 'SourceSansProLight';
+  font-family: 'SourceSansProRegular';
   font-size:: 13px;
   min-width: 1px;
   width: calc(100% - 74px);
@@ -5489,7 +5489,7 @@ body .ui-tooltip {
   background-color: #ffffff;
 }
 .users-groups-grid .ngHeaderText {
-  font-family: 'SourceSansProLight';
+  font-family: 'SourceSansProRegular';
   color: #272a34;
   font-size:: 13px;
   color: #2c3342;
@@ -5536,7 +5536,7 @@ body .ui-tooltip {
 }
 .users-groups-grid .set-pager-container div {
   margin: 4px 10px 4px 10px;
-  font-family: 'SourceSansProLight';
+  font-family: 'SourceSansProRegular';
   font-size:: 13px;
 }
 .users-groups-grid .set-pager-container ul {
@@ -5554,7 +5554,7 @@ body .ui-tooltip {
   vertical-align: middle;
 }
 .users-groups-grid .set-pager-container ul li a {
-  font-family: 'SourceSansProLight';
+  font-family: 'SourceSansProRegular';
   font-size:: 13px;
 }
 .users-groups-grid .set-pager-container ul li.pager-link,
@@ -5700,7 +5700,7 @@ body .ui-tooltip {
   user-select: none;
 }
 .menu-host .menu-item-host .menu-content {
-  font-family: 'SourceSansProLight';
+  font-family: 'SourceSansProRegular';
   color: #272a34;
   font-size:: 12px;
   color: #2c3342;
@@ -5724,7 +5724,7 @@ body .ui-tooltip {
   height: 28px;
 }
 .menu-host .menu-item-host.large .menu-content {
-  font-family: 'SourceSansProLight';
+  font-family: 'SourceSansProRegular';
   color: #272a34;
   font-size:: 12px;
   color: #2c3342;
@@ -5748,7 +5748,7 @@ body .ui-tooltip {
   height: 28px;
 }
 .menu-host .menu-item-host.xlarge .menu-content {
-  font-family: 'SourceSansProLight';
+  font-family: 'SourceSansProRegular';
   color: #272a34;
   font-size:: 12px;
   color: #2c3342;
@@ -5772,7 +5772,7 @@ body .ui-tooltip {
   height: 28px;
 }
 .menu-host .menu-item-host.xxlarge .menu-content {
-  font-family: 'SourceSansProLight';
+  font-family: 'SourceSansProRegular';
   color: #272a34;
   font-size:: 12px;
   color: #2c3342;
@@ -5796,7 +5796,7 @@ body .ui-tooltip {
   height: 28px;
 }
 .menu-host .menu-item-host.mini .menu-content {
-  font-family: 'SourceSansProLight';
+  font-family: 'SourceSansProRegular';
   color: #272a34;
   font-size:: 11px;
   color: #2c3342;
@@ -6120,7 +6120,7 @@ body .ui-tooltip {
   position: relative;
 }
 .settings-modal .input-box .lbl {
-  font-family: 'SourceSansProLight';
+  font-family: 'SourceSansProRegular';
   color: #272a34;
   font-size:: 13px;
   display: inline-block;
@@ -6128,7 +6128,7 @@ body .ui-tooltip {
   vertical-align: middle;
 }
 .settings-modal .input-box input {
-  font-family: 'SourceSansProLight';
+  font-family: 'SourceSansProRegular';
   color: #272a34;
   font-size:: 13px;
   color: #56535b;
@@ -6177,7 +6177,7 @@ body .ui-tooltip {
   position: absolute;
 }
 .settings-modal .input-box .no-res {
-  font-family: 'SourceSansProLight';
+  font-family: 'SourceSansProRegular';
   color: #272a34;
   font-size:: 13px;
   display: inline-block;
@@ -6188,7 +6188,7 @@ body .ui-tooltip {
   width: 100%;
 }
 .settings-modal .roles-box .lbl {
-  font-family: 'SourceSansProLight';
+  font-family: 'SourceSansProRegular';
   color: #272a34;
   font-size:: 13px;
   display: inline-block;
@@ -6445,7 +6445,7 @@ body .ui-tooltip {
   padding: 0px 7px;
   height: 25px;
   line-height: 25px;
-  font-family: 'SourceSansProLight';
+  font-family: 'SourceSansProRegular';
   color: #272a34;
   font-size:: 12.5px;
 }
@@ -6757,7 +6757,7 @@ body .ui-tooltip {
   background: transparent;
 }
 .input-wrapper label {
-  font-family: 'SourceSansProLight';
+  font-family: 'SourceSansProRegular';
   color: #272a34;
   font-size:: 13px;
   position: absolute;
@@ -7518,7 +7518,7 @@ body {
   text-transform: capitalize;
 }
 .tipper-host.hint-dpi .ih-host .ih .ih-text {
-  font-family: 'SourceSansProLight';
+  font-family: 'SourceSansProRegular';
   color: #272a34;
   font-size:: 11px;
   color: #008eb9;
@@ -7634,7 +7634,7 @@ body {
 }
 .update-ball .update-caption {
   color: white;
-  font-family: 'SourceSansProLight';
+  font-family: 'SourceSansProRegular';
   font-size:: 15px;
   width: 100%;
   text-align: center;
@@ -7680,7 +7680,7 @@ body {
   white-space: nowrap;
 }
 .user-group-list .group-user-item-holder .group-user-item .user-details-holder .title-text {
-  font-family: 'SourceSansProLight';
+  font-family: 'SourceSansProRegular';
   color: #272a34;
   font-size:: 12.5px;
   text-transform: capitalize;
@@ -7691,7 +7691,7 @@ body {
   margin: 8px 0px 0px 4px;
 }
 .user-group-list .group-user-item-holder .group-user-item .user-details-holder .subtitle-text {
-  font-family: 'SourceSansProLight';
+  font-family: 'SourceSansProRegular';
   color: #272a34;
   font-size:: 12.5px;
   color: #999999;
@@ -7770,7 +7770,7 @@ body {
 .user-group-list .group-user-item-holder .group-user-item .user-actions-holder .invite-box-holder .invite-box {
   background: #d8d8d8;
   border-radius: 11px;
-  font-family: 'SourceSansProLight';
+  font-family: 'SourceSansProRegular';
   color: #272a34;
   font-size:: 13px;
   color: #ffffff;
@@ -7976,7 +7976,7 @@ body {
 }
 .dashboard-error-wrapper .not-found-wrapper .main-box .info-box .error-text {
   margin-top: 20px;
-  font-family: 'SourceSansProLight';
+  font-family: 'SourceSansProRegular';
   color: #56535b;
   font-size:: 15px;
   white-space: pre-wrap;
@@ -7987,7 +7987,7 @@ body {
 }
 .dashboard-error-wrapper .not-found-wrapper .main-box .info-box .goto-elsticube-link {
   margin-top: 20px;
-  font-family: 'SourceSansProLight';
+  font-family: 'SourceSansProRegular';
   color: #56535b;
   font-size:: 15px;
   display: inline;
@@ -7995,7 +7995,7 @@ body {
 }
 .dashboard-error-wrapper .not-found-wrapper .main-box .info-box .action-box {
   margin-top: 23px;
-  font-family: 'SourceSansProLight';
+  font-family: 'SourceSansProRegular';
   color: #56535b;
   font-size:: 15px;
 }
@@ -8435,7 +8435,7 @@ body {
 .widget-error-overlay .widget-error-notify-holder .main-info .info-text {
   display: none;
   margin-top: 10px;
-  font-family: 'SourceSansProLight';
+  font-family: 'SourceSansProRegular';
   color: #272a34;
   font-size:: 12.5px;
   width: 100%;
@@ -8462,7 +8462,7 @@ body {
 }
 .widget-error-overlay .widget-error-notify-holder .main-info .info-controls .info-link {
   display: inline-block;
-  font-family: 'SourceSansProLight';
+  font-family: 'SourceSansProRegular';
   color: #272a34;
   font-size:: 12.5px;
   color: #008db8;
@@ -8864,7 +8864,7 @@ body {
   width: 250px;
   height: 26px;
   border: 1px solid #cccccc;
-  font-family: 'SourceSansProLight';
+  font-family: 'SourceSansProRegular';
   font-size:: 13px;
   position: relative;
   overflow: hidden;
@@ -9410,7 +9410,7 @@ body {
   border-radius: 3px;
   box-sizing: border-box;
   border: 1px solid #ccc;
-  font-family: 'SourceSansProLight';
+  font-family: 'SourceSansProRegular';
   font-size:: 11px;
   color: #2c3342;
   -webkit-box-shadow: 2px 2px 5px 0px #ddd;
@@ -9470,7 +9470,7 @@ body {
   display: inline-block;
 }
 .fe-colors .fe-colors-condition .add-condition {
-  font-family: 'SourceSansProLight';
+  font-family: 'SourceSansProRegular';
   font-size:: 13px;
   color: #33cee5;
   text-align: center;
@@ -9586,7 +9586,7 @@ body {
 }
 .fe-colors .fe-colors-condition .condition-list .row .condition .fe-left-cond input,
 .fe-colors .fe-colors-condition .condition-list .row .condition .fe-left-cond .fe-formula {
-  font-family: 'SourceSansProLight';
+  font-family: 'SourceSansProRegular';
   color: #272a34;
   font-size:: 13px;
   height: 24px;
@@ -10429,7 +10429,7 @@ button.cond-add:hover {
   cursor: pointer;
 }
 .fe-type-title {
-  font-family: 'SourceSansProLight';
+  font-family: 'SourceSansProRegular';
   font-size:: 13px;
   color: #808080;
   vertical-align: middle;
@@ -10445,7 +10445,7 @@ button.cond-add:hover {
   height: 100%;
 }
 .fe-base-container .type-title {
-  font-family: 'SourceSansProLight';
+  font-family: 'SourceSansProRegular';
   font-size:: 13px;
   color: #808080;
   vertical-align: middle;
@@ -10552,7 +10552,7 @@ button.cond-add:hover {
 .fe-base-container .fe-input {
   border: 1px solid #cccccc;
   color: #56535b;
-  font-family: 'SourceSansProLight';
+  font-family: 'SourceSansProRegular';
   font-size:: 12px;
   outline: none;
   padding-left: 10px;
@@ -10563,7 +10563,7 @@ button.cond-add:hover {
   padding-right: 0px;
 }
 .fe-base-container .fe-input.uc-spinner-host INPUT[type="text"] {
-  font-family: 'SourceSansProLight';
+  font-family: 'SourceSansProRegular';
   font-size:: 13px;
   padding-left: 4px;
   padding-right: 4px;
@@ -10673,7 +10673,7 @@ button.cond-add:hover {
   display: inline-block;
   color: #808080;
   font-size:: 15px;
-  font-family: 'SourceSansProLight';
+  font-family: 'SourceSansProRegular';
   vertical-align: top;
   margin-top: 1px;
 }
@@ -10863,7 +10863,7 @@ button.cond-add:hover {
   background: #fff;
   margin-bottom: 10px;
   padding: 10px;
-  font-family: 'SourceSansProLight';
+  font-family: 'SourceSansProRegular';
   font-size:: 12px;
 }
 .eyecon .tip .bubble .group:not(:last-child) {
@@ -11083,7 +11083,7 @@ button.cond-add:hover {
   display: inline-block;
 }
 .formatting-editor .decimals-host .none-ind {
-  font-family: 'SourceSansProLight';
+  font-family: 'SourceSansProRegular';
   color: #272a34;
   font-size:: 12.5px;
   display: inline-block;
@@ -11255,7 +11255,7 @@ button.cond-add:hover {
 .CodeMirror-placeholder {
   color: #B4B4B4 !important;
   line-height: 18px;
-  font-family: 'SourceSansProLight';
+  font-family: 'SourceSansProRegular';
   margin-left: 2px !important;
 }
 /* PADDING */
@@ -11945,7 +11945,7 @@ javascript-editor {
 }
 .se-save-modal .se-save-modal-content > div,
 .se-save-modal .se-save-modal-content .error-message {
-  font-family: 'SourceSansProLight';
+  font-family: 'SourceSansProRegular';
   font-size:: 13px;
 }
 .se-save-modal .se-save-modal-content > div {

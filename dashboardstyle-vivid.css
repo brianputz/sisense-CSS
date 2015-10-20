@@ -65,31 +65,31 @@
 }
 /* text */
 .base-txt {
-  font-family: 'SourceSansProLight';
+  font-family: 'SourceSansProRegular';
   color: #272a34;
 }
 .text-xl {
-  font-family: 'SourceSansProLight';
+  font-family: 'SourceSansProRegular';
   color: #272a34;
   font-size:: 16px;
 }
 .text-l {
-  font-family: 'SourceSansProLight';
+  font-family: 'SourceSansProRegular';
   color: #272a34;
   font-size:: 13px;
 }
 .text-m {
-  font-family: 'SourceSansProLight';
+  font-family: 'SourceSansProRegular';
   color: #272a34;
   font-size:: 12.5px;
 }
 .text-s {
-  font-family: 'SourceSansProLight';
+  font-family: 'SourceSansProRegular';
   color: #272a34;
   font-size:: 12px;
 }
 .text-xs {
-  font-family: 'SourceSansProLight';
+  font-family: 'SourceSansProRegular';
   color: #272a34;
   font-size:: 11px;
 }
@@ -485,8 +485,8 @@ dashboard widget.columnar widget-header {
   box-align: stretch;
 }
 dashboard widget.columnar widget-title {
-  font-family: 'SourceSansProRegular';
-  font-size: 16px;
+  font-family: 'SourceSansProRegular', Arial !important;
+  font-size: 20px;
   color: #39424e;
   /* OLD - iOS 6-, Safari 3.1-6 */
   /* OLD - Firefox 19- */
@@ -517,6 +517,7 @@ dashboard widget.columnar widget-title {
   -webkit-flexbox-shrink: 1;
   -ms-flex-negative: 1;
   flex-shrink: 1;
+  margin-top: 7px !important;
 }
 dashboard widget.columnar .spacer {
   /* OLD - iOS 6-, Safari 3.1-6 */
@@ -819,7 +820,7 @@ dashboard widget.columnar widget-toolbar .toolbar-btn .caption {
   display: inline-block;
   position: relative;
   top: -2px;
-  font-family: 'SourceSansProLight';
+  font-family: 'SourceSansProRegular';
   font-size:: 13px;
   margin-right: 14px;
   margin-left: 6px;
@@ -3350,7 +3351,7 @@ indicator-gauge svg .hidden {
   padding: 0 0 0 0;
   vertical-align: top;
   min-height: 25px;
-  font-family: 'SourceSansProLight';
+  font-family: 'SourceSansProRegular';
   font-size:: 13px;
   border-left: 1px solid #cccccc;
 }
@@ -3547,7 +3548,7 @@ indicator-gauge svg .hidden {
 }
 .pager-container div {
   margin: 4px 10px 4px 10px;
-  font-family: 'SourceSansProLight';
+  font-family: 'SourceSansProRegular';
   font-size:: 13px;
 }
 .pager-container ul {
@@ -3564,7 +3565,7 @@ indicator-gauge svg .hidden {
   vertical-align: middle;
 }
 .pager-container ul li a {
-  font-family: 'SourceSansProLight';
+  font-family: 'SourceSansProRegular';
   font-size:: 13px;
 }
 .pager-container ul li.pager-link,
@@ -3817,7 +3818,7 @@ indicator-gauge svg .hidden {
   text-transform: none;
 }
 .scatter-map-tip .measure-holder .details-counter {
-  font-family: 'SourceSansProLight';
+  font-family: 'SourceSansProRegular';
   color: #272a34;
   font-size:: 12px;
 }
@@ -3920,7 +3921,7 @@ indicator-gauge svg .hidden {
   background: #ffffff;
 }
 .markers-fill-host .markers-options-holder .selected-marker-caption .caption-text {
-  font-family: 'SourceSansProLight';
+  font-family: 'SourceSansProRegular';
   color: #272a34;
   font-size:: 12px;
   padding-top: 7px;

@@ -62,37 +62,37 @@
 }
 /* text */
 .base-txt {
-  font-family: 'SourceSansProLight';
+  font-family: 'SourceSansProRegular';
   color: #272a34;
 }
 .text-xl {
-  font-family: 'SourceSansProLight';
+  font-family: 'SourceSansProRegular';
   color: #272a34;
   font-size:: 16px;
 }
 .text-l {
-  font-family: 'SourceSansProLight';
+  font-family: 'SourceSansProRegular';
   color: #272a34;
   font-size:: 13px;
 }
 .text-m {
-  font-family: 'SourceSansProLight';
+  font-family: 'SourceSansProRegular';
   color: #272a34;
   font-size:: 12.5px;
 }
 .text-s {
-  font-family: 'SourceSansProLight';
+  font-family: 'SourceSansProRegular';
   color: #272a34;
   font-size:: 12px;
 }
 .text-xs {
-  font-family: 'SourceSansProLight';
+  font-family: 'SourceSansProRegular';
   color: #272a34;
   font-size:: 11px;
 }
 /* dom common */
 body {
-  font-family: 'SourceSansProLight';
+  font-family: 'SourceSansProRegular';
   color: #272a34;
   font-size:: 12.5px;
   cursor: default;
@@ -190,7 +190,7 @@ body {
 }
 
 @font-face {
-	font-family: 'SourceSansProLight';
+	font-family: 'SourceSansProRegular';
 	font-style: normal;
 	font-weight: normal;
 	src: url('../../Resources/fonts/SourceSansPro-Light-webfont.eot');
@@ -1068,7 +1068,7 @@ body {
 .navver-host .navver-main-box .tags-container .tags-inner-container .list-item-holder .list-item.dashboard-item .title-holder .li-title {
   display: inline-block;
   margin: 4px 0px;
-  font-family: 'SourceSansProLight';
+  font-family: 'SourceSansProRegular';
   color: #272a34;
   font-size:: 12px;
   color: #56535b;
@@ -1086,7 +1086,7 @@ body {
 }
 .navver-host .navver-main-box .tags-container .tags-inner-container .list-item-holder .list-item.dashboard-item .title-holder .title-input-holder input {
   margin: 4px 0px;
-  font-family: 'SourceSansProLight';
+  font-family: 'SourceSansProRegular';
   color: #272a34;
   font-size:: 12px;
   color: #56535b;
@@ -1153,7 +1153,7 @@ body {
   display: inline-block;
   margin: 6px -3px 6px 0px;
   padding-left: 3px;
-  font-family: 'SourceSansProLight';
+  font-family: 'SourceSansProRegular';
   color: #272a34;
   font-size:: 12px;
   max-width: 100%;
@@ -1170,7 +1170,7 @@ body {
 .navver-host .navver-main-box .tags-container .tags-inner-container .list-item-holder .list-item.tag-item .title-holder .title-input-holder input {
   margin: 6px -3px 6px 0px;
   padding-left: 3px;
-  font-family: 'SourceSansProLight';
+  font-family: 'SourceSansProRegular';
   color: #272a34;
   font-size:: 12px;
   color: #56535b;

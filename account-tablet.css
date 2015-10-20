@@ -58,37 +58,37 @@
 }
 /* text */
 .base-txt {
-  font-family: 'SourceSansProLight';
+  font-family: 'SourceSansProRegular';
   color: #272a34;
 }
 .text-xl {
-  font-family: 'SourceSansProLight';
+  font-family: 'SourceSansProRegular';
   color: #272a34;
   font-size:: 16px;
 }
 .text-l {
-  font-family: 'SourceSansProLight';
+  font-family: 'SourceSansProRegular';
   color: #272a34;
   font-size:: 13px;
 }
 .text-m {
-  font-family: 'SourceSansProLight';
+  font-family: 'SourceSansProRegular';
   color: #272a34;
   font-size:: 12.5px;
 }
 .text-s {
-  font-family: 'SourceSansProLight';
+  font-family: 'SourceSansProRegular';
   color: #272a34;
   font-size:: 12px;
 }
 .text-xs {
-  font-family: 'SourceSansProLight';
+  font-family: 'SourceSansProRegular';
   color: #272a34;
   font-size:: 11px;
 }
 /* dom common */
 body {
-  font-family: 'SourceSansProLight';
+  font-family: 'SourceSansProRegular';
   color: #272a34;
   font-size:: 12.5px;
   cursor: default;
@@ -637,7 +637,7 @@ body {
 }
 .navver-host .navver-main-box .tags-container .loading-holder {
   margin: 30px 0px 0px 85px;
-  font-family: 'SourceSansProLight';
+  font-family: 'SourceSansProRegular';
   color: #272a34;
   font-size:: 18px;
 }
@@ -702,7 +702,7 @@ body {
   width: calc(100% - 40px);
 }
 .navver-host .navver-main-box .tags-container .tags-inner-container .list-item-holder .list-item .title-holder .li-title {
-  font-family: 'SourceSansProLight';
+  font-family: 'SourceSansProRegular';
   color: #56535b;
   font-size:: 18px;
   display: inline-block;
@@ -809,7 +809,7 @@ body {
   overflow: hidden;
 }
 .acc-win .acc-inner .acc-inner-h .acc-h-subtitle {
-  font-family: 'SourceSansProLight';
+  font-family: 'SourceSansProRegular';
   color: #272a34;
   font-size:: 16px;
   color: #2c3342;
@@ -831,7 +831,7 @@ body {
   margin-bottom: 28px;
 }
 .acc-win .acc-inner .acc-body .acc-content .acc-con-box {
-  font-family: 'SourceSansProLight';
+  font-family: 'SourceSansProRegular';
   color: #272a34;
   font-size:: 13px;
   color: #2c3342;
@@ -868,7 +868,7 @@ body {
 .acc-win .acc-inner .acc-body .acc-content .acc-con-box .cbox-pane-row .pane-caption {
   float: left;
   margin: 1px 0px 0px 4px;
-  font-family: 'SourceSansProLight';
+  font-family: 'SourceSansProRegular';
   color: #272a34;
   font-size:: 12.5px;
   color: #2c3342;
@@ -928,7 +928,7 @@ body {
   left: 0px;
 }
 .acc-win .acc-inner .acc-body .acc-content .acc-con-box .bottom-message a {
-  font-family: 'SourceSansProLight';
+  font-family: 'SourceSansProRegular';
   color: #272a34;
   font-size:: 13px;
   color: #2c3342;
@@ -963,7 +963,7 @@ body {
   border-bottom: solid 1px;
   border-color: #b3b1b3;
   width: 375px;
-  font-family: 'SourceSansProLight';
+  font-family: 'SourceSansProRegular';
   color: #272a34;
   font-size:: 16px;
   text-align: center;
@@ -975,7 +975,7 @@ body {
 .acc-win .acc-inner .acc-body .acc-sent-b-mes {
   text-transform: capitalize;
   width: 375px;
-  font-family: 'SourceSansProLight';
+  font-family: 'SourceSansProRegular';
   color: #272a34;
   font-size:: 13px;
   text-align: center;
@@ -984,7 +984,7 @@ body {
   max-height: 32px;
 }
 .acc-win .acc-inner .acc-body .acc-sent-b-mes a {
-  font-family: 'SourceSansProLight';
+  font-family: 'SourceSansProRegular';
   color: #272a34;
   font-size:: 13px;
   color: #20888a;
@@ -1027,7 +1027,7 @@ body {
   color: #b3b1b3;
 }
 .acc-win .acc-inner .acc-body .input-box input.empty:not(:focus) {
-  font-family: 'SourceSansProLight';
+  font-family: 'SourceSansProRegular';
   text-transform: capitalize;
   letter-spacing: 0.3px;
   font-size:: 16px;
@@ -1037,7 +1037,7 @@ body {
   color: transparent !important;
 }
 .acc-win .acc-inner .acc-body .input-box input:not(.empty) {
-  font-family: 'SourceSansProLight';
+  font-family: 'SourceSansProRegular';
   font-size:: 16px;
 }
 .acc-win .acc-inner .acc-body .input-box input:focus:-moz-placeholder {
@@ -1081,7 +1081,7 @@ body {
   background: #b3b2b3;
 }
 .acc-win .accerr {
-  font-family: 'SourceSansProLight';
+  font-family: 'SourceSansProRegular';
   color: #272a34;
   font-size:: 13px;
   color: #ffffff;

@@ -58,37 +58,37 @@
 }
 /* text */
 .base-txt {
-  font-family: 'SourceSansProLight';
+  font-family: 'SourceSansProRegular';
   color: #272a34;
 }
 .text-xl {
-  font-family: 'SourceSansProLight';
+  font-family: 'SourceSansProRegular';
   color: #272a34;
   font-size:: 16px;
 }
 .text-l {
-  font-family: 'SourceSansProLight';
+  font-family: 'SourceSansProRegular';
   color: #272a34;
   font-size:: 13px;
 }
 .text-m {
-  font-family: 'SourceSansProLight';
+  font-family: 'SourceSansProRegular';
   color: #272a34;
   font-size:: 12.5px;
 }
 .text-s {
-  font-family: 'SourceSansProLight';
+  font-family: 'SourceSansProRegular';
   color: #272a34;
   font-size:: 12px;
 }
 .text-xs {
-  font-family: 'SourceSansProLight';
+  font-family: 'SourceSansProRegular';
   color: #272a34;
   font-size:: 11px;
 }
 /* dom common */
 body {
-  font-family: 'SourceSansProLight';
+  font-family: 'SourceSansProRegular';
   color: #272a34;
   font-size:: 12.5px;
   cursor: default;
@@ -668,7 +668,7 @@ widget[type="richtexteditor"] .dashboard-layout-subcell-horizontal-divider {
 }
 .navver-host .navver-main-box .tags-container .loading-holder {
   margin: 30px 0px 0px 85px;
-  font-family: 'SourceSansProLight';
+  font-family: 'SourceSansProRegular';
   color: #272a34;
   font-size:: 18px;
 }
@@ -730,7 +730,7 @@ widget[type="richtexteditor"] .dashboard-layout-subcell-horizontal-divider {
   width: calc(100% - 40px);
 }
 .navver-host .navver-main-box .tags-container .tags-inner-container .list-item-holder .list-item .title-holder .li-title {
-  font-family: 'SourceSansProLight';
+  font-family: 'SourceSansProRegular';
   color: #56535b;
   font-size:: 18px;
   display: inline-block;
@@ -815,7 +815,7 @@ widget[type="richtexteditor"] .dashboard-layout-subcell-horizontal-divider {
   overflow: hidden;
 }
 .acc-win .acc-inner .acc-inner-h .acc-h-subtitle {
-  font-family: 'SourceSansProLight';
+  font-family: 'SourceSansProRegular';
   color: #272a34;
   font-size:: 16px;
   color: #2b3342;
@@ -851,7 +851,7 @@ widget[type="richtexteditor"] .dashboard-layout-subcell-horizontal-divider {
 .acc-win .acc-inner .acc-body .input-box input {
   color: #2b3342;
   min-height: 36px;
-  font-family: 'SourceSansProLight';
+  font-family: 'SourceSansProRegular';
   font-size:: 18px;
   border: none;
   width: 100%;
@@ -912,7 +912,7 @@ widget[type="richtexteditor"] .dashboard-layout-subcell-horizontal-divider {
   background: #b3b2b3;
 }
 .acc-win .accerr {
-  font-family: 'SourceSansProLight';
+  font-family: 'SourceSansProRegular';
   color: #272a34;
   font-size:: 13px;
   font-size:: 16px;
