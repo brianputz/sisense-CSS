@@ -26915,7 +26915,7 @@ widget[type="richtexteditor"].widget-on-reporting-mode richtexteditor * {
   margin: 0;
 }
 .treemap-tooltip-content .treemap-node-wrapper {
-  padding: 10px 4px 0 4px;
+  padding: 4px 4px 0 4px;
 }
 .treemap-tooltip-content .treemap-node-wrapper:first-child {
   -webkit-border-radius: 5px 5px 0 0;
@@ -26942,6 +26942,7 @@ widget[type="richtexteditor"].widget-on-reporting-mode richtexteditor * {
   font-family: 'helvetica', 'arial', sans-serif;
   color: #A0A0A0;
   padding: 8px 4px;
+  font-weight:600;
 }
 .treemap-tooltip-content .treemap-node-wrapper .treemap-node .measure-title,
 .treemap-tooltip-content .treemap-node-wrapper .treemap-node .measure-value {
